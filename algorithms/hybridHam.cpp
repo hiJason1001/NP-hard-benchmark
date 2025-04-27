@@ -44,7 +44,7 @@ void extendPath(int current, const vector<vector<int>> &sortedAdj,
                 const vector<vector<int>> &graph, vector<bool> &visited, vector<int> &path) {
     int n = graph.size();
     bool extended = true;
-    while (extended && path.size() < n) {
+    while (extended && int(path.size()) < n) {
         extended = false;
         // iterate over neighbours in increasing order (Va order)
         for (int cand : sortedAdj[current]) {
@@ -119,7 +119,7 @@ vector<int> extendToHamiltonianPath(vector<int> path, const vector<vector<int>> 
     
     int rotationAttempts = 0;
     const int maxRotationAttempts = n * n * n;
-    while (path.size() < n && rotationAttempts < maxRotationAttempts) {
+    while (int(path.size()) < n && rotationAttempts < maxRotationAttempts) {
         // Choose the end for rotation transformation.
         // We select the end with the highest degree.
         if (degree[path.front()] > degree[path.back()]) {
@@ -130,7 +130,6 @@ vector<int> extendToHamiltonianPath(vector<int> path, const vector<vector<int>> 
         bool rotated = rotatePath(path, graph);
         if (!rotated) {
             // Could not rotate: the algorithm fails to find a Hamiltonian path.
-            cout << "Phase 2 failed: no valid rotational transformation found.\n";
             return vector<int>(); // empty indicates failure
         }
         // Update visited: mark new vertices in path (they remain marked, but now order may change)
@@ -146,22 +145,49 @@ vector<int> extendToHamiltonianPath(vector<int> path, const vector<vector<int>> 
     return path;
 }
 
-int main(){
-    bool oneIndexed = true;
+void displayTime(auto& duration) {
+    if (duration_ms > LIMIT_MS) {
+        cout << "Time Limit Exceeded" << endl;
+    } else {
+        int hours = duration_ms / (3600 * 1000);
+        int minutes = (duration_ms % (3600 * 1000)) / (60 * 1000);
+        int seconds = (duration_ms % (60 * 1000)) / 1000;
+        int milliseconds = duration_ms % 1000;
+        cout << hours << " hours " 
+             << minutes << " minutes " 
+             << seconds << " seconds " 
+             << milliseconds << " milliseconds ";
+    }
+}
+
+int main(int argc, char* argv[]) {
+    if (argc < 2)
+    {
+        cerr << "Usage: " << argv[0] << " <input_file>" << endl;
+        return 1;
+    }
+
+    string INPUT = argv[1];
+
+
+    ifstream file(INPUT);
+    if (!file.is_open())
+    {
+        cerr << "Failed to open the file!" << endl;
+        return 1;
+    }
+    
     int n;
-    cin >> n;
+    int m;
+    file >> n >> m;
+    cout << "Number of Vertices: " << n << ", number of edges: " << m << '\n';
+
     vector<vector<int>> graph(n);
-    int curr = 0;
-    while (1) {
-        int a, b;
-        cin >> a >> b;
-        if (a == -1) break;
-        if (oneIndexed) {
-            a--;
-            b--;
-        }
-        graph[a].push_back(b);
-        graph[b].push_back(a);
+    for (int i = 0; i < m; i++) {
+        int u, v;
+        file >> u >> v;
+        graph[u].push_back(v);
+        graph[v].push_back(u);
     }
 
     vector<int> degree(n);
@@ -187,35 +213,69 @@ int main(){
         return degree[a] > degree[b];
     });
 
+    const long long LIMIT_MS = 2LL * 3600 * 1000;
+    auto start = chrono::steady_clock::now();
     // ------------ Phase 1: Create an initial path ------------
     vector<int> bestPath;
     // Try each high-degree vertex as starting vertex.
-    for (int start : Vd) {
-        vector<int> currPath = buildInitialPath(start, sortedAdj, graph);
+    for (int startNode : Vd) {
+        vector<int> currPath = buildInitialPath(startNode, sortedAdj, graph);
         if (currPath.size() > bestPath.size())
             bestPath = currPath;
         // If a full Hamiltonian path is already found, we can break early.
-        if (bestPath.size() == n)
+        if (int(bestPath.size()) == n)
             break;
     }
-    cout << "Phase 1: Initial path of length " << bestPath.size() << "\n";
+
+
+    // print info
+    // cout << "Phase 1: Initial path of length " << bestPath.size() << "\n";
+    // if(bestPath.empty()){
+    //     cout << "No initial path could be constructed.\n";
+    //     return 0;
+    // }
     if(bestPath.empty()){
-        cout << "No initial path could be constructed.\n";
+        auto end = chrono::steady_clock::now();
+        auto duration_ms = chrono::duration_cast<chrono::milliseconds>(end - start).count();
+        displayTime(duration_ms);
+        cout << "No" << endl;
         return 0;
     }
 
-    // If initial path already covers all vertices, proceed to Phase 2.
-    if (bestPath.size() < n) {
-        cout << "Initial path does not cover all vertices.\n";
-        // You might choose to terminate or continue with Phase 2 attempts.
-    }
     // ------------ Phase 2: Convert initial path into Hamiltonian path ------------
     vector<int> HamPath = extendToHamiltonianPath(bestPath, sortedAdj, graph, degree);
     if (HamPath.empty()){
-        cout << "Algorithm failed to find a Hamiltonian path.\n";
-        return 0;
+        auto end = chrono::steady_clock::now();
+        auto duration_ms = chrono::duration_cast<chrono::milliseconds>(end - start).count();
+        if (duration_ms > LIMIT_MS) {
+            cout << "Time Limit Exceeded" << endl;
+        } else {
+            int hours = duration_ms / (3600 * 1000);
+            int minutes = (duration_ms % (3600 * 1000)) / (60 * 1000);
+            int seconds = (duration_ms % (60 * 1000)) / 1000;
+            int milliseconds = duration_ms % 1000;
+            cout << hours << " hours " 
+                 << minutes << " minutes " 
+                 << seconds << " seconds " 
+                 << milliseconds << " milliseconds ";
+        }
+        cout << "No" << endl;
     } else {
-        cout << "Phase 2: Hamiltonian path found.\n";
+        auto end = chrono::steady_clock::now();
+        auto duration_ms = chrono::duration_cast<chrono::milliseconds>(end - start).count();
+        if (duration_ms > LIMIT_MS) {
+            cout << "Time Limit Exceeded" << endl;
+        } else {
+            int hours = duration_ms / (3600 * 1000);
+            int minutes = (duration_ms % (3600 * 1000)) / (60 * 1000);
+            int seconds = (duration_ms % (60 * 1000)) / 1000;
+            int milliseconds = duration_ms % 1000;
+            cout << hours << " hours " 
+                 << minutes << " minutes " 
+                 << seconds << " seconds " 
+                 << milliseconds << " milliseconds ";
+        }
+        cout << "Yes" << endl;
     }
     
     return 0;
