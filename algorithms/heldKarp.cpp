@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+using namespace chrono;
 
 
 bool Hamiltonian_path(vector<vector<int> >& adj, int N)
@@ -90,11 +91,30 @@ int main(int argc, char* argv[])
         adjMatrix[v][u] = 1;
     }
 
-    
-    if (Hamiltonian_path(adjMatrix, n))
-        cout << "Yes\n";
-    else
-        cout << "No\n";
+    cout << "Number of Vertices: " << n << ", number of edges: " << m << '\n';
+
+    auto start = steady_clock::now();
+
+    bool found = Hamiltonian_path(adjMatrix, n);
+
+    auto end = steady_clock::now();
+    auto duration_ms = duration_cast<std::chrono::milliseconds>(end - start).count();
+    const long long LIMIT_MS = 2LL * 3600 * 1000;
+    if (duration_ms > LIMIT_MS) {
+        cout << "Time Limit Exceeded" << endl;
+    } else {
+        int hours = duration_ms / (3600 * 1000);
+        int minutes = (duration_ms % (3600 * 1000)) / (60 * 1000);
+        int seconds = (duration_ms % (60 * 1000)) / 1000;
+        int milliseconds = duration_ms % 1000;
+
+        cout << hours << " hours " 
+             << minutes << " minutes " 
+             << seconds << " seconds " 
+             << milliseconds << " milliseconds ";
+        
+        cout << (found ? "Yes" : "No") << endl;
+    }
 
     file.close();
     return 0;
