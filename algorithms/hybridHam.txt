@@ -1,307 +1,400 @@
 example1.hcp 
 Number of Vertices: 23, number of edges: 97
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 131 microseconds 
+Yes
 example2.hcp 
 Number of Vertices: 14, number of edges: 81
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 61 microseconds 
+Yes
 example3.hcp 
 Number of Vertices: 2, number of edges: 1
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 4 microseconds 
+Yes
 example4.hcp 
 Number of Vertices: 3, number of edges: 2
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 6 microseconds 
+Yes
 example5.hcp 
 Number of Vertices: 11, number of edges: 52
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 35 microseconds 
+Yes
 example6.hcp 
 Number of Vertices: 9, number of edges: 13
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 60 microseconds 
+Yes
 example7.hcp 
 Number of Vertices: 21, number of edges: 148
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 159 microseconds 
+Yes
 example8.hcp 
 Number of Vertices: 19, number of edges: 154
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 144 microseconds 
+Yes
 example9.hcp 
 Number of Vertices: 7, number of edges: 17
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 13 microseconds 
+Yes
 example10.hcp 
 Number of Vertices: 19, number of edges: 118
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 112 microseconds 
+Yes
 example11.hcp 
 Number of Vertices: 9, number of edges: 8
-Phase 2 failed: no valid rotational transformation found.
-0 hours 0 minutes 0 seconds 0 milliseconds No
+0 hours 0 minutes 0 seconds 0 milliseconds 33 microseconds 
+No
 example12.hcp 
 Number of Vertices: 23, number of edges: 31
-Phase 2 failed: no valid rotational transformation found.
-0 hours 0 minutes 0 seconds 0 milliseconds No
+0 hours 0 minutes 0 seconds 0 milliseconds 434 microseconds 
+No
 example13.hcp 
 Number of Vertices: 21, number of edges: 76
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 97 microseconds 
+Yes
 example14.hcp 
 Number of Vertices: 16, number of edges: 113
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 92 microseconds 
+Yes
 example15.hcp 
 Number of Vertices: 4, number of edges: 6
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 5 microseconds 
+Yes
 example16.hcp 
 Number of Vertices: 14, number of edges: 70
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 47 microseconds 
+Yes
 example17.hcp 
 Number of Vertices: 11, number of edges: 37
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 25 microseconds 
+Yes
 example18.hcp 
 Number of Vertices: 16, number of edges: 83
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 81 microseconds 
+Yes
 example19.hcp 
 Number of Vertices: 7, number of edges: 20
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 12 microseconds 
+Yes
 example20.hcp 
 Number of Vertices: 1, number of edges: 0
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 3 microseconds 
+Yes
 example21.hcp 
 Number of Vertices: 23, number of edges: 111
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 104 microseconds 
+Yes
 example22.hcp 
 Number of Vertices: 13, number of edges: 35
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 26 microseconds 
+Yes
 example23.hcp 
 Number of Vertices: 22, number of edges: 57
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 76 microseconds 
+Yes
 example24.hcp 
 Number of Vertices: 23, number of edges: 105
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 124 microseconds 
+Yes
 example25.hcp 
 Number of Vertices: 11, number of edges: 26
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 23 microseconds 
+Yes
 example26.hcp 
 Number of Vertices: 21, number of edges: 55
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 226 microseconds 
+Yes
 example27.hcp 
 Number of Vertices: 4, number of edges: 6
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 5 microseconds 
+Yes
 example28.hcp 
 Number of Vertices: 13, number of edges: 40
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 36 microseconds 
+Yes
 example29.hcp 
 Number of Vertices: 16, number of edges: 80
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 64 microseconds 
+Yes
 example30.hcp 
 Number of Vertices: 19, number of edges: 51
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 66 microseconds 
+Yes
 example31.hcp 
 Number of Vertices: 20, number of edges: 189
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 165 microseconds 
+Yes
 example32.hcp 
 Number of Vertices: 22, number of edges: 123
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 156 microseconds 
+Yes
 example33.hcp 
 Number of Vertices: 5, number of edges: 4
-Phase 2 failed: no valid rotational transformation found.
-0 hours 0 minutes 0 seconds 0 milliseconds No
+0 hours 0 minutes 0 seconds 0 milliseconds 11 microseconds 
+No
 example34.hcp 
 Number of Vertices: 17, number of edges: 32
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 224 microseconds 
+Yes
 example35.hcp 
 Number of Vertices: 10, number of edges: 31
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 26 microseconds 
+Yes
 example36.hcp 
 Number of Vertices: 9, number of edges: 29
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 19 microseconds 
+Yes
 example37.hcp 
 Number of Vertices: 16, number of edges: 112
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 74 microseconds 
+Yes
 example38.hcp 
 Number of Vertices: 23, number of edges: 210
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 174 microseconds 
+Yes
 example39.hcp 
 Number of Vertices: 16, number of edges: 91
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 63 microseconds 
+Yes
 example40.hcp 
 Number of Vertices: 25, number of edges: 40
-Phase 2 failed: no valid rotational transformation found.
-0 hours 0 minutes 0 seconds 0 milliseconds No
+0 hours 0 minutes 0 seconds 1 milliseconds 230 microseconds 
+No
 example41.hcp 
 Number of Vertices: 25, number of edges: 202
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 277 microseconds 
+Yes
 example42.hcp 
 Number of Vertices: 8, number of edges: 23
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 17 microseconds 
+Yes
 example43.hcp 
 Number of Vertices: 15, number of edges: 43
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 45 microseconds 
+Yes
 example44.hcp 
 Number of Vertices: 25, number of edges: 272
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 308 microseconds 
+Yes
 example45.hcp 
 Number of Vertices: 17, number of edges: 70
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 88 microseconds 
+Yes
 example46.hcp 
 Number of Vertices: 23, number of edges: 183
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 193 microseconds 
+Yes
 example47.hcp 
 Number of Vertices: 3, number of edges: 3
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 4 microseconds 
+Yes
 example48.hcp 
 Number of Vertices: 6, number of edges: 12
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 10 microseconds 
+Yes
 example49.hcp 
 Number of Vertices: 15, number of edges: 97
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 74 microseconds 
+Yes
 example50.hcp 
 Number of Vertices: 1, number of edges: 0
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 4 microseconds 
+Yes
 example51.hcp 
 Number of Vertices: 25, number of edges: 207
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 285 microseconds 
+Yes
 example52.hcp 
 Number of Vertices: 24, number of edges: 209
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 275 microseconds 
+Yes
 example53.hcp 
 Number of Vertices: 1, number of edges: 0
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 4 microseconds 
+Yes
 example54.hcp 
 Number of Vertices: 6, number of edges: 14
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 12 microseconds 
+Yes
 example55.hcp 
 Number of Vertices: 3, number of edges: 3
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 6 microseconds 
+Yes
 example56.hcp 
 Number of Vertices: 20, number of edges: 35
-0 hours 0 minutes 0 seconds 23 milliseconds Yes
+0 hours 0 minutes 0 seconds 28 milliseconds 686 microseconds 
+Yes
 example57.hcp 
 Number of Vertices: 9, number of edges: 34
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 14 microseconds 
+Yes
 example58.hcp 
 Number of Vertices: 4, number of edges: 4
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 4 microseconds 
+Yes
 example59.hcp 
 Number of Vertices: 3, number of edges: 2
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 4 microseconds 
+Yes
 example60.hcp 
 Number of Vertices: 24, number of edges: 184
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 133 microseconds 
+Yes
 example61.hcp 
 Number of Vertices: 23, number of edges: 27
-Phase 2 failed: no valid rotational transformation found.
-0 hours 0 minutes 0 seconds 0 milliseconds No
+0 hours 0 minutes 0 seconds 0 milliseconds 192 microseconds 
+No
 example62.hcp 
 Number of Vertices: 13, number of edges: 19
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 111 microseconds 
+Yes
 example63.hcp 
 Number of Vertices: 10, number of edges: 16
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 12 microseconds 
+Yes
 example64.hcp 
 Number of Vertices: 9, number of edges: 17
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 20 microseconds 
+Yes
 example65.hcp 
 Number of Vertices: 23, number of edges: 135
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 102 microseconds 
+Yes
 example66.hcp 
 Number of Vertices: 4, number of edges: 3
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 6 microseconds 
+Yes
 example67.hcp 
 Number of Vertices: 17, number of edges: 116
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 63 microseconds 
+Yes
 example68.hcp 
 Number of Vertices: 5, number of edges: 8
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 5 microseconds 
+Yes
 example69.hcp 
 Number of Vertices: 11, number of edges: 44
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 23 microseconds 
+Yes
 example70.hcp 
 Number of Vertices: 16, number of edges: 114
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 60 microseconds 
+Yes
 example71.hcp 
 Number of Vertices: 1, number of edges: 0
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 2 microseconds 
+Yes
 example72.hcp 
 Number of Vertices: 18, number of edges: 83
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 60 microseconds 
+Yes
 example73.hcp 
 Number of Vertices: 18, number of edges: 66
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 56 microseconds 
+Yes
 example74.hcp 
 Number of Vertices: 10, number of edges: 38
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 17 microseconds 
+Yes
 example75.hcp 
 Number of Vertices: 1, number of edges: 0
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 2 microseconds 
+Yes
 example76.hcp 
 Number of Vertices: 1, number of edges: 0
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 2 microseconds 
+Yes
 example77.hcp 
 Number of Vertices: 8, number of edges: 18
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 10 microseconds 
+Yes
 example78.hcp 
 Number of Vertices: 22, number of edges: 125
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 117 microseconds 
+Yes
 example79.hcp 
 Number of Vertices: 24, number of edges: 25
-Phase 2 failed: no valid rotational transformation found.
-0 hours 0 minutes 0 seconds 0 milliseconds No
+0 hours 0 minutes 0 seconds 0 milliseconds 134 microseconds 
+No
 example80.hcp 
 Number of Vertices: 20, number of edges: 53
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 50 microseconds 
+Yes
 example81.hcp 
 Number of Vertices: 16, number of edges: 44
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 36 microseconds 
+Yes
 example82.hcp 
 Number of Vertices: 24, number of edges: 220
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 155 microseconds 
+Yes
 example83.hcp 
 Number of Vertices: 8, number of edges: 25
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 11 microseconds 
+Yes
 example84.hcp 
 Number of Vertices: 2, number of edges: 1
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 2 microseconds 
+Yes
 example85.hcp 
 Number of Vertices: 18, number of edges: 117
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 70 microseconds 
+Yes
 example86.hcp 
 Number of Vertices: 20, number of edges: 41
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 80 microseconds 
+Yes
 example87.hcp 
 Number of Vertices: 12, number of edges: 13
-Phase 2 failed: no valid rotational transformation found.
-0 hours 0 minutes 0 seconds 0 milliseconds No
+0 hours 0 minutes 0 seconds 0 milliseconds 54 microseconds 
+No
 example88.hcp 
 Number of Vertices: 9, number of edges: 13
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 13 microseconds 
+Yes
 example89.hcp 
 Number of Vertices: 19, number of edges: 105
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 70 microseconds 
+Yes
 example90.hcp 
 Number of Vertices: 12, number of edges: 47
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 34 microseconds 
+Yes
 example91.hcp 
 Number of Vertices: 19, number of edges: 80
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 57 microseconds 
+Yes
 example92.hcp 
 Number of Vertices: 18, number of edges: 149
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 75 microseconds 
+Yes
 example93.hcp 
 Number of Vertices: 2, number of edges: 1
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 2 microseconds 
+Yes
 example94.hcp 
 Number of Vertices: 12, number of edges: 35
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 21 microseconds 
+Yes
 example95.hcp 
 Number of Vertices: 9, number of edges: 11
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 10 microseconds 
+Yes
 example96.hcp 
 Number of Vertices: 21, number of edges: 77
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 75 microseconds 
+Yes
 example97.hcp 
 Number of Vertices: 25, number of edges: 241
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 196 microseconds 
+Yes
 example98.hcp 
 Number of Vertices: 8, number of edges: 16
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 10 microseconds 
+Yes
 example99.hcp 
 Number of Vertices: 12, number of edges: 59
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 29 microseconds 
+Yes
 example100.hcp 
 Number of Vertices: 6, number of edges: 14
-0 hours 0 minutes 0 seconds 0 milliseconds Yes
+0 hours 0 minutes 0 seconds 0 milliseconds 7 microseconds 
+Yes
