@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
-using namespace std;
+#include "util.hpp"
 
+using namespace std;
 
 bool Hamiltonian_path(vector<vector<int> >& adj, int N)
 {
@@ -97,22 +98,9 @@ int main(int argc, char* argv[])
     bool found = Hamiltonian_path(adjMatrix, n);
 
     auto end = chrono::steady_clock::now();
-    auto duration_ms = chrono::duration_cast<chrono::milliseconds>(end - start).count();
-    const long long LIMIT_MS = 2LL * 3600 * 1000;
-    if (duration_ms > LIMIT_MS) {
-        cout << "Time Limit Exceeded" << endl;
-    } else {
-        int hours = duration_ms / (3600 * 1000);
-        int minutes = (duration_ms % (3600 * 1000)) / (60 * 1000);
-        int seconds = (duration_ms % (60 * 1000)) / 1000;
-        int milliseconds = duration_ms % 1000;
+    auto duration = chrono::duration_cast<chrono::microseconds>(end - start).count();
+    Util::displayTime(duration, Util::micro);
 
-        cout << hours << " hours " 
-             << minutes << " minutes " 
-             << seconds << " seconds " 
-             << milliseconds << " milliseconds ";
-        
-    }
     cout << (found ? "Yes" : "No") << endl;
 
     file.close();

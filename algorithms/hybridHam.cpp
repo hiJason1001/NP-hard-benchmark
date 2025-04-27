@@ -1,4 +1,6 @@
 #include <bits/stdc++.h>
+#include "util.hpp"
+
 using namespace std;
 
 // Check connectivity in the induced subgraph of unvisited vertices.
@@ -145,20 +147,6 @@ vector<int> extendToHamiltonianPath(vector<int> path, const vector<vector<int>> 
     return path;
 }
 
-void displayTime(auto& duration) {
-    if (duration_ms > LIMIT_MS) {
-        cout << "Time Limit Exceeded" << endl;
-    } else {
-        int hours = duration_ms / (3600 * 1000);
-        int minutes = (duration_ms % (3600 * 1000)) / (60 * 1000);
-        int seconds = (duration_ms % (60 * 1000)) / 1000;
-        int milliseconds = duration_ms % 1000;
-        cout << hours << " hours " 
-             << minutes << " minutes " 
-             << seconds << " seconds " 
-             << milliseconds << " milliseconds ";
-    }
-}
 
 int main(int argc, char* argv[]) {
     if (argc < 2)
@@ -213,7 +201,6 @@ int main(int argc, char* argv[]) {
         return degree[a] > degree[b];
     });
 
-    const long long LIMIT_MS = 2LL * 3600 * 1000;
     auto start = chrono::steady_clock::now();
     // ------------ Phase 1: Create an initial path ------------
     vector<int> bestPath;
@@ -236,8 +223,8 @@ int main(int argc, char* argv[]) {
     // }
     if(bestPath.empty()){
         auto end = chrono::steady_clock::now();
-        auto duration_ms = chrono::duration_cast<chrono::milliseconds>(end - start).count();
-        displayTime(duration_ms);
+        auto duration = chrono::duration_cast<chrono::microseconds>(end - start).count();
+        Util::displayTime(duration, Util::micro);
         cout << "No" << endl;
         return 0;
     }
@@ -246,35 +233,13 @@ int main(int argc, char* argv[]) {
     vector<int> HamPath = extendToHamiltonianPath(bestPath, sortedAdj, graph, degree);
     if (HamPath.empty()){
         auto end = chrono::steady_clock::now();
-        auto duration_ms = chrono::duration_cast<chrono::milliseconds>(end - start).count();
-        if (duration_ms > LIMIT_MS) {
-            cout << "Time Limit Exceeded" << endl;
-        } else {
-            int hours = duration_ms / (3600 * 1000);
-            int minutes = (duration_ms % (3600 * 1000)) / (60 * 1000);
-            int seconds = (duration_ms % (60 * 1000)) / 1000;
-            int milliseconds = duration_ms % 1000;
-            cout << hours << " hours " 
-                 << minutes << " minutes " 
-                 << seconds << " seconds " 
-                 << milliseconds << " milliseconds ";
-        }
+        auto duration = chrono::duration_cast<chrono::microseconds>(end - start).count();
+        Util::displayTime(duration, Util::micro);
         cout << "No" << endl;
     } else {
         auto end = chrono::steady_clock::now();
-        auto duration_ms = chrono::duration_cast<chrono::milliseconds>(end - start).count();
-        if (duration_ms > LIMIT_MS) {
-            cout << "Time Limit Exceeded" << endl;
-        } else {
-            int hours = duration_ms / (3600 * 1000);
-            int minutes = (duration_ms % (3600 * 1000)) / (60 * 1000);
-            int seconds = (duration_ms % (60 * 1000)) / 1000;
-            int milliseconds = duration_ms % 1000;
-            cout << hours << " hours " 
-                 << minutes << " minutes " 
-                 << seconds << " seconds " 
-                 << milliseconds << " milliseconds ";
-        }
+        auto duration = chrono::duration_cast<chrono::microseconds>(end - start).count();
+        Util::displayTime(duration, Util::micro);
         cout << "Yes" << endl;
     }
     
