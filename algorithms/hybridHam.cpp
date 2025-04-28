@@ -156,27 +156,15 @@ int main(int argc, char* argv[]) {
     }
 
     string INPUT = argv[1];
+    int n, m;
+    vector<vector<int>> graph(n);
 
-
-    ifstream file(INPUT);
-    if (!file.is_open())
-    {
-        cerr << "Failed to open the file!" << endl;
+    if (!Util::get_adjList(INPUT, n, m, graph)) {
         return 1;
     }
-    
-    int n;
-    int m;
-    file >> n >> m;
+
     cout << "Number of Vertices: " << n << ", number of edges: " << m << '\n';
 
-    vector<vector<int>> graph(n);
-    for (int i = 0; i < m; i++) {
-        int u, v;
-        file >> u >> v;
-        graph[u].push_back(v);
-        graph[v].push_back(u);
-    }
 
     vector<int> degree(n);
     for (int i = 0; i < n; i++){
@@ -224,7 +212,7 @@ int main(int argc, char* argv[]) {
     if(bestPath.empty()){
         auto end = chrono::steady_clock::now();
         auto duration = chrono::duration_cast<chrono::microseconds>(end - start).count();
-        Util::displayTime(duration, Util::micro);
+        Util::display_time(duration, Util::micro);
         cout << "No" << endl;
         return 0;
     }
@@ -234,12 +222,12 @@ int main(int argc, char* argv[]) {
     if (HamPath.empty()){
         auto end = chrono::steady_clock::now();
         auto duration = chrono::duration_cast<chrono::microseconds>(end - start).count();
-        Util::displayTime(duration, Util::micro);
+        Util::display_time(duration, Util::micro);
         cout << "No" << endl;
     } else {
         auto end = chrono::steady_clock::now();
         auto duration = chrono::duration_cast<chrono::microseconds>(end - start).count();
-        Util::displayTime(duration, Util::micro);
+        Util::display_time(duration, Util::micro);
         cout << "Yes" << endl;
     }
     
