@@ -4,7 +4,6 @@ executable="./hybridHam.out"
 input_folder="../data_processed/examples"
 output_file="hybridHam.txt"
 
-# Clear the output file before starting
 > "$output_file"
 
 for i in {1..100}
