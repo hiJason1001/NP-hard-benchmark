@@ -128,9 +128,18 @@ vector<int> extendToHamiltonianPath(vector<int> path, const vector<vector<int>>&
         visited[v] = true;
     }
     
+
+    // early termination rules (since rotations can loop infinitely):
+    // max rotation attempts is set to n^2
+    // let path size = p, if path size remains the same after p rotations,
+    // terminate as the path is just rotating back to previous paths in a cycle
     int rotationAttempts = 0;
     const int max_rotation_attempts = n * n;
+    int path_size = 1; // path starts at 1
+    int same_path_size_count = 0;
     while (int(path.size()) < n && rotationAttempts < max_rotation_attempts) {
+        if (same_path_size_count == path_size) break;
+
         vector<int> old_path = path;
 
         if (degree[path.front()] > degree[path.back()]) {
@@ -148,6 +157,12 @@ vector<int> extendToHamiltonianPath(vector<int> path, const vector<vector<int>>&
         ++rotationAttempts;
 
         if (path == old_path) break;
+        if (int(path.size()) == path_size) {
+            same_path_size_count++;
+        } else {
+            path_size = path.size();
+            same_path_size_count = 0;
+        }
         // for (auto it:path)cout<<it<<" ";
         // cout<<endl;
     }
@@ -215,6 +230,7 @@ int main(int argc, char* argv[]) {
         return 0;
     }
 
+    // cout<<"Phase 1 done"<<endl;
     // for (auto it : best) cout<<it<<" ";
     // cout<<endl;
 
