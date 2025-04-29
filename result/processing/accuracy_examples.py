@@ -3,7 +3,7 @@ import re
 # ========================
 # CONFIGURATION
 # ========================
-EXPERIMENTAL_FILE = "result/examples/heldKarp_examples.txt"
+EXPERIMENTAL_FILE = "result/examples/hybridHam_examples.txt"
 ACTUAL_FILE = "result/examples/actual_results.txt"
 OUTPUT_FILE = "accuracy.txt"
 # ========================

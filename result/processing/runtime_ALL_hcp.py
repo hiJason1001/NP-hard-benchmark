@@ -9,8 +9,8 @@ import numpy as np
 # Options: "seconds", "milliseconds", "microseconds"
 TIME_UNIT = "milliseconds"
 
-INPUT_FILE = "result/examples/hybridHam_examples.txt"
-OUTPUT_FILE = "hybridHam_examples.png"
+INPUT_FILE = "result/ALL_hcp/hybridHam_ALL_hcp.txt"
+OUTPUT_FILE = "hybridHam_ALL_hcp.png"
 
 # ========================
 

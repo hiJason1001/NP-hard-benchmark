@@ -53,7 +53,7 @@ namespace Util {
         nano,
     };
 
-    void display_time(auto time, Second sec=milli) {
+    void display_time(int time, Second sec=milli) {
         if (sec == milli) {
             constexpr long long LIMIT_MS = 2LL * 3600 * 1000;
             if (time > LIMIT_MS) {
