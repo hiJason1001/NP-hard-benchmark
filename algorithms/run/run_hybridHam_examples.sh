@@ -1,7 +1,7 @@
 #!/bin/bash
 
-executable="./hybridHam.out"
-input_folder="../data_processed/examples"
+executable="./../hybridHam.out"
+input_folder="../../data_processed/examples"
 output_file="hybridHam.txt"
 
 > "$output_file"

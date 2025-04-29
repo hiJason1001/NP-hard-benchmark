@@ -4,7 +4,7 @@
 using namespace std;
 
 // Check connectivity in the induced subgraph of unvisited vertices.
-bool checkConnectivity(const vector<vector<int>> &graph, const vector<bool> &visited) {
+bool checkConnectivity(const vector<vector<int>>& graph, const vector<bool>& visited) {
     int n = graph.size();
     int start = -1;
     for (int i = 0; i < n; i++) {
@@ -40,12 +40,12 @@ bool checkConnectivity(const vector<vector<int>> &graph, const vector<bool> &vis
     return (count == totalUnvisited);
 }
 
-// Try to extend the current path from current vertex using greedy DFS
-// (using sorted neighbor lists and feasibility connectivity check).
-void extendPath(int current, const vector<vector<int>> &sortedAdj, 
-                const vector<vector<int>> &graph, vector<bool> &visited, vector<int> &path) {
+
+void extendPath(int current, const vector<vector<int>>& sortedAdj, 
+                const vector<vector<int>>& graph, vector<bool>& visited, vector<int>& path) {
     int n = graph.size();
     bool extended = true;
+
     while (extended && int(path.size()) < n) {
         extended = false;
         // iterate over neighbours in increasing order (Va order)
@@ -54,7 +54,6 @@ void extendPath(int current, const vector<vector<int>> &sortedAdj,
                 visited[cand] = true;
                 // Check that the induced subgraph on remaining vertices is connected.
                 if (checkConnectivity(graph, visited)) {
-                    // Candidate is acceptable.
                     path.push_back(cand);
                     current = cand;
                     extended = true;
@@ -67,17 +66,34 @@ void extendPath(int current, const vector<vector<int>> &sortedAdj,
     }
 }
 
+// Phase 1
+vector<int> buildInitialPath(int start, const vector<vector<int>>& sortedAdj, 
+                             const vector<vector<int>>& graph) {
+        
+    int n = graph.size();
+    vector<bool> visited(n, false);
+    vector<int> path;
+    path.reserve(n);
+    path.push_back(start);
+    visited[start] = true;
+    extendPath(start, sortedAdj, graph, visited, path);
+    return path;
+}
+
+
 // Pósa-style rotation.
 // Given a current path, try to find a pivot i such that there is an edge from path[i] to the last vertex.
 // Then, the new path becomes: path[0...i] concatenated with reverse(path[i+1...end]).
 // Returns true if a rotation was performed.
-bool rotatePath(vector<int> &path, const vector<vector<int>> &graph) {
+bool rotatePath(vector<int>& path, const vector<vector<int>>& graph) {
     int n = path.size();
-    int last = path.back();
+    if (n < 2) return false;
+
     // Try all possible pivot indices from the beginning (except the very last vertex).
     for (int i = 0; i < n - 1; i++) {
+        int node = path[i];
         // Check if there is an edge between path[i] and the last vertex.
-        if (find(graph[path[i]].begin(), graph[path[i]].end(), last) != graph[path[i]].end()) {
+        if (find(graph[node].begin(), graph[node].end(), path.back()) != graph[node].end()) {
             // Apply rotation: newPath = path[0..i] + reverse(path[i+1..end]).
             vector<int> newPath;
             for (int j = 0; j <= i; j++) {
@@ -95,32 +111,20 @@ bool rotatePath(vector<int> &path, const vector<vector<int>> &graph) {
     return false;  // no valid rotation found
 }
 
-// Attempt Phase 1: build an initial path starting from a given vertex.
-vector<int> buildInitialPath(int start, const vector<vector<int>> &sortedAdj, 
-                             const vector<vector<int>> &graph) {
-    int n = graph.size();
-    vector<bool> visited(n, false);
-    vector<int> path;
-    int current = start;
-    visited[current] = true;
-    path.push_back(current);
-    extendPath(current, sortedAdj, graph, visited, path);
-    return path;
-}
+
 
 // Phase 2: Given an initial path (possibly not Hamiltonian), try to extend it to a Hamiltonian path
 // using rotational transformations and greedy extension.
-vector<int> extendToHamiltonianPath(vector<int> path, const vector<vector<int>> &sortedAdj, 
-                                    const vector<vector<int>> &graph, const vector<int>& degree) {
+vector<int> extendToHamiltonianPath(vector<int> path, const vector<vector<int>>& sortedAdj, 
+                                    const vector<vector<int>>& graph, const vector<int>& degree) {
     int n = graph.size();
     vector<bool> visited(n, false);
-    // Mark vertices already in the path.
     for (int v : path) {
         visited[v] = true;
     }
     
     int rotationAttempts = 0;
-    const int maxRotationAttempts = n * n * n;
+    const int maxRotationAttempts = n * n;
     while (int(path.size()) < n && rotationAttempts < maxRotationAttempts) {
         // Choose the end for rotation transformation.
         // We select the end with the highest degree.
@@ -158,58 +162,42 @@ int main(int argc, char* argv[]) {
     string INPUT = argv[1];
     int n, m;
     vector<vector<int>> graph(n);
-
+    
     if (!Util::get_adjList(INPUT, n, m, graph)) {
-        return 1;
+        return 0;
     }
 
-    cout << "Number of Vertices: " << n << ", number of edges: " << m << '\n';
+    cout << "Number of Vertices: " << n << ", number of edges: " << m << endl;
+
+    auto start = chrono::steady_clock::now();
 
 
     vector<int> degree(n);
-    for (int i = 0; i < n; i++){
+    for (int i = 0; i < n; ++i)
         degree[i] = graph[i].size();
-    }
 
-    // Build sorted neighbour list for each vertex according to increasing degree (Va array).
     vector<vector<int>> sortedAdj(n);
-    for (int i = 0; i < n; i++){
+    for (int i = 0; i < n; ++i) {
         sortedAdj[i] = graph[i];
-        sort(sortedAdj[i].begin(), sortedAdj[i].end(), [&](int a, int b) {
-            return degree[a] < degree[b];
-        });
+        sort(sortedAdj[i].begin(), sortedAdj[i].end(),
+             [&](int a, int b){ return degree[a] < degree[b]; });
     }
 
-    // Build Vd: array of vertices sorted in decreasing order of degree.
     vector<int> Vd(n);
-    for (int i = 0; i < n; i++){
-        Vd[i] = i;
-    }
-    sort(Vd.begin(), Vd.end(), [&](int a, int b){
-        return degree[a] > degree[b];
-    });
+    int max_deg = Vd[0];
+    iota(Vd.begin(), Vd.end(), 0);
+    sort(Vd.begin(), Vd.end(), [&](int a, int b){ return degree[a] > degree[b]; });
 
-    auto start = chrono::steady_clock::now();
-    // ------------ Phase 1: Create an initial path ------------
-    vector<int> bestPath;
-    // Try each high-degree vertex as starting vertex.
-    for (int startNode : Vd) {
-        vector<int> currPath = buildInitialPath(startNode, sortedAdj, graph);
-        if (currPath.size() > bestPath.size())
-            bestPath = currPath;
-        // If a full Hamiltonian path is already found, we can break early.
-        if (int(bestPath.size()) == n)
-            break;
+    vector<int> best;
+    for (int u : Vd) {
+        if (degree[u] != max_deg) break;
+        auto p = buildInitialPath(u, sortedAdj, graph);
+
+        if (p.size() > best.size()) best = move(p);
+        if ((int)best.size() == n) break;
     }
 
-
-    // print info
-    // cout << "Phase 1: Initial path of length " << bestPath.size() << "\n";
-    // if(bestPath.empty()){
-    //     cout << "No initial path could be constructed.\n";
-    //     return 0;
-    // }
-    if(bestPath.empty()){
+    if (best.empty()) {
         auto end = chrono::steady_clock::now();
         auto duration = chrono::duration_cast<chrono::microseconds>(end - start).count();
         Util::display_time(duration, Util::micro);
@@ -218,8 +206,8 @@ int main(int argc, char* argv[]) {
     }
 
     // ------------ Phase 2: Convert initial path into Hamiltonian path ------------
-    vector<int> HamPath = extendToHamiltonianPath(bestPath, sortedAdj, graph, degree);
-    if (HamPath.empty()){
+    vector<int> HamPath = extendToHamiltonianPath(best, sortedAdj, graph, degree);
+    if (HamPath.empty()) {
         auto end = chrono::steady_clock::now();
         auto duration = chrono::duration_cast<chrono::microseconds>(end - start).count();
         Util::display_time(duration, Util::micro);

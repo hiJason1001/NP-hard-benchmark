@@ -5,7 +5,7 @@
 #include <vector>
 
 namespace Util {
-    bool get_adjMatrix(const std::string &filename, int &n, int &m, std::vector<std::vector<int>> &adjMatrix) {
+    bool get_adjMatrix(const std::string& filename, int& n, int& m, std::vector<std::vector<int>>& adjMatrix) {
         std::ifstream file(filename);
     
         if (!file.is_open()) {
@@ -26,7 +26,7 @@ namespace Util {
         return true;
     }
 
-    bool get_adjList(const std::string &filename, int &n, int &m, std::vector<std::vector<int>> &adjList) {
+    bool get_adjList(const std::string& filename, int& n, int& m, std::vector<std::vector<int>>& adjList) {
         std::ifstream file(filename);
     
         if (!file.is_open()) {
@@ -35,7 +35,7 @@ namespace Util {
         }
 
         file >> n >> m;
-        adjList.resize(n);
+        adjList.assign(n, std::vector<int>());
         
         for (int i = 0; i < m; i++) {
             int u, v;
