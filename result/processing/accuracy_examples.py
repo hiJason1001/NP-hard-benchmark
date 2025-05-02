@@ -3,12 +3,15 @@ import re
 # ========================
 # CONFIGURATION
 # ========================
-EXPERIMENTAL_FILE = "result/examples/hybridHam_examples.txt"
-ACTUAL_FILE = "result/examples/actual_results.txt"
-OUTPUT_FILE = "accuracy.txt"
+NAME = "hybridHam_tsphcp"
+
+ACTUAL_FILE = "result/exmaples_actual_results.txt"
+
+INPUT_FILE = f"result/hybridHam/{NAME}.txt"
+OUTPUT_FILE = f"{NAME}_accuracy.txt"
 # ========================
 
-with open(EXPERIMENTAL_FILE, 'r') as file:
+with open(INPUT_FILE, 'r') as file:
     experimental_data = file.read()
 
 with open(ACTUAL_FILE, 'r') as file:

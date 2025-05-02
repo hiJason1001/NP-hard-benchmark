@@ -7,10 +7,11 @@ import numpy as np
 # CONFIGURATION
 # ========================
 # Options: "seconds", "milliseconds", "microseconds"
+NAME = "hybridHam_tsphcp"
 TIME_UNIT = "seconds"
 
-INPUT_FILE = "result/ALL_hcp/hybridHam_ALL_hcp.txt"
-OUTPUT_FILE = "hybridHam_ALL_hcp.png"
+INPUT_FILE = f"result/hybridHam/{NAME}.txt"
+OUTPUT_FILE = f"{NAME}.png"
 
 # ========================
 

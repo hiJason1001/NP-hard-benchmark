@@ -1,8 +1,11 @@
 # ========================
 # CONFIGURATION
 # ========================
-EXPERIMENTAL_FILE = "result/ALL_hcp/hybridHam_ALL_hcp.txt"
-OUTPUT_FILE = "accuracy.txt"
+
+NAME = "hybridHam_tsphcp"
+
+EXPERIMENTAL_FILE = f"result/hybridHam/{NAME}.txt"
+OUTPUT_FILE = f"{NAME}_accuracy.txt"
 # ========================
 
 with open(EXPERIMENTAL_FILE, 'r') as file:
