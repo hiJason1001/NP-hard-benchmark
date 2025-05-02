@@ -2,9 +2,11 @@
 
 set -m
 
-executable="./../hybridHam.out"
-input_folder="../../data_processed/ALL_hcp_processed"
-output_file="hybridHam_ALL_hcp.txt"
+filename="hybridHam"
+
+executable="./../${filename}.out"
+input_folder="../../data_processed/tsphcp_processed"
+output_file="${filename}_tsphcp.txt"
 time_limit_minutes=10  # set timeout minutes
 time_limit_seconds=$((time_limit_minutes * 60))
 

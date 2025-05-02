@@ -7,10 +7,11 @@ import numpy as np
 # CONFIGURATION
 # ========================
 # Options: "seconds", "milliseconds", "microseconds"
-TIME_UNIT = "milliseconds"
+NAME = "hybridHam_tsphcp"
+TIME_UNIT = "seconds"
 
-INPUT_FILE = "result/examples/hybridHam_examples.txt"
-OUTPUT_FILE = "hybridHam_examples.png"
+INPUT_FILE = f"result/hybridHam/{NAME}.txt"
+OUTPUT_FILE = f"{NAME}.png"
 
 # ========================
 
@@ -88,9 +89,16 @@ else:
     df_avg_sorted = df_avg.sort_values(by="vertices")
 
     plt.figure(figsize=(10, 6))
-    plt.scatter(df_sorted["vertices"], df_sorted["time"], color='blue', label='Original Data Points')
+    plt.scatter(df_sorted["vertices"], df_sorted["time"], color='blue', s=10, label='Original Data Points')
 
-    plt.plot(df_avg_sorted["vertices"], df_avg_sorted["time"], color='green', linestyle='-', label='Average Line')
+
+    # Line of best fit
+    fit = np.polyfit(df_sorted["vertices"], df_sorted["time"], deg=1)
+    fit_fn = np.poly1d(fit)
+    x_vals = np.linspace(df_sorted["vertices"].min(), df_sorted["vertices"].max(), 500)
+    y_vals = fit_fn(x_vals)
+    plt.plot(x_vals, y_vals, color='green', label='Line of Best Fit')
+
 
     plt.xlabel("Number of Vertices")
     plt.ylabel(f"Time ({TIME_UNIT})")
