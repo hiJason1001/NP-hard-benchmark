@@ -1,6 +1,6 @@
 #!/bin/bash
 
-filename="hybridHam"
+filename="HPA"
 
 executable="./../${filename}.out"
 input_folder="../../data_processed/examples"
