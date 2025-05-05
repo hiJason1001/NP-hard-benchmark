@@ -1,0 +1,4004 @@
+graph1.hcp 
+Number of Vertices: 66, number of edges: 99
+0 hours 0 minutes 0 seconds 4 milliseconds 676 microseconds 
+No
+graph2.hcp 
+Number of Vertices: 70, number of edges: 106
+0 hours 0 minutes 0 seconds 5 milliseconds 13 microseconds 
+No
+graph3.hcp 
+Number of Vertices: 78, number of edges: 117
+0 hours 0 minutes 0 seconds 5 milliseconds 192 microseconds 
+No
+graph4.hcp 
+Number of Vertices: 84, number of edges: 127
+0 hours 0 minutes 0 seconds 4 milliseconds 511 microseconds 
+No
+graph5.hcp 
+Number of Vertices: 90, number of edges: 135
+0 hours 0 minutes 0 seconds 4 milliseconds 158 microseconds 
+No
+graph6.hcp 
+Number of Vertices: 94, number of edges: 142
+0 hours 0 minutes 0 seconds 4 milliseconds 415 microseconds 
+No
+graph7.hcp 
+Number of Vertices: 102, number of edges: 153
+0 hours 0 minutes 0 seconds 4 milliseconds 777 microseconds 
+No
+graph8.hcp 
+Number of Vertices: 108, number of edges: 163
+0 hours 0 minutes 0 seconds 5 milliseconds 188 microseconds 
+No
+graph9.hcp 
+Number of Vertices: 114, number of edges: 171
+0 hours 0 minutes 0 seconds 5 milliseconds 398 microseconds 
+No
+graph10.hcp 
+Number of Vertices: 118, number of edges: 178
+0 hours 0 minutes 0 seconds 5 milliseconds 789 microseconds 
+No
+graph11.hcp 
+Number of Vertices: 126, number of edges: 189
+0 hours 0 minutes 0 seconds 5 milliseconds 963 microseconds 
+No
+graph12.hcp 
+Number of Vertices: 132, number of edges: 199
+0 hours 0 minutes 0 seconds 6 milliseconds 445 microseconds 
+No
+graph13.hcp 
+Number of Vertices: 138, number of edges: 207
+0 hours 0 minutes 0 seconds 6 milliseconds 816 microseconds 
+No
+graph14.hcp 
+Number of Vertices: 142, number of edges: 214
+0 hours 0 minutes 0 seconds 6 milliseconds 824 microseconds 
+No
+graph15.hcp 
+Number of Vertices: 150, number of edges: 225
+0 hours 0 minutes 0 seconds 7 milliseconds 371 microseconds 
+No
+graph16.hcp 
+Number of Vertices: 156, number of edges: 235
+0 hours 0 minutes 0 seconds 7 milliseconds 613 microseconds 
+No
+graph17.hcp 
+Number of Vertices: 162, number of edges: 243
+0 hours 0 minutes 0 seconds 10 milliseconds 717 microseconds 
+No
+graph18.hcp 
+Number of Vertices: 166, number of edges: 250
+0 hours 0 minutes 0 seconds 9 milliseconds 663 microseconds 
+No
+graph19.hcp 
+Number of Vertices: 170, number of edges: 390
+0 hours 0 minutes 0 seconds 12 milliseconds 552 microseconds 
+No
+graph20.hcp 
+Number of Vertices: 174, number of edges: 261
+0 hours 0 minutes 0 seconds 8 milliseconds 609 microseconds 
+No
+graph21.hcp 
+Number of Vertices: 180, number of edges: 271
+0 hours 0 minutes 0 seconds 8 milliseconds 804 microseconds 
+No
+graph22.hcp 
+Number of Vertices: 186, number of edges: 279
+0 hours 0 minutes 0 seconds 9 milliseconds 278 microseconds 
+No
+graph23.hcp 
+Number of Vertices: 190, number of edges: 286
+0 hours 0 minutes 0 seconds 9 milliseconds 318 microseconds 
+No
+graph24.hcp 
+Number of Vertices: 198, number of edges: 297
+0 hours 0 minutes 0 seconds 9 milliseconds 988 microseconds 
+No
+graph25.hcp 
+Number of Vertices: 204, number of edges: 307
+0 hours 0 minutes 0 seconds 10 milliseconds 764 microseconds 
+No
+graph26.hcp 
+Number of Vertices: 210, number of edges: 315
+0 hours 0 minutes 0 seconds 11 milliseconds 565 microseconds 
+No
+graph27.hcp 
+Number of Vertices: 214, number of edges: 322
+0 hours 0 minutes 0 seconds 10 milliseconds 860 microseconds 
+No
+graph28.hcp 
+Number of Vertices: 222, number of edges: 333
+0 hours 0 minutes 0 seconds 11 milliseconds 405 microseconds 
+No
+graph29.hcp 
+Number of Vertices: 228, number of edges: 343
+0 hours 0 minutes 0 seconds 15 milliseconds 806 microseconds 
+No
+graph30.hcp 
+Number of Vertices: 234, number of edges: 351
+0 hours 0 minutes 0 seconds 23 milliseconds 178 microseconds 
+No
+graph31.hcp 
+Number of Vertices: 238, number of edges: 358
+0 hours 0 minutes 0 seconds 18 milliseconds 366 microseconds 
+No
+graph32.hcp 
+Number of Vertices: 246, number of edges: 369
+0 hours 0 minutes 0 seconds 12 milliseconds 667 microseconds 
+No
+graph33.hcp 
+Number of Vertices: 252, number of edges: 379
+0 hours 0 minutes 0 seconds 13 milliseconds 514 microseconds 
+No
+graph34.hcp 
+Number of Vertices: 258, number of edges: 387
+0 hours 0 minutes 0 seconds 13 milliseconds 565 microseconds 
+No
+graph35.hcp 
+Number of Vertices: 262, number of edges: 394
+0 hours 0 minutes 0 seconds 15 milliseconds 755 microseconds 
+No
+graph36.hcp 
+Number of Vertices: 270, number of edges: 405
+0 hours 0 minutes 0 seconds 16 milliseconds 318 microseconds 
+No
+graph37.hcp 
+Number of Vertices: 276, number of edges: 415
+0 hours 0 minutes 0 seconds 14 milliseconds 793 microseconds 
+No
+graph38.hcp 
+Number of Vertices: 282, number of edges: 423
+0 hours 0 minutes 0 seconds 15 milliseconds 153 microseconds 
+No
+graph39.hcp 
+Number of Vertices: 286, number of edges: 430
+0 hours 0 minutes 0 seconds 15 milliseconds 369 microseconds 
+No
+graph40.hcp 
+Number of Vertices: 294, number of edges: 441
+0 hours 0 minutes 0 seconds 15 milliseconds 797 microseconds 
+No
+graph41.hcp 
+Number of Vertices: 300, number of edges: 451
+0 hours 0 minutes 0 seconds 16 milliseconds 110 microseconds 
+No
+graph42.hcp 
+Number of Vertices: 306, number of edges: 459
+0 hours 0 minutes 0 seconds 16 milliseconds 263 microseconds 
+No
+graph43.hcp 
+Number of Vertices: 310, number of edges: 466
+0 hours 0 minutes 0 seconds 16 milliseconds 644 microseconds 
+No
+graph44.hcp 
+Number of Vertices: 318, number of edges: 477
+0 hours 0 minutes 0 seconds 17 milliseconds 48 microseconds 
+No
+graph45.hcp 
+Number of Vertices: 324, number of edges: 487
+0 hours 0 minutes 0 seconds 17 milliseconds 167 microseconds 
+No
+graph46.hcp 
+Number of Vertices: 330, number of edges: 495
+0 hours 0 minutes 0 seconds 17 milliseconds 794 microseconds 
+No
+graph47.hcp 
+Number of Vertices: 334, number of edges: 502
+0 hours 0 minutes 0 seconds 17 milliseconds 976 microseconds 
+No
+graph48.hcp 
+Number of Vertices: 338, number of edges: 776
+0 hours 0 minutes 0 seconds 33 milliseconds 999 microseconds 
+No
+graph49.hcp 
+Number of Vertices: 342, number of edges: 513
+0 hours 0 minutes 0 seconds 18 milliseconds 493 microseconds 
+No
+graph50.hcp 
+Number of Vertices: 348, number of edges: 523
+0 hours 0 minutes 0 seconds 18 milliseconds 567 microseconds 
+No
+graph51.hcp 
+Number of Vertices: 354, number of edges: 531
+0 hours 0 minutes 0 seconds 19 milliseconds 138 microseconds 
+No
+graph52.hcp 
+Number of Vertices: 358, number of edges: 538
+0 hours 0 minutes 0 seconds 19 milliseconds 470 microseconds 
+No
+graph53.hcp 
+Number of Vertices: 366, number of edges: 549
+0 hours 0 minutes 0 seconds 22 milliseconds 499 microseconds 
+No
+graph54.hcp 
+Number of Vertices: 372, number of edges: 559
+0 hours 0 minutes 0 seconds 31 milliseconds 569 microseconds 
+No
+graph55.hcp 
+Number of Vertices: 378, number of edges: 567
+0 hours 0 minutes 0 seconds 25 milliseconds 966 microseconds 
+No
+graph56.hcp 
+Number of Vertices: 382, number of edges: 574
+0 hours 0 minutes 0 seconds 23 milliseconds 309 microseconds 
+No
+graph57.hcp 
+Number of Vertices: 390, number of edges: 585
+0 hours 0 minutes 0 seconds 29 milliseconds 73 microseconds 
+No
+graph58.hcp 
+Number of Vertices: 396, number of edges: 595
+0 hours 0 minutes 0 seconds 33 milliseconds 572 microseconds 
+No
+graph59.hcp 
+Number of Vertices: 400, number of edges: 40001
+0 hours 0 minutes 1 seconds 490 milliseconds 232 microseconds 
+No
+graph60.hcp 
+Number of Vertices: 402, number of edges: 603
+0 hours 0 minutes 0 seconds 22 milliseconds 651 microseconds 
+No
+graph61.hcp 
+Number of Vertices: 406, number of edges: 610
+0 hours 0 minutes 0 seconds 22 milliseconds 879 microseconds 
+No
+graph62.hcp 
+Number of Vertices: 408, number of edges: 936
+0 hours 0 minutes 0 seconds 34 milliseconds 917 microseconds 
+No
+graph63.hcp 
+Number of Vertices: 414, number of edges: 621
+0 hours 0 minutes 0 seconds 25 milliseconds 59 microseconds 
+No
+graph64.hcp 
+Number of Vertices: 416, number of edges: 625
+0 hours 0 minutes 0 seconds 23 milliseconds 292 microseconds 
+No
+graph65.hcp 
+Number of Vertices: 420, number of edges: 631
+0 hours 0 minutes 0 seconds 24 milliseconds 57 microseconds 
+No
+graph66.hcp 
+Number of Vertices: 426, number of edges: 639
+0 hours 0 minutes 0 seconds 28 milliseconds 304 microseconds 
+No
+graph67.hcp 
+Number of Vertices: 430, number of edges: 646
+0 hours 0 minutes 0 seconds 24 milliseconds 295 microseconds 
+No
+graph68.hcp 
+Number of Vertices: 438, number of edges: 657
+0 hours 0 minutes 0 seconds 24 milliseconds 592 microseconds 
+No
+graph69.hcp 
+Number of Vertices: 444, number of edges: 667
+0 hours 0 minutes 0 seconds 27 milliseconds 981 microseconds 
+No
+graph70.hcp 
+Number of Vertices: 450, number of edges: 675
+0 hours 0 minutes 0 seconds 25 milliseconds 606 microseconds 
+No
+graph71.hcp 
+Number of Vertices: 454, number of edges: 682
+0 hours 0 minutes 0 seconds 26 milliseconds 765 microseconds 
+No
+graph72.hcp 
+Number of Vertices: 460, number of edges: 52901
+0 hours 0 minutes 1 seconds 965 milliseconds 671 microseconds 
+No
+graph73.hcp 
+Number of Vertices: 462, number of edges: 693
+0 hours 0 minutes 0 seconds 33 milliseconds 654 microseconds 
+No
+graph74.hcp 
+Number of Vertices: 462, number of edges: 756
+0 hours 0 minutes 0 seconds 29 milliseconds 261 microseconds 
+No
+graph75.hcp 
+Number of Vertices: 468, number of edges: 703
+0 hours 0 minutes 0 seconds 27 milliseconds 192 microseconds 
+No
+graph76.hcp 
+Number of Vertices: 471, number of edges: 1161
+0 hours 0 minutes 0 seconds 49 milliseconds 812 microseconds 
+No
+graph77.hcp 
+Number of Vertices: 474, number of edges: 711
+0 hours 0 minutes 0 seconds 26 milliseconds 596 microseconds 
+No
+graph78.hcp 
+Number of Vertices: 478, number of edges: 718
+0 hours 0 minutes 0 seconds 27 milliseconds 173 microseconds 
+No
+graph79.hcp 
+Number of Vertices: 480, number of edges: 57601
+0 hours 0 minutes 2 seconds 219 milliseconds 474 microseconds 
+No
+graph80.hcp 
+Number of Vertices: 486, number of edges: 729
+0 hours 0 minutes 0 seconds 28 milliseconds 164 microseconds 
+No
+graph81.hcp 
+Number of Vertices: 492, number of edges: 739
+0 hours 0 minutes 0 seconds 28 milliseconds 750 microseconds 
+No
+graph82.hcp 
+Number of Vertices: 496, number of edges: 745
+0 hours 0 minutes 0 seconds 27 milliseconds 976 microseconds 
+No
+graph83.hcp 
+Number of Vertices: 498, number of edges: 747
+0 hours 0 minutes 0 seconds 30 milliseconds 100 microseconds 
+No
+graph84.hcp 
+Number of Vertices: 500, number of edges: 62501
+0 hours 0 minutes 2 seconds 724 milliseconds 886 microseconds 
+No
+graph85.hcp 
+Number of Vertices: 502, number of edges: 754
+0 hours 0 minutes 0 seconds 29 milliseconds 319 microseconds 
+No
+graph86.hcp 
+Number of Vertices: 503, number of edges: 1241
+0 hours 0 minutes 0 seconds 50 milliseconds 151 microseconds 
+No
+graph87.hcp 
+Number of Vertices: 507, number of edges: 1164
+0 hours 0 minutes 0 seconds 45 milliseconds 62 microseconds 
+No
+graph88.hcp 
+Number of Vertices: 507, number of edges: 1251
+0 hours 0 minutes 0 seconds 47 milliseconds 509 microseconds 
+No
+graph89.hcp 
+Number of Vertices: 510, number of edges: 765
+0 hours 0 minutes 0 seconds 28 milliseconds 602 microseconds 
+No
+graph90.hcp 
+Number of Vertices: 510, number of edges: 65026
+0 hours 0 minutes 2 seconds 795 milliseconds 324 microseconds 
+No
+graph91.hcp 
+Number of Vertices: 516, number of edges: 775
+0 hours 0 minutes 0 seconds 30 milliseconds 924 microseconds 
+No
+graph92.hcp 
+Number of Vertices: 522, number of edges: 783
+0 hours 0 minutes 0 seconds 29 milliseconds 676 microseconds 
+No
+graph93.hcp 
+Number of Vertices: 526, number of edges: 790
+0 hours 0 minutes 0 seconds 31 milliseconds 514 microseconds 
+No
+graph94.hcp 
+Number of Vertices: 534, number of edges: 801
+0 hours 0 minutes 0 seconds 31 milliseconds 729 microseconds 
+No
+graph95.hcp 
+Number of Vertices: 540, number of edges: 811
+0 hours 0 minutes 0 seconds 33 milliseconds 876 microseconds 
+No
+graph96.hcp 
+Number of Vertices: 540, number of edges: 72901
+0 hours 0 minutes 2 seconds 914 milliseconds 194 microseconds 
+No
+graph97.hcp 
+Number of Vertices: 546, number of edges: 819
+0 hours 0 minutes 0 seconds 33 milliseconds 323 microseconds 
+No
+graph98.hcp 
+Number of Vertices: 546, number of edges: 825
+0 hours 0 minutes 0 seconds 32 milliseconds 570 microseconds 
+No
+graph99.hcp 
+Number of Vertices: 550, number of edges: 826
+0 hours 0 minutes 0 seconds 33 milliseconds 411 microseconds 
+No
+graph100.hcp 
+Number of Vertices: 558, number of edges: 837
+0 hours 0 minutes 0 seconds 33 milliseconds 407 microseconds 
+No
+graph101.hcp 
+Number of Vertices: 564, number of edges: 847
+0 hours 0 minutes 0 seconds 33 milliseconds 191 microseconds 
+No
+graph102.hcp 
+Number of Vertices: 570, number of edges: 855
+0 hours 0 minutes 0 seconds 36 milliseconds 718 microseconds 
+No
+graph103.hcp 
+Number of Vertices: 574, number of edges: 862
+0 hours 0 minutes 0 seconds 36 milliseconds 452 microseconds 
+No
+graph104.hcp 
+Number of Vertices: 576, number of edges: 865
+0 hours 0 minutes 0 seconds 33 milliseconds 142 microseconds 
+No
+graph105.hcp 
+Number of Vertices: 582, number of edges: 873
+0 hours 0 minutes 0 seconds 33 milliseconds 788 microseconds 
+No
+graph106.hcp 
+Number of Vertices: 588, number of edges: 883
+0 hours 0 minutes 0 seconds 34 milliseconds 797 microseconds 
+No
+graph107.hcp 
+Number of Vertices: 594, number of edges: 891
+0 hours 0 minutes 0 seconds 34 milliseconds 725 microseconds 
+No
+graph108.hcp 
+Number of Vertices: 598, number of edges: 898
+0 hours 0 minutes 0 seconds 35 milliseconds 130 microseconds 
+No
+graph109.hcp 
+Number of Vertices: 606, number of edges: 933
+0 hours 0 minutes 0 seconds 37 milliseconds 375 microseconds 
+No
+graph110.hcp 
+Number of Vertices: 606, number of edges: 925
+0 hours 0 minutes 0 seconds 37 milliseconds 767 microseconds 
+No
+graph111.hcp 
+Number of Vertices: 606, number of edges: 909
+0 hours 0 minutes 0 seconds 37 milliseconds 652 microseconds 
+No
+graph112.hcp 
+Number of Vertices: 612, number of edges: 919
+0 hours 0 minutes 0 seconds 37 milliseconds 231 microseconds 
+No
+graph113.hcp 
+Number of Vertices: 618, number of edges: 927
+0 hours 0 minutes 0 seconds 36 milliseconds 849 microseconds 
+No
+graph114.hcp 
+Number of Vertices: 622, number of edges: 934
+0 hours 0 minutes 0 seconds 37 milliseconds 473 microseconds 
+No
+graph115.hcp 
+Number of Vertices: 623, number of edges: 1541
+0 hours 0 minutes 0 seconds 66 milliseconds 721 microseconds 
+No
+graph116.hcp 
+Number of Vertices: 630, number of edges: 945
+0 hours 0 minutes 0 seconds 42 milliseconds 621 microseconds 
+No
+graph117.hcp 
+Number of Vertices: 631, number of edges: 1561
+0 hours 0 minutes 0 seconds 61 milliseconds 8 microseconds 
+No
+graph118.hcp 
+Number of Vertices: 636, number of edges: 955
+0 hours 0 minutes 0 seconds 37 milliseconds 886 microseconds 
+No
+graph119.hcp 
+Number of Vertices: 642, number of edges: 963
+0 hours 0 minutes 0 seconds 38 milliseconds 259 microseconds 
+No
+graph120.hcp 
+Number of Vertices: 646, number of edges: 970
+0 hours 0 minutes 0 seconds 38 milliseconds 334 microseconds 
+No
+graph121.hcp 
+Number of Vertices: 654, number of edges: 981
+0 hours 0 minutes 0 seconds 38 milliseconds 431 microseconds 
+No
+graph122.hcp 
+Number of Vertices: 656, number of edges: 985
+0 hours 0 minutes 0 seconds 39 milliseconds 296 microseconds 
+No
+graph123.hcp 
+Number of Vertices: 659, number of edges: 1631
+0 hours 0 minutes 0 seconds 63 milliseconds 93 microseconds 
+No
+graph124.hcp 
+Number of Vertices: 660, number of edges: 991
+0 hours 0 minutes 0 seconds 39 milliseconds 131 microseconds 
+No
+graph125.hcp 
+Number of Vertices: 670, number of edges: 1006
+0 hours 0 minutes 0 seconds 40 milliseconds 87 microseconds 
+No
+graph126.hcp 
+Number of Vertices: 671, number of edges: 1661
+0 hours 0 minutes 0 seconds 65 milliseconds 923 microseconds 
+No
+graph127.hcp 
+Number of Vertices: 676, number of edges: 1552
+0 hours 0 minutes 0 seconds 61 milliseconds 154 microseconds 
+No
+graph128.hcp 
+Number of Vertices: 677, number of edges: 114583
+0 hours 0 minutes 5 seconds 83 milliseconds 401 microseconds 
+No
+graph129.hcp 
+Number of Vertices: 684, number of edges: 1027
+0 hours 0 minutes 0 seconds 45 milliseconds 585 microseconds 
+No
+graph130.hcp 
+Number of Vertices: 690, number of edges: 979
+0 hours 0 minutes 0 seconds 40 milliseconds 291 microseconds 
+No
+graph131.hcp 
+Number of Vertices: 694, number of edges: 1042
+0 hours 0 minutes 0 seconds 42 milliseconds 699 microseconds 
+No
+graph132.hcp 
+Number of Vertices: 708, number of edges: 1063
+0 hours 0 minutes 0 seconds 42 milliseconds 401 microseconds 
+No
+graph133.hcp 
+Number of Vertices: 718, number of edges: 1078
+0 hours 0 minutes 0 seconds 42 milliseconds 938 microseconds 
+No
+graph134.hcp 
+Number of Vertices: 724, number of edges: 131045
+0 hours 0 minutes 6 seconds 128 milliseconds 994 microseconds 
+No
+graph135.hcp 
+Number of Vertices: 731, number of edges: 1678
+0 hours 0 minutes 0 seconds 69 milliseconds 28 microseconds 
+No
+graph136.hcp 
+Number of Vertices: 732, number of edges: 1099
+0 hours 0 minutes 0 seconds 44 milliseconds 8 microseconds 
+No
+graph137.hcp 
+Number of Vertices: 736, number of edges: 1105
+0 hours 0 minutes 0 seconds 52 milliseconds 999 microseconds 
+No
+graph138.hcp 
+Number of Vertices: 742, number of edges: 1114
+0 hours 0 minutes 0 seconds 47 milliseconds 325 microseconds 
+No
+graph139.hcp 
+Number of Vertices: 747, number of edges: 1851
+0 hours 0 minutes 0 seconds 76 milliseconds 613 microseconds 
+No
+graph140.hcp 
+Number of Vertices: 756, number of edges: 1135
+0 hours 0 minutes 0 seconds 46 milliseconds 456 microseconds 
+No
+graph141.hcp 
+Number of Vertices: 766, number of edges: 1150
+0 hours 0 minutes 0 seconds 46 milliseconds 763 microseconds 
+No
+graph142.hcp 
+Number of Vertices: 780, number of edges: 1171
+0 hours 0 minutes 0 seconds 48 milliseconds 879 microseconds 
+No
+graph143.hcp 
+Number of Vertices: 790, number of edges: 1186
+0 hours 0 minutes 0 seconds 49 milliseconds 13 microseconds 
+No
+graph144.hcp 
+Number of Vertices: 804, number of edges: 1256
+0 hours 0 minutes 0 seconds 54 milliseconds 42 microseconds 
+No
+graph145.hcp 
+Number of Vertices: 804, number of edges: 1252
+0 hours 0 minutes 0 seconds 53 milliseconds 129 microseconds 
+No
+graph146.hcp 
+Number of Vertices: 804, number of edges: 1207
+0 hours 0 minutes 0 seconds 51 milliseconds 907 microseconds 
+No
+graph147.hcp 
+Number of Vertices: 814, number of edges: 1222
+0 hours 0 minutes 0 seconds 49 milliseconds 755 microseconds 
+No
+graph148.hcp 
+Number of Vertices: 816, number of edges: 1225
+0 hours 0 minutes 0 seconds 50 milliseconds 640 microseconds 
+No
+graph149.hcp 
+Number of Vertices: 819, number of edges: 1278
+0 hours 0 minutes 0 seconds 53 milliseconds 97 microseconds 
+No
+graph150.hcp 
+Number of Vertices: 823, number of edges: 169333
+0 hours 0 minutes 8 seconds 283 milliseconds 176 microseconds 
+No
+graph151.hcp 
+Number of Vertices: 828, number of edges: 1243
+0 hours 0 minutes 0 seconds 61 milliseconds 487 microseconds 
+No
+graph152.hcp 
+Number of Vertices: 838, number of edges: 1258
+0 hours 0 minutes 0 seconds 70 milliseconds 626 microseconds 
+No
+graph153.hcp 
+Number of Vertices: 845, number of edges: 1940
+0 hours 0 minutes 0 seconds 81 milliseconds 480 microseconds 
+No
+graph154.hcp 
+Number of Vertices: 851, number of edges: 2111
+0 hours 0 minutes 0 seconds 84 milliseconds 660 microseconds 
+No
+graph155.hcp 
+Number of Vertices: 852, number of edges: 1279
+0 hours 0 minutes 0 seconds 54 milliseconds 370 microseconds 
+No
+graph156.hcp 
+Number of Vertices: 856, number of edges: 2801
+0 hours 0 minutes 0 seconds 114 milliseconds 520 microseconds 
+No
+graph157.hcp 
+Number of Vertices: 862, number of edges: 1294
+0 hours 0 minutes 0 seconds 52 milliseconds 698 microseconds 
+No
+graph158.hcp 
+Number of Vertices: 876, number of edges: 1315
+0 hours 0 minutes 0 seconds 56 milliseconds 133 microseconds 
+No
+graph159.hcp 
+Number of Vertices: 886, number of edges: 1330
+0 hours 0 minutes 0 seconds 55 milliseconds 230 microseconds 
+No
+graph160.hcp 
+Number of Vertices: 896, number of edges: 1345
+0 hours 0 minutes 0 seconds 55 milliseconds 496 microseconds 
+No
+graph161.hcp 
+Number of Vertices: 900, number of edges: 1351
+0 hours 0 minutes 0 seconds 57 milliseconds 186 microseconds 
+No
+graph162.hcp 
+Number of Vertices: 909, number of edges: 206571
+0 hours 0 minutes 10 seconds 952 milliseconds 738 microseconds 
+No
+graph163.hcp 
+Number of Vertices: 910, number of edges: 1366
+0 hours 0 minutes 0 seconds 59 milliseconds 282 microseconds 
+No
+graph164.hcp 
+Number of Vertices: 924, number of edges: 1387
+0 hours 0 minutes 0 seconds 62 milliseconds 435 microseconds 
+No
+graph165.hcp 
+Number of Vertices: 934, number of edges: 1402
+0 hours 0 minutes 0 seconds 60 milliseconds 557 microseconds 
+No
+graph166.hcp 
+Number of Vertices: 948, number of edges: 1423
+0 hours 0 minutes 0 seconds 59 milliseconds 191 microseconds 
+No
+graph167.hcp 
+Number of Vertices: 958, number of edges: 1438
+0 hours 0 minutes 0 seconds 59 milliseconds 958 microseconds 
+No
+graph168.hcp 
+Number of Vertices: 972, number of edges: 1459
+0 hours 0 minutes 0 seconds 62 milliseconds 887 microseconds 
+No
+graph169.hcp 
+Number of Vertices: 976, number of edges: 1465
+0 hours 0 minutes 0 seconds 62 milliseconds 321 microseconds 
+No
+graph170.hcp 
+Number of Vertices: 982, number of edges: 1474
+0 hours 0 minutes 0 seconds 61 milliseconds 321 microseconds 
+No
+graph171.hcp 
+Number of Vertices: 996, number of edges: 1495
+0 hours 0 minutes 0 seconds 64 milliseconds 211 microseconds 
+No
+graph172.hcp 
+Number of Vertices: 1002, number of edges: 1575
+0 hours 0 minutes 0 seconds 67 milliseconds 685 microseconds 
+No
+graph173.hcp 
+Number of Vertices: 1002, number of edges: 1579
+0 hours 0 minutes 0 seconds 77 milliseconds 913 microseconds 
+No
+graph174.hcp 
+Number of Vertices: 1006, number of edges: 1510
+0 hours 0 minutes 0 seconds 62 milliseconds 728 microseconds 
+No
+graph175.hcp 
+Number of Vertices: 1014, number of edges: 2328
+0 hours 0 minutes 0 seconds 100 milliseconds 103 microseconds 
+No
+graph176.hcp 
+Number of Vertices: 1020, number of edges: 1531
+0 hours 0 minutes 0 seconds 65 milliseconds 567 microseconds 
+No
+graph177.hcp 
+Number of Vertices: 1030, number of edges: 1546
+0 hours 0 minutes 0 seconds 66 milliseconds 566 microseconds 
+No
+graph178.hcp 
+Number of Vertices: 1044, number of edges: 1567
+0 hours 0 minutes 0 seconds 73 milliseconds 15 microseconds 
+No
+graph179.hcp 
+Number of Vertices: 1044, number of edges: 1517
+0 hours 0 minutes 0 seconds 72 milliseconds 507 microseconds 
+No
+graph180.hcp 
+Number of Vertices: 1054, number of edges: 2420
+0 hours 0 minutes 0 seconds 100 milliseconds 974 microseconds 
+No
+graph181.hcp 
+Number of Vertices: 1054, number of edges: 1582
+0 hours 0 minutes 0 seconds 84 milliseconds 553 microseconds 
+No
+graph182.hcp 
+Number of Vertices: 1056, number of edges: 1585
+0 hours 0 minutes 0 seconds 67 milliseconds 937 microseconds 
+No
+graph183.hcp 
+Number of Vertices: 1068, number of edges: 1603
+0 hours 0 minutes 0 seconds 78 milliseconds 191 microseconds 
+No
+graph184.hcp 
+Number of Vertices: 1078, number of edges: 1618
+0 hours 0 minutes 0 seconds 76 milliseconds 152 microseconds 
+No
+graph185.hcp 
+Number of Vertices: 1092, number of edges: 1639
+0 hours 0 minutes 0 seconds 76 milliseconds 484 microseconds 
+No
+graph186.hcp 
+Number of Vertices: 1102, number of edges: 1654
+0 hours 0 minutes 0 seconds 73 milliseconds 429 microseconds 
+No
+graph187.hcp 
+Number of Vertices: 1116, number of edges: 1675
+0 hours 0 minutes 0 seconds 71 milliseconds 283 microseconds 
+No
+graph188.hcp 
+Number of Vertices: 1123, number of edges: 315283
+0 hours 0 minutes 19 seconds 346 milliseconds 890 microseconds 
+No
+graph189.hcp 
+Number of Vertices: 1126, number of edges: 1690
+0 hours 0 minutes 0 seconds 72 milliseconds 940 microseconds 
+No
+graph190.hcp 
+Number of Vertices: 1136, number of edges: 1705
+0 hours 0 minutes 0 seconds 74 milliseconds 352 microseconds 
+No
+graph191.hcp 
+Number of Vertices: 1140, number of edges: 1711
+0 hours 0 minutes 0 seconds 86 milliseconds 934 microseconds 
+No
+graph192.hcp 
+Number of Vertices: 1146, number of edges: 1841
+0 hours 0 minutes 0 seconds 85 milliseconds 111 microseconds 
+No
+graph193.hcp 
+Number of Vertices: 1150, number of edges: 1726
+0 hours 0 minutes 0 seconds 78 milliseconds 324 microseconds 
+No
+graph194.hcp 
+Number of Vertices: 1164, number of edges: 1747
+0 hours 0 minutes 0 seconds 76 milliseconds 206 microseconds 
+No
+graph195.hcp 
+Number of Vertices: 1174, number of edges: 1762
+0 hours 0 minutes 0 seconds 87 milliseconds 617 microseconds 
+No
+graph196.hcp 
+Number of Vertices: 1183, number of edges: 2716
+0 hours 0 minutes 0 seconds 132 milliseconds 74 microseconds 
+No
+graph197.hcp 
+Number of Vertices: 1188, number of edges: 1783
+0 hours 0 minutes 0 seconds 88 milliseconds 224 microseconds 
+No
+graph198.hcp 
+Number of Vertices: 1198, number of edges: 1798
+0 hours 0 minutes 0 seconds 91 milliseconds 609 microseconds 
+No
+graph199.hcp 
+Number of Vertices: 1200, number of edges: 1902
+0 hours 0 minutes 0 seconds 93 milliseconds 472 microseconds 
+No
+graph200.hcp 
+Number of Vertices: 1200, number of edges: 1902
+0 hours 0 minutes 0 seconds 97 milliseconds 934 microseconds 
+No
+graph201.hcp 
+Number of Vertices: 1206, number of edges: 1809
+0 hours 0 minutes 0 seconds 123 milliseconds 200 microseconds 
+No
+graph202.hcp 
+Number of Vertices: 1212, number of edges: 1819
+0 hours 0 minutes 0 seconds 86 milliseconds 238 microseconds 
+No
+graph203.hcp 
+Number of Vertices: 1216, number of edges: 1825
+0 hours 0 minutes 0 seconds 87 milliseconds 812 microseconds 
+No
+graph204.hcp 
+Number of Vertices: 1222, number of edges: 1834
+0 hours 0 minutes 0 seconds 90 milliseconds 530 microseconds 
+No
+graph205.hcp 
+Number of Vertices: 1236, number of edges: 1855
+0 hours 0 minutes 0 seconds 89 milliseconds 455 microseconds 
+No
+graph206.hcp 
+Number of Vertices: 1246, number of edges: 1870
+0 hours 0 minutes 0 seconds 96 milliseconds 158 microseconds 
+No
+graph207.hcp 
+Number of Vertices: 1260, number of edges: 1891
+0 hours 0 minutes 0 seconds 91 milliseconds 165 microseconds 
+No
+graph208.hcp 
+Number of Vertices: 1270, number of edges: 1906
+0 hours 0 minutes 0 seconds 93 milliseconds 334 microseconds 
+No
+graph209.hcp 
+Number of Vertices: 1284, number of edges: 1927
+0 hours 0 minutes 0 seconds 97 milliseconds 368 microseconds 
+No
+graph210.hcp 
+Number of Vertices: 1294, number of edges: 1942
+0 hours 0 minutes 0 seconds 95 milliseconds 902 microseconds 
+No
+graph211.hcp 
+Number of Vertices: 1296, number of edges: 1945
+0 hours 0 minutes 0 seconds 100 milliseconds 664 microseconds 
+No
+graph212.hcp 
+Number of Vertices: 1308, number of edges: 1963
+0 hours 0 minutes 0 seconds 94 milliseconds 689 microseconds 
+No
+graph213.hcp 
+Number of Vertices: 1318, number of edges: 1978
+0 hours 0 minutes 0 seconds 98 milliseconds 519 microseconds 
+No
+graph214.hcp 
+Number of Vertices: 1332, number of edges: 1999
+0 hours 0 minutes 0 seconds 97 milliseconds 812 microseconds 
+No
+graph215.hcp 
+Number of Vertices: 1342, number of edges: 2014
+0 hours 0 minutes 0 seconds 101 milliseconds 298 microseconds 
+No
+graph216.hcp 
+Number of Vertices: 1352, number of edges: 3104
+0 hours 0 minutes 0 seconds 148 milliseconds 567 microseconds 
+No
+graph217.hcp 
+Number of Vertices: 1356, number of edges: 2035
+0 hours 0 minutes 0 seconds 101 milliseconds 664 microseconds 
+No
+graph218.hcp 
+Number of Vertices: 1366, number of edges: 2050
+0 hours 0 minutes 0 seconds 104 milliseconds 626 microseconds 
+No
+graph219.hcp 
+Number of Vertices: 1376, number of edges: 2065
+0 hours 0 minutes 0 seconds 104 milliseconds 340 microseconds 
+No
+graph220.hcp 
+Number of Vertices: 1377, number of edges: 3162
+0 hours 0 minutes 0 seconds 155 milliseconds 443 microseconds 
+No
+graph221.hcp 
+Number of Vertices: 1380, number of edges: 2071
+0 hours 0 minutes 0 seconds 100 milliseconds 758 microseconds 
+No
+graph222.hcp 
+Number of Vertices: 1381, number of edges: 4731
+0 hours 0 minutes 0 seconds 220 milliseconds 714 microseconds 
+No
+graph223.hcp 
+Number of Vertices: 1386, number of edges: 2268
+0 hours 0 minutes 0 seconds 116 milliseconds 771 microseconds 
+No
+graph224.hcp 
+Number of Vertices: 1386, number of edges: 2268
+0 hours 0 minutes 0 seconds 118 milliseconds 674 microseconds 
+No
+graph225.hcp 
+Number of Vertices: 1390, number of edges: 2086
+0 hours 0 minutes 0 seconds 104 milliseconds 687 microseconds 
+No
+graph226.hcp 
+Number of Vertices: 1398, number of edges: 2225
+0 hours 0 minutes 0 seconds 113 milliseconds 984 microseconds 
+No
+graph227.hcp 
+Number of Vertices: 1398, number of edges: 2237
+0 hours 0 minutes 0 seconds 112 milliseconds 378 microseconds 
+No
+graph228.hcp 
+Number of Vertices: 1404, number of edges: 2107
+0 hours 0 minutes 0 seconds 104 milliseconds 912 microseconds 
+No
+graph229.hcp 
+Number of Vertices: 1414, number of edges: 2122
+0 hours 0 minutes 0 seconds 106 milliseconds 368 microseconds 
+No
+graph230.hcp 
+Number of Vertices: 1428, number of edges: 2143
+0 hours 0 minutes 0 seconds 110 milliseconds 106 microseconds 
+No
+graph231.hcp 
+Number of Vertices: 1438, number of edges: 2158
+0 hours 0 minutes 0 seconds 108 milliseconds 645 microseconds 
+No
+graph232.hcp 
+Number of Vertices: 1452, number of edges: 2179
+0 hours 0 minutes 0 seconds 110 milliseconds 107 microseconds 
+No
+graph233.hcp 
+Number of Vertices: 1456, number of edges: 2185
+0 hours 0 minutes 0 seconds 109 milliseconds 749 microseconds 
+No
+graph234.hcp 
+Number of Vertices: 1461, number of edges: 5011
+0 hours 0 minutes 0 seconds 238 milliseconds 120 microseconds 
+No
+graph235.hcp 
+Number of Vertices: 1462, number of edges: 2194
+0 hours 0 minutes 0 seconds 111 milliseconds 474 microseconds 
+No
+graph236.hcp 
+Number of Vertices: 1470, number of edges: 2183
+0 hours 0 minutes 0 seconds 124 milliseconds 763 microseconds 
+No
+graph237.hcp 
+Number of Vertices: 1476, number of edges: 2215
+0 hours 0 minutes 0 seconds 113 milliseconds 124 microseconds 
+No
+graph238.hcp 
+Number of Vertices: 1486, number of edges: 2230
+0 hours 0 minutes 0 seconds 115 milliseconds 931 microseconds 
+No
+graph239.hcp 
+Number of Vertices: 1500, number of edges: 2251
+0 hours 0 minutes 0 seconds 113 milliseconds 127 microseconds 
+No
+graph240.hcp 
+Number of Vertices: 1501, number of edges: 5151
+0 hours 0 minutes 0 seconds 236 milliseconds 268 microseconds 
+No
+graph241.hcp 
+Number of Vertices: 1510, number of edges: 2266
+0 hours 0 minutes 0 seconds 117 milliseconds 165 microseconds 
+No
+graph242.hcp 
+Number of Vertices: 1521, number of edges: 3492
+0 hours 0 minutes 0 seconds 167 milliseconds 459 microseconds 
+No
+graph243.hcp 
+Number of Vertices: 1524, number of edges: 2287
+0 hours 0 minutes 0 seconds 116 milliseconds 112 microseconds 
+No
+graph244.hcp 
+Number of Vertices: 1527, number of edges: 2520
+0 hours 0 minutes 0 seconds 132 milliseconds 253 microseconds 
+No
+graph245.hcp 
+Number of Vertices: 1534, number of edges: 2302
+0 hours 0 minutes 0 seconds 117 milliseconds 867 microseconds 
+No
+graph246.hcp 
+Number of Vertices: 1536, number of edges: 2305
+0 hours 0 minutes 0 seconds 118 milliseconds 39 microseconds 
+No
+graph247.hcp 
+Number of Vertices: 1541, number of edges: 5291
+0 hours 0 minutes 0 seconds 242 milliseconds 374 microseconds 
+No
+graph248.hcp 
+Number of Vertices: 1548, number of edges: 2323
+0 hours 0 minutes 0 seconds 119 milliseconds 566 microseconds 
+No
+graph249.hcp 
+Number of Vertices: 1558, number of edges: 2338
+0 hours 0 minutes 0 seconds 119 milliseconds 540 microseconds 
+No
+graph250.hcp 
+Number of Vertices: 1563, number of edges: 2809
+0 hours 0 minutes 0 seconds 147 milliseconds 985 microseconds 
+No
+graph251.hcp 
+Number of Vertices: 1566, number of edges: 2773
+0 hours 0 minutes 0 seconds 143 milliseconds 903 microseconds 
+No
+graph252.hcp 
+Number of Vertices: 1572, number of edges: 2359
+0 hours 0 minutes 0 seconds 121 milliseconds 302 microseconds 
+No
+graph253.hcp 
+Number of Vertices: 1578, number of edges: 2688
+0 hours 0 minutes 0 seconds 142 milliseconds 573 microseconds 
+No
+graph254.hcp 
+Number of Vertices: 1582, number of edges: 2374
+0 hours 0 minutes 0 seconds 122 milliseconds 365 microseconds 
+No
+graph255.hcp 
+Number of Vertices: 1584, number of edges: 2799
+0 hours 0 minutes 0 seconds 153 milliseconds 26 microseconds 
+No
+graph256.hcp 
+Number of Vertices: 1592, number of edges: 3653
+0 hours 0 minutes 0 seconds 181 milliseconds 14 microseconds 
+No
+graph257.hcp 
+Number of Vertices: 1596, number of edges: 2564
+0 hours 0 minutes 0 seconds 134 milliseconds 232 microseconds 
+No
+graph258.hcp 
+Number of Vertices: 1596, number of edges: 2556
+0 hours 0 minutes 0 seconds 137 milliseconds 531 microseconds 
+No
+graph259.hcp 
+Number of Vertices: 1596, number of edges: 2395
+0 hours 0 minutes 0 seconds 120 milliseconds 710 microseconds 
+No
+graph260.hcp 
+Number of Vertices: 1606, number of edges: 2410
+0 hours 0 minutes 0 seconds 125 milliseconds 586 microseconds 
+No
+graph261.hcp 
+Number of Vertices: 1616, number of edges: 2425
+0 hours 0 minutes 0 seconds 126 milliseconds 151 microseconds 
+No
+graph262.hcp 
+Number of Vertices: 1620, number of edges: 2431
+0 hours 0 minutes 0 seconds 124 milliseconds 288 microseconds 
+No
+graph263.hcp 
+Number of Vertices: 1620, number of edges: 2820
+0 hours 0 minutes 0 seconds 149 milliseconds 684 microseconds 
+No
+graph264.hcp 
+Number of Vertices: 1626, number of edges: 2820
+0 hours 0 minutes 0 seconds 150 milliseconds 994 microseconds 
+No
+graph265.hcp 
+Number of Vertices: 1627, number of edges: 4051
+0 hours 0 minutes 0 seconds 197 milliseconds 222 microseconds 
+No
+graph266.hcp 
+Number of Vertices: 1630, number of edges: 2446
+0 hours 0 minutes 0 seconds 126 milliseconds 326 microseconds 
+No
+graph267.hcp 
+Number of Vertices: 1644, number of edges: 2467
+0 hours 0 minutes 0 seconds 127 milliseconds 566 microseconds 
+No
+graph268.hcp 
+Number of Vertices: 1644, number of edges: 2767
+0 hours 0 minutes 0 seconds 146 milliseconds 12 microseconds 
+No
+graph269.hcp 
+Number of Vertices: 1654, number of edges: 2482
+0 hours 0 minutes 0 seconds 128 milliseconds 862 microseconds 
+No
+graph270.hcp 
+Number of Vertices: 1662, number of edges: 2493
+0 hours 0 minutes 0 seconds 129 milliseconds 885 microseconds 
+No
+graph271.hcp 
+Number of Vertices: 1662, number of edges: 2770
+0 hours 0 minutes 0 seconds 147 milliseconds 198 microseconds 
+No
+graph272.hcp 
+Number of Vertices: 1662, number of edges: 2863
+0 hours 0 minutes 0 seconds 137 milliseconds 571 microseconds 
+No
+graph273.hcp 
+Number of Vertices: 1668, number of edges: 2503
+0 hours 0 minutes 0 seconds 129 milliseconds 855 microseconds 
+No
+graph274.hcp 
+Number of Vertices: 1678, number of edges: 2518
+0 hours 0 minutes 0 seconds 132 milliseconds 205 microseconds 
+No
+graph275.hcp 
+Number of Vertices: 1690, number of edges: 3880
+0 hours 0 minutes 0 seconds 192 milliseconds 369 microseconds 
+No
+graph276.hcp 
+Number of Vertices: 1692, number of edges: 2539
+0 hours 0 minutes 0 seconds 132 milliseconds 331 microseconds 
+No
+graph277.hcp 
+Number of Vertices: 1696, number of edges: 2545
+0 hours 0 minutes 0 seconds 134 milliseconds 971 microseconds 
+No
+graph278.hcp 
+Number of Vertices: 1700, number of edges: 3904
+0 hours 0 minutes 0 seconds 191 milliseconds 526 microseconds 
+No
+graph279.hcp 
+Number of Vertices: 1702, number of edges: 2554
+0 hours 0 minutes 0 seconds 133 milliseconds 908 microseconds 
+No
+graph280.hcp 
+Number of Vertices: 1710, number of edges: 5598
+0 hours 0 minutes 0 seconds 277 milliseconds 735 microseconds 
+No
+graph281.hcp 
+Number of Vertices: 1716, number of edges: 2575
+0 hours 0 minutes 0 seconds 137 milliseconds 955 microseconds 
+No
+graph282.hcp 
+Number of Vertices: 1726, number of edges: 2590
+0 hours 0 minutes 0 seconds 138 milliseconds 876 microseconds 
+No
+graph283.hcp 
+Number of Vertices: 1740, number of edges: 2611
+0 hours 0 minutes 0 seconds 137 milliseconds 867 microseconds 
+No
+graph284.hcp 
+Number of Vertices: 1746, number of edges: 3009
+0 hours 0 minutes 0 seconds 160 milliseconds 427 microseconds 
+No
+graph285.hcp 
+Number of Vertices: 1750, number of edges: 2626
+0 hours 0 minutes 0 seconds 143 milliseconds 330 microseconds 
+No
+graph286.hcp 
+Number of Vertices: 1758, number of edges: 3127
+0 hours 0 minutes 0 seconds 154 milliseconds 921 microseconds 
+No
+graph287.hcp 
+Number of Vertices: 1761, number of edges: 4041
+0 hours 0 minutes 0 seconds 208 milliseconds 274 microseconds 
+No
+graph288.hcp 
+Number of Vertices: 1764, number of edges: 2647
+0 hours 0 minutes 0 seconds 140 milliseconds 371 microseconds 
+No
+graph289.hcp 
+Number of Vertices: 1770, number of edges: 3153
+0 hours 0 minutes 0 seconds 175 milliseconds 228 microseconds 
+No
+graph290.hcp 
+Number of Vertices: 1770, number of edges: 3020
+0 hours 0 minutes 0 seconds 161 milliseconds 963 microseconds 
+No
+graph291.hcp 
+Number of Vertices: 1774, number of edges: 2662
+0 hours 0 minutes 0 seconds 138 milliseconds 689 microseconds 
+No
+graph292.hcp 
+Number of Vertices: 1776, number of edges: 2665
+0 hours 0 minutes 0 seconds 137 milliseconds 500 microseconds 
+No
+graph293.hcp 
+Number of Vertices: 1788, number of edges: 2683
+0 hours 0 minutes 0 seconds 142 milliseconds 219 microseconds 
+No
+graph294.hcp 
+Number of Vertices: 1794, number of edges: 2899
+0 hours 0 minutes 0 seconds 159 milliseconds 683 microseconds 
+No
+graph295.hcp 
+Number of Vertices: 1794, number of edges: 2911
+0 hours 0 minutes 0 seconds 157 milliseconds 791 microseconds 
+No
+graph296.hcp 
+Number of Vertices: 1798, number of edges: 2698
+0 hours 0 minutes 0 seconds 140 milliseconds 884 microseconds 
+No
+graph297.hcp 
+Number of Vertices: 1806, number of edges: 3119
+0 hours 0 minutes 0 seconds 169 milliseconds 19 microseconds 
+No
+graph298.hcp 
+Number of Vertices: 1806, number of edges: 3071
+0 hours 0 minutes 0 seconds 166 milliseconds 285 microseconds 
+No
+graph299.hcp 
+Number of Vertices: 1812, number of edges: 2719
+0 hours 0 minutes 0 seconds 147 milliseconds 36 microseconds 
+No
+graph300.hcp 
+Number of Vertices: 1815, number of edges: 3177
+0 hours 0 minutes 0 seconds 172 milliseconds 902 microseconds 
+No
+graph301.hcp 
+Number of Vertices: 1816, number of edges: 4167
+0 hours 0 minutes 0 seconds 206 milliseconds 987 microseconds 
+No
+graph302.hcp 
+Number of Vertices: 1822, number of edges: 2734
+0 hours 0 minutes 0 seconds 143 milliseconds 491 microseconds 
+No
+graph303.hcp 
+Number of Vertices: 1835, number of edges: 4571
+0 hours 0 minutes 0 seconds 224 milliseconds 175 microseconds 
+No
+graph304.hcp 
+Number of Vertices: 1836, number of edges: 2755
+0 hours 0 minutes 0 seconds 158 milliseconds 632 microseconds 
+No
+graph305.hcp 
+Number of Vertices: 1846, number of edges: 2770
+0 hours 0 minutes 0 seconds 157 milliseconds 359 microseconds 
+No
+graph306.hcp 
+Number of Vertices: 1856, number of edges: 2785
+0 hours 0 minutes 0 seconds 149 milliseconds 49 microseconds 
+No
+graph307.hcp 
+Number of Vertices: 1859, number of edges: 4268
+0 hours 0 minutes 0 seconds 214 milliseconds 92 microseconds 
+No
+graph308.hcp 
+Number of Vertices: 1860, number of edges: 4269
+0 hours 0 minutes 0 seconds 215 milliseconds 446 microseconds 
+No
+graph309.hcp 
+Number of Vertices: 1860, number of edges: 4269
+0 hours 0 minutes 0 seconds 220 milliseconds 518 microseconds 
+No
+graph310.hcp 
+Number of Vertices: 1860, number of edges: 4269
+0 hours 0 minutes 0 seconds 213 milliseconds 712 microseconds 
+No
+graph311.hcp 
+Number of Vertices: 1860, number of edges: 2791
+0 hours 0 minutes 0 seconds 150 milliseconds 952 microseconds 
+No
+graph312.hcp 
+Number of Vertices: 1870, number of edges: 2806
+0 hours 0 minutes 0 seconds 148 milliseconds 94 microseconds 
+No
+graph313.hcp 
+Number of Vertices: 1884, number of edges: 2827
+0 hours 0 minutes 0 seconds 150 milliseconds 443 microseconds 
+No
+graph314.hcp 
+Number of Vertices: 1894, number of edges: 2842
+0 hours 0 minutes 0 seconds 151 milliseconds 998 microseconds 
+No
+graph315.hcp 
+Number of Vertices: 1896, number of edges: 3259
+0 hours 0 minutes 0 seconds 178 milliseconds 795 microseconds 
+No
+graph316.hcp 
+Number of Vertices: 1901, number of edges: 6551
+0 hours 0 minutes 0 seconds 323 milliseconds 496 microseconds 
+No
+graph317.hcp 
+Number of Vertices: 1908, number of edges: 2863
+0 hours 0 minutes 0 seconds 155 milliseconds 497 microseconds 
+No
+graph318.hcp 
+Number of Vertices: 1918, number of edges: 2878
+0 hours 0 minutes 0 seconds 154 milliseconds 231 microseconds 
+No
+graph319.hcp 
+Number of Vertices: 1921, number of edges: 6621
+0 hours 0 minutes 0 seconds 331 milliseconds 659 microseconds 
+No
+graph320.hcp 
+Number of Vertices: 1930, number of edges: 4429
+0 hours 0 minutes 0 seconds 234 milliseconds 733 microseconds 
+No
+graph321.hcp 
+Number of Vertices: 1931, number of edges: 4811
+0 hours 0 minutes 0 seconds 238 milliseconds 291 microseconds 
+No
+graph322.hcp 
+Number of Vertices: 1932, number of edges: 2899
+0 hours 0 minutes 0 seconds 156 milliseconds 38 microseconds 
+No
+graph323.hcp 
+Number of Vertices: 1935, number of edges: 3259
+0 hours 0 minutes 0 seconds 210 milliseconds 757 microseconds 
+No
+graph324.hcp 
+Number of Vertices: 1936, number of edges: 2905
+0 hours 0 minutes 0 seconds 159 milliseconds 189 microseconds 
+No
+graph325.hcp 
+Number of Vertices: 1938, number of edges: 2907
+0 hours 0 minutes 0 seconds 166 milliseconds 547 microseconds 
+No
+graph326.hcp 
+Number of Vertices: 1942, number of edges: 2914
+0 hours 0 minutes 0 seconds 162 milliseconds 422 microseconds 
+No
+graph327.hcp 
+Number of Vertices: 1956, number of edges: 2935
+0 hours 0 minutes 0 seconds 173 milliseconds 918 microseconds 
+No
+graph328.hcp 
+Number of Vertices: 1962, number of edges: 3321
+0 hours 0 minutes 0 seconds 182 milliseconds 96 microseconds 
+No
+graph329.hcp 
+Number of Vertices: 1966, number of edges: 2950
+0 hours 0 minutes 0 seconds 162 milliseconds 435 microseconds 
+No
+graph330.hcp 
+Number of Vertices: 1968, number of edges: 2983
+0 hours 0 minutes 0 seconds 164 milliseconds 446 microseconds 
+No
+graph331.hcp 
+Number of Vertices: 1968, number of edges: 3277
+0 hours 0 minutes 0 seconds 187 milliseconds 907 microseconds 
+No
+graph332.hcp 
+Number of Vertices: 1980, number of edges: 2971
+0 hours 0 minutes 0 seconds 163 milliseconds 373 microseconds 
+No
+graph333.hcp 
+Number of Vertices: 1986, number of edges: 6666
+0 hours 0 minutes 0 seconds 335 milliseconds 613 microseconds 
+No
+graph334.hcp 
+Number of Vertices: 1990, number of edges: 2986
+0 hours 0 minutes 0 seconds 162 milliseconds 579 microseconds 
+No
+graph335.hcp 
+Number of Vertices: 1992, number of edges: 3250
+0 hours 0 minutes 0 seconds 186 milliseconds 128 microseconds 
+No
+graph336.hcp 
+Number of Vertices: 1992, number of edges: 3242
+0 hours 0 minutes 0 seconds 179 milliseconds 489 microseconds 
+No
+graph337.hcp 
+Number of Vertices: 2000, number of edges: 4589
+0 hours 0 minutes 0 seconds 238 milliseconds 147 microseconds 
+No
+graph338.hcp 
+Number of Vertices: 2000, number of edges: 4589
+0 hours 0 minutes 0 seconds 240 milliseconds 570 microseconds 
+No
+graph339.hcp 
+Number of Vertices: 2004, number of edges: 3007
+0 hours 0 minutes 0 seconds 162 milliseconds 123 microseconds 
+No
+graph340.hcp 
+Number of Vertices: 2010, number of edges: 3488
+0 hours 0 minutes 0 seconds 194 milliseconds 392 microseconds 
+No
+graph341.hcp 
+Number of Vertices: 2014, number of edges: 3022
+0 hours 0 minutes 0 seconds 167 milliseconds 640 microseconds 
+No
+graph342.hcp 
+Number of Vertices: 2016, number of edges: 3025
+0 hours 0 minutes 0 seconds 166 milliseconds 104 microseconds 
+No
+graph343.hcp 
+Number of Vertices: 2021, number of edges: 6971
+0 hours 0 minutes 0 seconds 359 milliseconds 49 microseconds 
+No
+graph344.hcp 
+Number of Vertices: 2023, number of edges: 4646
+0 hours 0 minutes 0 seconds 241 milliseconds 117 microseconds 
+No
+graph345.hcp 
+Number of Vertices: 2028, number of edges: 4656
+0 hours 0 minutes 0 seconds 247 milliseconds 333 microseconds 
+No
+graph346.hcp 
+Number of Vertices: 2028, number of edges: 3043
+0 hours 0 minutes 0 seconds 164 milliseconds 261 microseconds 
+No
+graph347.hcp 
+Number of Vertices: 2038, number of edges: 3058
+0 hours 0 minutes 0 seconds 165 milliseconds 650 microseconds 
+No
+graph348.hcp 
+Number of Vertices: 2052, number of edges: 3079
+0 hours 0 minutes 0 seconds 168 milliseconds 531 microseconds 
+No
+graph349.hcp 
+Number of Vertices: 2062, number of edges: 3094
+0 hours 0 minutes 0 seconds 173 milliseconds 722 microseconds 
+No
+graph350.hcp 
+Number of Vertices: 2076, number of edges: 3115
+0 hours 0 minutes 0 seconds 172 milliseconds 748 microseconds 
+No
+graph351.hcp 
+Number of Vertices: 2084, number of edges: 4783
+0 hours 0 minutes 0 seconds 248 milliseconds 3 microseconds 
+No
+graph352.hcp 
+Number of Vertices: 2086, number of edges: 3130
+0 hours 0 minutes 0 seconds 174 milliseconds 26 microseconds 
+No
+graph353.hcp 
+Number of Vertices: 2096, number of edges: 3145
+0 hours 0 minutes 0 seconds 172 milliseconds 232 microseconds 
+No
+graph354.hcp 
+Number of Vertices: 2099, number of edges: 4817
+0 hours 0 minutes 0 seconds 254 milliseconds 540 microseconds 
+No
+graph355.hcp 
+Number of Vertices: 2100, number of edges: 3151
+0 hours 0 minutes 0 seconds 176 milliseconds 933 microseconds 
+No
+graph356.hcp 
+Number of Vertices: 2110, number of edges: 3166
+0 hours 0 minutes 0 seconds 177 milliseconds 945 microseconds 
+No
+graph357.hcp 
+Number of Vertices: 2124, number of edges: 3187
+0 hours 0 minutes 0 seconds 175 milliseconds 147 microseconds 
+No
+graph358.hcp 
+Number of Vertices: 2130, number of edges: 3195
+0 hours 0 minutes 0 seconds 176 milliseconds 165 microseconds 
+No
+graph359.hcp 
+Number of Vertices: 2134, number of edges: 3202
+0 hours 0 minutes 0 seconds 191 milliseconds 457 microseconds 
+No
+graph360.hcp 
+Number of Vertices: 2148, number of edges: 3223
+0 hours 0 minutes 0 seconds 178 milliseconds 379 microseconds 
+No
+graph361.hcp 
+Number of Vertices: 2151, number of edges: 3581
+0 hours 0 minutes 0 seconds 205 milliseconds 827 microseconds 
+No
+graph362.hcp 
+Number of Vertices: 2154, number of edges: 4943
+0 hours 0 minutes 0 seconds 262 milliseconds 905 microseconds 
+No
+graph363.hcp 
+Number of Vertices: 2154, number of edges: 4943
+0 hours 0 minutes 0 seconds 258 milliseconds 161 microseconds 
+No
+graph364.hcp 
+Number of Vertices: 2154, number of edges: 3644
+0 hours 0 minutes 0 seconds 210 milliseconds 756 microseconds 
+No
+graph365.hcp 
+Number of Vertices: 2158, number of edges: 3238
+0 hours 0 minutes 0 seconds 183 milliseconds 557 microseconds 
+No
+graph366.hcp 
+Number of Vertices: 2172, number of edges: 3259
+0 hours 0 minutes 0 seconds 179 milliseconds 543 microseconds 
+No
+graph367.hcp 
+Number of Vertices: 2176, number of edges: 3265
+0 hours 0 minutes 0 seconds 181 milliseconds 733 microseconds 
+No
+graph368.hcp 
+Number of Vertices: 2182, number of edges: 3274
+0 hours 0 minutes 0 seconds 185 milliseconds 390 microseconds 
+No
+graph369.hcp 
+Number of Vertices: 2190, number of edges: 3593
+0 hours 0 minutes 0 seconds 205 milliseconds 303 microseconds 
+No
+graph370.hcp 
+Number of Vertices: 2190, number of edges: 3605
+0 hours 0 minutes 0 seconds 201 milliseconds 840 microseconds 
+No
+graph371.hcp 
+Number of Vertices: 2196, number of edges: 3295
+0 hours 0 minutes 0 seconds 185 milliseconds 703 microseconds 
+No
+graph372.hcp 
+Number of Vertices: 2197, number of edges: 5044
+0 hours 0 minutes 0 seconds 270 milliseconds 639 microseconds 
+No
+graph373.hcp 
+Number of Vertices: 2206, number of edges: 3310
+0 hours 0 minutes 0 seconds 185 milliseconds 423 microseconds 
+No
+graph374.hcp 
+Number of Vertices: 2220, number of edges: 3331
+0 hours 0 minutes 0 seconds 188 milliseconds 870 microseconds 
+No
+graph375.hcp 
+Number of Vertices: 2224, number of edges: 5103
+0 hours 0 minutes 0 seconds 275 milliseconds 479 microseconds 
+No
+graph376.hcp 
+Number of Vertices: 2224, number of edges: 5103
+0 hours 0 minutes 0 seconds 276 milliseconds 83 microseconds 
+No
+graph377.hcp 
+Number of Vertices: 2224, number of edges: 5103
+0 hours 0 minutes 0 seconds 275 milliseconds 366 microseconds 
+No
+graph378.hcp 
+Number of Vertices: 2230, number of edges: 3346
+0 hours 0 minutes 0 seconds 187 milliseconds 359 microseconds 
+No
+graph379.hcp 
+Number of Vertices: 2231, number of edges: 5561
+0 hours 0 minutes 0 seconds 286 milliseconds 693 microseconds 
+No
+graph380.hcp 
+Number of Vertices: 2244, number of edges: 3367
+0 hours 0 minutes 0 seconds 189 milliseconds 503 microseconds 
+No
+graph381.hcp 
+Number of Vertices: 2254, number of edges: 3382
+0 hours 0 minutes 0 seconds 189 milliseconds 463 microseconds 
+No
+graph382.hcp 
+Number of Vertices: 2256, number of edges: 3385
+0 hours 0 minutes 0 seconds 191 milliseconds 954 microseconds 
+No
+graph383.hcp 
+Number of Vertices: 2261, number of edges: 7811
+0 hours 0 minutes 0 seconds 409 milliseconds 867 microseconds 
+No
+graph384.hcp 
+Number of Vertices: 2265, number of edges: 3765
+0 hours 0 minutes 0 seconds 216 milliseconds 963 microseconds 
+No
+graph385.hcp 
+Number of Vertices: 2268, number of edges: 5205
+0 hours 0 minutes 0 seconds 284 milliseconds 966 microseconds 
+No
+graph386.hcp 
+Number of Vertices: 2268, number of edges: 3403
+0 hours 0 minutes 0 seconds 195 milliseconds 470 microseconds 
+No
+graph387.hcp 
+Number of Vertices: 2278, number of edges: 3418
+0 hours 0 minutes 0 seconds 191 milliseconds 14 microseconds 
+No
+graph388.hcp 
+Number of Vertices: 2283, number of edges: 3858
+0 hours 0 minutes 0 seconds 220 milliseconds 131 microseconds 
+No
+graph389.hcp 
+Number of Vertices: 2292, number of edges: 3439
+0 hours 0 minutes 0 seconds 196 milliseconds 512 microseconds 
+No
+graph390.hcp 
+Number of Vertices: 2302, number of edges: 3454
+0 hours 0 minutes 0 seconds 195 milliseconds 214 microseconds 
+No
+graph391.hcp 
+Number of Vertices: 2308, number of edges: 5297
+0 hours 0 minutes 0 seconds 282 milliseconds 819 microseconds 
+No
+graph392.hcp 
+Number of Vertices: 2310, number of edges: 3780
+0 hours 0 minutes 0 seconds 214 milliseconds 314 microseconds 
+No
+graph393.hcp 
+Number of Vertices: 2316, number of edges: 3475
+0 hours 0 minutes 0 seconds 196 milliseconds 856 microseconds 
+No
+graph394.hcp 
+Number of Vertices: 2326, number of edges: 3490
+0 hours 0 minutes 0 seconds 196 milliseconds 548 microseconds 
+No
+graph395.hcp 
+Number of Vertices: 2336, number of edges: 3505
+0 hours 0 minutes 0 seconds 201 milliseconds 717 microseconds 
+No
+graph396.hcp 
+Number of Vertices: 2340, number of edges: 3511
+0 hours 0 minutes 0 seconds 198 milliseconds 693 microseconds 
+No
+graph397.hcp 
+Number of Vertices: 2346, number of edges: 5388
+0 hours 0 minutes 0 seconds 294 milliseconds 494 microseconds 
+No
+graph398.hcp 
+Number of Vertices: 2350, number of edges: 3526
+0 hours 0 minutes 0 seconds 198 milliseconds 160 microseconds 
+No
+graph399.hcp 
+Number of Vertices: 2364, number of edges: 3547
+0 hours 0 minutes 0 seconds 203 milliseconds 970 microseconds 
+No
+graph400.hcp 
+Number of Vertices: 2366, number of edges: 5432
+0 hours 0 minutes 0 seconds 301 milliseconds 793 microseconds 
+No
+graph401.hcp 
+Number of Vertices: 2367, number of edges: 5433
+0 hours 0 minutes 0 seconds 298 milliseconds 559 microseconds 
+No
+graph402.hcp 
+Number of Vertices: 2370, number of edges: 4148
+0 hours 0 minutes 0 seconds 247 milliseconds 47 microseconds 
+No
+graph403.hcp 
+Number of Vertices: 2371, number of edges: 5911
+0 hours 0 minutes 0 seconds 307 milliseconds 909 microseconds 
+No
+graph404.hcp 
+Number of Vertices: 2374, number of edges: 3562
+0 hours 0 minutes 0 seconds 206 milliseconds 62 microseconds 
+No
+graph405.hcp 
+Number of Vertices: 2379, number of edges: 5931
+0 hours 0 minutes 0 seconds 315 milliseconds 734 microseconds 
+No
+graph406.hcp 
+Number of Vertices: 2388, number of edges: 3952
+0 hours 0 minutes 0 seconds 217 milliseconds 976 microseconds 
+No
+graph407.hcp 
+Number of Vertices: 2388, number of edges: 3944
+0 hours 0 minutes 0 seconds 221 milliseconds 366 microseconds 
+No
+graph408.hcp 
+Number of Vertices: 2388, number of edges: 3583
+0 hours 0 minutes 0 seconds 203 milliseconds 997 microseconds 
+No
+graph409.hcp 
+Number of Vertices: 2394, number of edges: 3385
+0 hours 0 minutes 0 seconds 199 milliseconds 260 microseconds 
+No
+graph410.hcp 
+Number of Vertices: 2398, number of edges: 3598
+0 hours 0 minutes 0 seconds 202 milliseconds 76 microseconds 
+No
+graph411.hcp 
+Number of Vertices: 2412, number of edges: 3619
+0 hours 0 minutes 0 seconds 210 milliseconds 32 microseconds 
+No
+graph412.hcp 
+Number of Vertices: 2412, number of edges: 4197
+0 hours 0 minutes 0 seconds 239 milliseconds 238 microseconds 
+No
+graph413.hcp 
+Number of Vertices: 2416, number of edges: 3625
+0 hours 0 minutes 0 seconds 211 milliseconds 188 microseconds 
+No
+graph414.hcp 
+Number of Vertices: 2422, number of edges: 5559
+0 hours 0 minutes 0 seconds 303 milliseconds 749 microseconds 
+No
+graph415.hcp 
+Number of Vertices: 2422, number of edges: 3634
+0 hours 0 minutes 0 seconds 211 milliseconds 494 microseconds 
+No
+graph416.hcp 
+Number of Vertices: 2424, number of edges: 4119
+0 hours 0 minutes 0 seconds 238 milliseconds 4 microseconds 
+No
+graph417.hcp 
+Number of Vertices: 2436, number of edges: 3655
+0 hours 0 minutes 0 seconds 212 milliseconds 621 microseconds 
+No
+graph418.hcp 
+Number of Vertices: 2445, number of edges: 4170
+0 hours 0 minutes 0 seconds 232 milliseconds 101 microseconds 
+No
+graph419.hcp 
+Number of Vertices: 2446, number of edges: 4183
+0 hours 0 minutes 0 seconds 235 milliseconds 856 microseconds 
+No
+graph420.hcp 
+Number of Vertices: 2446, number of edges: 3670
+0 hours 0 minutes 0 seconds 209 milliseconds 913 microseconds 
+No
+graph421.hcp 
+Number of Vertices: 2451, number of edges: 4250
+0 hours 0 minutes 0 seconds 234 milliseconds 690 microseconds 
+No
+graph422.hcp 
+Number of Vertices: 2458, number of edges: 4140
+0 hours 0 minutes 0 seconds 241 milliseconds 321 microseconds 
+No
+graph423.hcp 
+Number of Vertices: 2460, number of edges: 3691
+0 hours 0 minutes 0 seconds 209 milliseconds 284 microseconds 
+No
+graph424.hcp 
+Number of Vertices: 2466, number of edges: 4240
+0 hours 0 minutes 0 seconds 239 milliseconds 967 microseconds 
+No
+graph425.hcp 
+Number of Vertices: 2468, number of edges: 4754
+0 hours 0 minutes 0 seconds 267 milliseconds 196 microseconds 
+No
+graph426.hcp 
+Number of Vertices: 2481, number of edges: 8581
+0 hours 0 minutes 0 seconds 471 milliseconds 597 microseconds 
+No
+graph427.hcp 
+Number of Vertices: 2484, number of edges: 3727
+0 hours 0 minutes 0 seconds 214 milliseconds 274 microseconds 
+No
+graph428.hcp 
+Number of Vertices: 2490, number of edges: 3735
+0 hours 0 minutes 0 seconds 212 milliseconds 92 microseconds 
+No
+graph429.hcp 
+Number of Vertices: 2490, number of edges: 4367
+0 hours 0 minutes 0 seconds 249 milliseconds 602 microseconds 
+No
+graph430.hcp 
+Number of Vertices: 2496, number of edges: 3745
+0 hours 0 minutes 0 seconds 209 milliseconds 751 microseconds 
+No
+graph431.hcp 
+Number of Vertices: 2501, number of edges: 8651
+0 hours 0 minutes 0 seconds 472 milliseconds 654 microseconds 
+No
+graph432.hcp 
+Number of Vertices: 2501, number of edges: 8651
+0 hours 0 minutes 0 seconds 447 milliseconds 930 microseconds 
+No
+graph433.hcp 
+Number of Vertices: 2502, number of edges: 4349
+0 hours 0 minutes 0 seconds 257 milliseconds 321 microseconds 
+No
+graph434.hcp 
+Number of Vertices: 2508, number of edges: 3763
+0 hours 0 minutes 0 seconds 223 milliseconds 753 microseconds 
+No
+graph435.hcp 
+Number of Vertices: 2523, number of edges: 4880
+0 hours 0 minutes 0 seconds 269 milliseconds 316 microseconds 
+No
+graph436.hcp 
+Number of Vertices: 2526, number of edges: 4261
+0 hours 0 minutes 0 seconds 249 milliseconds 163 microseconds 
+No
+graph437.hcp 
+Number of Vertices: 2532, number of edges: 5811
+0 hours 0 minutes 0 seconds 337 milliseconds 593 microseconds 
+No
+graph438.hcp 
+Number of Vertices: 2532, number of edges: 3799
+0 hours 0 minutes 0 seconds 227 milliseconds 579 microseconds 
+No
+graph439.hcp 
+Number of Vertices: 2535, number of edges: 5820
+0 hours 0 minutes 0 seconds 318 milliseconds 832 microseconds 
+No
+graph440.hcp 
+Number of Vertices: 2538, number of edges: 3923
+0 hours 0 minutes 0 seconds 240 milliseconds 363 microseconds 
+No
+graph441.hcp 
+Number of Vertices: 2541, number of edges: 8351
+0 hours 0 minutes 0 seconds 452 milliseconds 810 microseconds 
+No
+graph442.hcp 
+Number of Vertices: 2541, number of edges: 8791
+0 hours 0 minutes 0 seconds 466 milliseconds 513 microseconds 
+No
+graph443.hcp 
+Number of Vertices: 2547, number of edges: 5845
+0 hours 0 minutes 0 seconds 330 milliseconds 486 microseconds 
+No
+graph444.hcp 
+Number of Vertices: 2547, number of edges: 6351
+0 hours 0 minutes 0 seconds 347 milliseconds 496 microseconds 
+No
+graph445.hcp 
+Number of Vertices: 2556, number of edges: 3835
+0 hours 0 minutes 0 seconds 222 milliseconds 519 microseconds 
+No
+graph446.hcp 
+Number of Vertices: 2557, number of edges: 4368
+0 hours 0 minutes 0 seconds 242 milliseconds 422 microseconds 
+No
+graph447.hcp 
+Number of Vertices: 2565, number of edges: 8397
+0 hours 0 minutes 0 seconds 446 milliseconds 727 microseconds 
+No
+graph448.hcp 
+Number of Vertices: 2567, number of edges: 4982
+0 hours 0 minutes 0 seconds 285 milliseconds 263 microseconds 
+No
+graph449.hcp 
+Number of Vertices: 2576, number of edges: 3865
+0 hours 0 minutes 0 seconds 221 milliseconds 206 microseconds 
+No
+graph450.hcp 
+Number of Vertices: 2580, number of edges: 3871
+0 hours 0 minutes 0 seconds 226 milliseconds 946 microseconds 
+No
+graph451.hcp 
+Number of Vertices: 2586, number of edges: 4303
+0 hours 0 minutes 0 seconds 252 milliseconds 70 microseconds 
+No
+graph452.hcp 
+Number of Vertices: 2586, number of edges: 4315
+0 hours 0 minutes 0 seconds 255 milliseconds 522 microseconds 
+No
+graph453.hcp 
+Number of Vertices: 2591, number of edges: 5947
+0 hours 0 minutes 0 seconds 323 milliseconds 759 microseconds 
+No
+graph454.hcp 
+Number of Vertices: 2602, number of edges: 3904
+0 hours 0 minutes 0 seconds 224 milliseconds 677 microseconds 
+No
+graph455.hcp 
+Number of Vertices: 2604, number of edges: 3907
+0 hours 0 minutes 0 seconds 222 milliseconds 658 microseconds 
+No
+graph456.hcp 
+Number of Vertices: 2625, number of edges: 4557
+0 hours 0 minutes 0 seconds 259 milliseconds 181 microseconds 
+No
+graph457.hcp 
+Number of Vertices: 2627, number of edges: 6551
+0 hours 0 minutes 0 seconds 345 milliseconds 732 microseconds 
+No
+graph458.hcp 
+Number of Vertices: 2628, number of edges: 3943
+0 hours 0 minutes 0 seconds 226 milliseconds 957 microseconds 
+No
+graph459.hcp 
+Number of Vertices: 2641, number of edges: 9141
+0 hours 0 minutes 0 seconds 484 milliseconds 874 microseconds 
+No
+graph460.hcp 
+Number of Vertices: 2647, number of edges: 6601
+0 hours 0 minutes 0 seconds 350 milliseconds 998 microseconds 
+No
+graph461.hcp 
+Number of Vertices: 2652, number of edges: 3979
+0 hours 0 minutes 0 seconds 229 milliseconds 611 microseconds 
+No
+graph462.hcp 
+Number of Vertices: 2656, number of edges: 3985
+0 hours 0 minutes 0 seconds 229 milliseconds 924 microseconds 
+No
+graph463.hcp 
+Number of Vertices: 2669, number of edges: 6130
+0 hours 0 minutes 0 seconds 331 milliseconds 446 microseconds 
+No
+graph464.hcp 
+Number of Vertices: 2676, number of edges: 4015
+0 hours 0 minutes 0 seconds 246 milliseconds 801 microseconds 
+No
+graph465.hcp 
+Number of Vertices: 2700, number of edges: 4051
+0 hours 0 minutes 0 seconds 249 milliseconds 40 microseconds 
+No
+graph466.hcp 
+Number of Vertices: 2704, number of edges: 6208
+0 hours 0 minutes 0 seconds 353 milliseconds 90 microseconds 
+No
+graph467.hcp 
+Number of Vertices: 2705, number of edges: 6209
+0 hours 0 minutes 0 seconds 351 milliseconds 122 microseconds 
+No
+graph468.hcp 
+Number of Vertices: 2724, number of edges: 4087
+0 hours 0 minutes 0 seconds 248 milliseconds 865 microseconds 
+No
+graph469.hcp 
+Number of Vertices: 2736, number of edges: 4105
+0 hours 0 minutes 0 seconds 246 milliseconds 997 microseconds 
+No
+graph470.hcp 
+Number of Vertices: 2740, number of edges: 4509
+0 hours 0 minutes 0 seconds 251 milliseconds 469 microseconds 
+No
+graph471.hcp 
+Number of Vertices: 2741, number of edges: 9491
+0 hours 0 minutes 0 seconds 515 milliseconds 638 microseconds 
+No
+graph472.hcp 
+Number of Vertices: 2748, number of edges: 4123
+0 hours 0 minutes 0 seconds 246 milliseconds 540 microseconds 
+No
+graph473.hcp 
+Number of Vertices: 2750, number of edges: 3931
+0 hours 0 minutes 0 seconds 237 milliseconds 934 microseconds 
+No
+graph474.hcp 
+Number of Vertices: 2754, number of edges: 4131
+0 hours 0 minutes 0 seconds 251 milliseconds 368 microseconds 
+No
+graph475.hcp 
+Number of Vertices: 2760, number of edges: 6335
+0 hours 0 minutes 0 seconds 368 milliseconds 146 microseconds 
+No
+graph476.hcp 
+Number of Vertices: 2769, number of edges: 4925
+0 hours 0 minutes 0 seconds 302 milliseconds 242 microseconds 
+No
+graph477.hcp 
+Number of Vertices: 2770, number of edges: 4156
+0 hours 0 minutes 0 seconds 250 milliseconds 122 microseconds 
+No
+graph478.hcp 
+Number of Vertices: 2772, number of edges: 4159
+0 hours 0 minutes 0 seconds 252 milliseconds 800 microseconds 
+No
+graph479.hcp 
+Number of Vertices: 2772, number of edges: 4536
+0 hours 0 minutes 0 seconds 275 milliseconds 61 microseconds 
+No
+graph480.hcp 
+Number of Vertices: 2772, number of edges: 4824
+0 hours 0 minutes 0 seconds 287 milliseconds 85 microseconds 
+No
+graph481.hcp 
+Number of Vertices: 2775, number of edges: 6921
+0 hours 0 minutes 0 seconds 387 milliseconds 857 microseconds 
+No
+graph482.hcp 
+Number of Vertices: 2775, number of edges: 6921
+0 hours 0 minutes 0 seconds 399 milliseconds 263 microseconds 
+No
+graph483.hcp 
+Number of Vertices: 2784, number of edges: 4654
+0 hours 0 minutes 0 seconds 279 milliseconds 163 microseconds 
+No
+graph484.hcp 
+Number of Vertices: 2784, number of edges: 4666
+0 hours 0 minutes 0 seconds 282 milliseconds 678 microseconds 
+No
+graph485.hcp 
+Number of Vertices: 2791, number of edges: 5496
+0 hours 0 minutes 0 seconds 321 milliseconds 46 microseconds 
+No
+graph486.hcp 
+Number of Vertices: 2796, number of edges: 4195
+0 hours 0 minutes 0 seconds 269 milliseconds 179 microseconds 
+No
+graph487.hcp 
+Number of Vertices: 2815, number of edges: 6461
+0 hours 0 minutes 0 seconds 368 milliseconds 102 microseconds 
+No
+graph488.hcp 
+Number of Vertices: 2816, number of edges: 4225
+0 hours 0 minutes 0 seconds 255 milliseconds 313 microseconds 
+No
+graph489.hcp 
+Number of Vertices: 2820, number of edges: 4231
+0 hours 0 minutes 0 seconds 256 milliseconds 974 microseconds 
+No
+graph490.hcp 
+Number of Vertices: 2841, number of edges: 9841
+0 hours 0 minutes 0 seconds 556 milliseconds 313 microseconds 
+No
+graph491.hcp 
+Number of Vertices: 2844, number of edges: 4267
+0 hours 0 minutes 0 seconds 263 milliseconds 877 microseconds 
+No
+graph492.hcp 
+Number of Vertices: 2850, number of edges: 4275
+0 hours 0 minutes 0 seconds 259 milliseconds 814 microseconds 
+No
+graph493.hcp 
+Number of Vertices: 2859, number of edges: 5142
+0 hours 0 minutes 0 seconds 301 milliseconds 103 microseconds 
+No
+graph494.hcp 
+Number of Vertices: 2868, number of edges: 4303
+0 hours 0 minutes 0 seconds 256 milliseconds 272 microseconds 
+No
+graph495.hcp 
+Number of Vertices: 2873, number of edges: 6596
+0 hours 0 minutes 0 seconds 375 milliseconds 801 microseconds 
+No
+graph496.hcp 
+Number of Vertices: 2892, number of edges: 4339
+0 hours 0 minutes 0 seconds 260 milliseconds 565 microseconds 
+No
+graph497.hcp 
+Number of Vertices: 2896, number of edges: 4345
+0 hours 0 minutes 0 seconds 265 milliseconds 399 microseconds 
+No
+graph498.hcp 
+Number of Vertices: 2907, number of edges: 4994
+0 hours 0 minutes 0 seconds 299 milliseconds 688 microseconds 
+No
+graph499.hcp 
+Number of Vertices: 2910, number of edges: 4626
+0 hours 0 minutes 0 seconds 273 milliseconds 906 microseconds 
+No
+graph500.hcp 
+Number of Vertices: 2915, number of edges: 7271
+0 hours 0 minutes 0 seconds 391 milliseconds 52 microseconds 
+No
+graph501.hcp 
+Number of Vertices: 2916, number of edges: 4375
+0 hours 0 minutes 0 seconds 267 milliseconds 217 microseconds 
+No
+graph502.hcp 
+Number of Vertices: 2934, number of edges: 4401
+0 hours 0 minutes 0 seconds 269 milliseconds 456 microseconds 
+No
+graph503.hcp 
+Number of Vertices: 2939, number of edges: 7331
+0 hours 0 minutes 0 seconds 407 milliseconds 665 microseconds 
+No
+graph504.hcp 
+Number of Vertices: 2940, number of edges: 4411
+0 hours 0 minutes 0 seconds 268 milliseconds 948 microseconds 
+No
+graph505.hcp 
+Number of Vertices: 2961, number of edges: 10261
+0 hours 0 minutes 0 seconds 572 milliseconds 307 microseconds 
+No
+graph506.hcp 
+Number of Vertices: 2964, number of edges: 4447
+0 hours 0 minutes 0 seconds 275 milliseconds 483 microseconds 
+No
+graph507.hcp 
+Number of Vertices: 2976, number of edges: 4465
+0 hours 0 minutes 0 seconds 272 milliseconds 906 microseconds 
+No
+graph508.hcp 
+Number of Vertices: 2982, number of edges: 5021
+0 hours 0 minutes 0 seconds 302 milliseconds 93 microseconds 
+No
+graph509.hcp 
+Number of Vertices: 2982, number of edges: 5013
+0 hours 0 minutes 0 seconds 312 milliseconds 745 microseconds 
+No
+graph510.hcp 
+Number of Vertices: 2987, number of edges: 7451
+0 hours 0 minutes 0 seconds 418 milliseconds 671 microseconds 
+No
+graph511.hcp 
+Number of Vertices: 2988, number of edges: 4483
+0 hours 0 minutes 0 seconds 270 milliseconds 955 microseconds 
+No
+graph512.hcp 
+Number of Vertices: 2992, number of edges: 6872
+0 hours 0 minutes 0 seconds 390 milliseconds 158 microseconds 
+No
+graph513.hcp 
+Number of Vertices: 2994, number of edges: 5313
+0 hours 0 minutes 0 seconds 330 milliseconds 490 microseconds 
+No
+graph514.hcp 
+Number of Vertices: 3012, number of edges: 4519
+0 hours 0 minutes 0 seconds 277 milliseconds 623 microseconds 
+No
+graph515.hcp 
+Number of Vertices: 3036, number of edges: 4555
+0 hours 0 minutes 0 seconds 275 milliseconds 299 microseconds 
+No
+graph516.hcp 
+Number of Vertices: 3042, number of edges: 6984
+0 hours 0 minutes 0 seconds 396 milliseconds 405 microseconds 
+No
+graph517.hcp 
+Number of Vertices: 3042, number of edges: 4563
+0 hours 0 minutes 0 seconds 310 milliseconds 200 microseconds 
+No
+graph518.hcp 
+Number of Vertices: 3046, number of edges: 4570
+0 hours 0 minutes 0 seconds 270 milliseconds 356 microseconds 
+No
+graph519.hcp 
+Number of Vertices: 3054, number of edges: 5272
+0 hours 0 minutes 0 seconds 303 milliseconds 979 microseconds 
+No
+graph520.hcp 
+Number of Vertices: 3055, number of edges: 7009
+0 hours 0 minutes 0 seconds 385 milliseconds 939 microseconds 
+No
+graph521.hcp 
+Number of Vertices: 3056, number of edges: 4585
+0 hours 0 minutes 0 seconds 271 milliseconds 330 microseconds 
+No
+graph522.hcp 
+Number of Vertices: 3060, number of edges: 4591
+0 hours 0 minutes 0 seconds 270 milliseconds 933 microseconds 
+No
+graph523.hcp 
+Number of Vertices: 3061, number of edges: 10611
+0 hours 0 minutes 0 seconds 581 milliseconds 154 microseconds 
+No
+graph524.hcp 
+Number of Vertices: 3084, number of edges: 4627
+0 hours 0 minutes 0 seconds 280 milliseconds 51 microseconds 
+No
+graph525.hcp 
+Number of Vertices: 3084, number of edges: 5159
+0 hours 0 minutes 0 seconds 301 milliseconds 637 microseconds 
+No
+graph526.hcp 
+Number of Vertices: 3108, number of edges: 4663
+0 hours 0 minutes 0 seconds 293 milliseconds 808 microseconds 
+No
+graph527.hcp 
+Number of Vertices: 3121, number of edges: 10821
+0 hours 0 minutes 0 seconds 597 milliseconds 373 microseconds 
+No
+graph528.hcp 
+Number of Vertices: 3127, number of edges: 7801
+0 hours 0 minutes 0 seconds 448 milliseconds 177 microseconds 
+No
+graph529.hcp 
+Number of Vertices: 3132, number of edges: 4699
+0 hours 0 minutes 0 seconds 289 milliseconds 298 microseconds 
+No
+graph530.hcp 
+Number of Vertices: 3136, number of edges: 4705
+0 hours 0 minutes 0 seconds 301 milliseconds 737 microseconds 
+No
+graph531.hcp 
+Number of Vertices: 3155, number of edges: 7871
+0 hours 0 minutes 0 seconds 442 milliseconds 58 microseconds 
+No
+graph532.hcp 
+Number of Vertices: 3156, number of edges: 4735
+0 hours 0 minutes 0 seconds 290 milliseconds 593 microseconds 
+No
+graph533.hcp 
+Number of Vertices: 3166, number of edges: 5970
+0 hours 0 minutes 0 seconds 352 milliseconds 440 microseconds 
+No
+graph534.hcp 
+Number of Vertices: 3178, number of edges: 5242
+0 hours 0 minutes 0 seconds 326 milliseconds 639 microseconds 
+No
+graph535.hcp 
+Number of Vertices: 3179, number of edges: 7931
+0 hours 0 minutes 0 seconds 444 milliseconds 303 microseconds 
+No
+graph536.hcp 
+Number of Vertices: 3180, number of edges: 5400
+0 hours 0 minutes 0 seconds 342 milliseconds 905 microseconds 
+No
+graph537.hcp 
+Number of Vertices: 3180, number of edges: 5392
+0 hours 0 minutes 0 seconds 343 milliseconds 227 microseconds 
+No
+graph538.hcp 
+Number of Vertices: 3180, number of edges: 4771
+0 hours 0 minutes 0 seconds 327 milliseconds 224 microseconds 
+No
+graph539.hcp 
+Number of Vertices: 3180, number of edges: 5009
+0 hours 0 minutes 0 seconds 310 milliseconds 580 microseconds 
+No
+graph540.hcp 
+Number of Vertices: 3181, number of edges: 11031
+0 hours 0 minutes 0 seconds 606 milliseconds 291 microseconds 
+No
+graph541.hcp 
+Number of Vertices: 3201, number of edges: 11101
+0 hours 0 minutes 0 seconds 640 milliseconds 691 microseconds 
+No
+graph542.hcp 
+Number of Vertices: 3204, number of edges: 4807
+0 hours 0 minutes 0 seconds 298 milliseconds 704 microseconds 
+No
+graph543.hcp 
+Number of Vertices: 3211, number of edges: 7372
+0 hours 0 minutes 0 seconds 426 milliseconds 893 microseconds 
+No
+graph544.hcp 
+Number of Vertices: 3211, number of edges: 8011
+0 hours 0 minutes 0 seconds 473 milliseconds 74 microseconds 
+No
+graph545.hcp 
+Number of Vertices: 3214, number of edges: 5561
+0 hours 0 minutes 0 seconds 353 milliseconds 675 microseconds 
+No
+graph546.hcp 
+Number of Vertices: 3216, number of edges: 4825
+0 hours 0 minutes 0 seconds 318 milliseconds 787 microseconds 
+No
+graph547.hcp 
+Number of Vertices: 3228, number of edges: 4843
+0 hours 0 minutes 0 seconds 308 milliseconds 344 microseconds 
+No
+graph548.hcp 
+Number of Vertices: 3239, number of edges: 8081
+0 hours 0 minutes 0 seconds 485 milliseconds 95 microseconds 
+No
+graph549.hcp 
+Number of Vertices: 3240, number of edges: 4636
+0 hours 0 minutes 0 seconds 294 milliseconds 37 microseconds 
+No
+graph550.hcp 
+Number of Vertices: 3240, number of edges: 5535
+0 hours 0 minutes 0 seconds 315 milliseconds 811 microseconds 
+No
+graph551.hcp 
+Number of Vertices: 3241, number of edges: 11241
+0 hours 0 minutes 0 seconds 653 milliseconds 945 microseconds 
+No
+graph552.hcp 
+Number of Vertices: 3252, number of edges: 4879
+0 hours 0 minutes 0 seconds 311 milliseconds 39 microseconds 
+No
+graph553.hcp 
+Number of Vertices: 3260, number of edges: 5081
+0 hours 0 minutes 0 seconds 326 milliseconds 752 microseconds 
+No
+graph554.hcp 
+Number of Vertices: 3261, number of edges: 11311
+0 hours 0 minutes 0 seconds 669 milliseconds 799 microseconds 
+No
+graph555.hcp 
+Number of Vertices: 3273, number of edges: 5613
+0 hours 0 minutes 0 seconds 344 milliseconds 584 microseconds 
+No
+graph556.hcp 
+Number of Vertices: 3274, number of edges: 4912
+0 hours 0 minutes 0 seconds 311 milliseconds 780 microseconds 
+No
+graph557.hcp 
+Number of Vertices: 3276, number of edges: 4915
+0 hours 0 minutes 0 seconds 310 milliseconds 670 microseconds 
+No
+graph558.hcp 
+Number of Vertices: 3296, number of edges: 4945
+0 hours 0 minutes 0 seconds 315 milliseconds 993 microseconds 
+No
+graph559.hcp 
+Number of Vertices: 3300, number of edges: 4951
+0 hours 0 minutes 0 seconds 312 milliseconds 29 microseconds 
+No
+graph560.hcp 
+Number of Vertices: 3311, number of edges: 14361
+0 hours 0 minutes 0 seconds 847 milliseconds 191 microseconds 
+No
+graph561.hcp 
+Number of Vertices: 3311, number of edges: 14361
+0 hours 0 minutes 0 seconds 850 milliseconds 562 microseconds 
+No
+graph562.hcp 
+Number of Vertices: 3311, number of edges: 14361
+0 hours 0 minutes 0 seconds 855 milliseconds 668 microseconds 
+No
+graph563.hcp 
+Number of Vertices: 3315, number of edges: 7614
+0 hours 0 minutes 0 seconds 439 milliseconds 145 microseconds 
+No
+graph564.hcp 
+Number of Vertices: 3320, number of edges: 5988
+0 hours 0 minutes 0 seconds 375 milliseconds 973 microseconds 
+No
+graph565.hcp 
+Number of Vertices: 3321, number of edges: 11521
+0 hours 0 minutes 0 seconds 683 milliseconds 972 microseconds 
+No
+graph566.hcp 
+Number of Vertices: 3322, number of edges: 6106
+0 hours 0 minutes 0 seconds 353 milliseconds 204 microseconds 
+No
+graph567.hcp 
+Number of Vertices: 3323, number of edges: 7625
+0 hours 0 minutes 0 seconds 445 milliseconds 415 microseconds 
+No
+graph568.hcp 
+Number of Vertices: 3324, number of edges: 4987
+0 hours 0 minutes 0 seconds 304 milliseconds 460 microseconds 
+No
+graph569.hcp 
+Number of Vertices: 3327, number of edges: 8301
+0 hours 0 minutes 0 seconds 497 milliseconds 895 microseconds 
+No
+graph570.hcp 
+Number of Vertices: 3329, number of edges: 6844
+0 hours 0 minutes 0 seconds 430 milliseconds 742 microseconds 
+No
+graph571.hcp 
+Number of Vertices: 3336, number of edges: 11191
+0 hours 0 minutes 0 seconds 640 milliseconds 686 microseconds 
+No
+graph572.hcp 
+Number of Vertices: 3348, number of edges: 5023
+0 hours 0 minutes 0 seconds 323 milliseconds 627 microseconds 
+No
+graph573.hcp 
+Number of Vertices: 3354, number of edges: 5760
+0 hours 0 minutes 0 seconds 337 milliseconds 745 microseconds 
+No
+graph574.hcp 
+Number of Vertices: 3365, number of edges: 6344
+0 hours 0 minutes 0 seconds 385 milliseconds 24 microseconds 
+No
+graph575.hcp 
+Number of Vertices: 3372, number of edges: 6583
+0 hours 0 minutes 0 seconds 413 milliseconds 729 microseconds 
+No
+graph576.hcp 
+Number of Vertices: 3372, number of edges: 5059
+0 hours 0 minutes 0 seconds 325 milliseconds 937 microseconds 
+No
+graph577.hcp 
+Number of Vertices: 3376, number of edges: 5065
+0 hours 0 minutes 0 seconds 316 milliseconds 900 microseconds 
+No
+graph578.hcp 
+Number of Vertices: 3378, number of edges: 5771
+0 hours 0 minutes 0 seconds 365 milliseconds 401 microseconds 
+No
+graph579.hcp 
+Number of Vertices: 3378, number of edges: 5771
+0 hours 0 minutes 0 seconds 363 milliseconds 333 microseconds 
+No
+graph580.hcp 
+Number of Vertices: 3380, number of edges: 7760
+0 hours 0 minutes 0 seconds 470 milliseconds 662 microseconds 
+No
+graph581.hcp 
+Number of Vertices: 3390, number of edges: 5085
+0 hours 0 minutes 0 seconds 310 milliseconds 475 microseconds 
+No
+graph582.hcp 
+Number of Vertices: 3396, number of edges: 5095
+0 hours 0 minutes 0 seconds 338 milliseconds 669 microseconds 
+No
+graph583.hcp 
+Number of Vertices: 3399, number of edges: 8481
+0 hours 0 minutes 0 seconds 481 milliseconds 475 microseconds 
+No
+graph584.hcp 
+Number of Vertices: 3411, number of edges: 14811
+0 hours 0 minutes 0 seconds 858 milliseconds 382 microseconds 
+No
+graph585.hcp 
+Number of Vertices: 3411, number of edges: 14811
+0 hours 0 minutes 0 seconds 855 milliseconds 894 microseconds 
+No
+graph586.hcp 
+Number of Vertices: 3420, number of edges: 5131
+0 hours 0 minutes 0 seconds 320 milliseconds 952 microseconds 
+No
+graph587.hcp 
+Number of Vertices: 3420, number of edges: 11196
+0 hours 0 minutes 0 seconds 651 milliseconds 622 microseconds 
+No
+graph588.hcp 
+Number of Vertices: 3424, number of edges: 5515
+0 hours 0 minutes 0 seconds 338 milliseconds 639 microseconds 
+No
+graph589.hcp 
+Number of Vertices: 3427, number of edges: 5995
+0 hours 0 minutes 0 seconds 382 milliseconds 340 microseconds 
+No
+graph590.hcp 
+Number of Vertices: 3428, number of edges: 5684
+0 hours 0 minutes 0 seconds 352 milliseconds 287 microseconds 
+No
+graph591.hcp 
+Number of Vertices: 3439, number of edges: 8581
+0 hours 0 minutes 0 seconds 511 milliseconds 745 microseconds 
+No
+graph592.hcp 
+Number of Vertices: 3440, number of edges: 4928
+0 hours 0 minutes 0 seconds 330 milliseconds 838 microseconds 
+No
+graph593.hcp 
+Number of Vertices: 3441, number of edges: 5934
+0 hours 0 minutes 0 seconds 353 milliseconds 620 microseconds 
+No
+graph594.hcp 
+Number of Vertices: 3444, number of edges: 5167
+0 hours 0 minutes 0 seconds 332 milliseconds 201 microseconds 
+No
+graph595.hcp 
+Number of Vertices: 3447, number of edges: 6392
+0 hours 0 minutes 0 seconds 417 milliseconds 257 microseconds 
+No
+graph596.hcp 
+Number of Vertices: 3447, number of edges: 8601
+0 hours 0 minutes 0 seconds 507 milliseconds 412 microseconds 
+No
+graph597.hcp 
+Number of Vertices: 3456, number of edges: 5185
+0 hours 0 minutes 0 seconds 329 milliseconds 596 microseconds 
+No
+graph598.hcp 
+Number of Vertices: 3461, number of edges: 7230
+0 hours 0 minutes 0 seconds 445 milliseconds 956 microseconds 
+No
+graph599.hcp 
+Number of Vertices: 3464, number of edges: 6572
+0 hours 0 minutes 0 seconds 410 milliseconds 335 microseconds 
+No
+graph600.hcp 
+Number of Vertices: 3468, number of edges: 5203
+0 hours 0 minutes 0 seconds 341 milliseconds 656 microseconds 
+No
+graph601.hcp 
+Number of Vertices: 3468, number of edges: 6074
+0 hours 0 minutes 0 seconds 391 milliseconds 135 microseconds 
+No
+graph602.hcp 
+Number of Vertices: 3478, number of edges: 5218
+0 hours 0 minutes 0 seconds 332 milliseconds 882 microseconds 
+No
+graph603.hcp 
+Number of Vertices: 3481, number of edges: 12081
+0 hours 0 minutes 0 seconds 701 milliseconds 694 microseconds 
+No
+graph604.hcp 
+Number of Vertices: 3486, number of edges: 11756
+0 hours 0 minutes 0 seconds 709 milliseconds 847 microseconds 
+No
+graph605.hcp 
+Number of Vertices: 3492, number of edges: 5239
+0 hours 0 minutes 0 seconds 335 milliseconds 842 microseconds 
+No
+graph606.hcp 
+Number of Vertices: 3499, number of edges: 6401
+0 hours 0 minutes 0 seconds 398 milliseconds 809 microseconds 
+No
+graph607.hcp 
+Number of Vertices: 3501, number of edges: 5942
+0 hours 0 minutes 0 seconds 357 milliseconds 58 microseconds 
+No
+graph608.hcp 
+Number of Vertices: 3503, number of edges: 8741
+0 hours 0 minutes 0 seconds 519 milliseconds 816 microseconds 
+No
+graph609.hcp 
+Number of Vertices: 3506, number of edges: 5451
+0 hours 0 minutes 0 seconds 364 milliseconds 5 microseconds 
+No
+graph610.hcp 
+Number of Vertices: 3507, number of edges: 5855
+0 hours 0 minutes 0 seconds 331 milliseconds 504 microseconds 
+No
+graph611.hcp 
+Number of Vertices: 3507, number of edges: 8751
+0 hours 0 minutes 0 seconds 489 milliseconds 715 microseconds 
+No
+graph612.hcp 
+Number of Vertices: 3511, number of edges: 15261
+0 hours 0 minutes 0 seconds 899 milliseconds 638 microseconds 
+No
+graph613.hcp 
+Number of Vertices: 3511, number of edges: 15261
+0 hours 0 minutes 0 seconds 889 milliseconds 536 microseconds 
+No
+graph614.hcp 
+Number of Vertices: 3511, number of edges: 15261
+0 hours 0 minutes 0 seconds 931 milliseconds 854 microseconds 
+No
+graph615.hcp 
+Number of Vertices: 3511, number of edges: 15261
+0 hours 0 minutes 0 seconds 913 milliseconds 446 microseconds 
+No
+graph616.hcp 
+Number of Vertices: 3514, number of edges: 5732
+0 hours 0 minutes 0 seconds 364 milliseconds 320 microseconds 
+No
+graph617.hcp 
+Number of Vertices: 3516, number of edges: 5275
+0 hours 0 minutes 0 seconds 326 milliseconds 773 microseconds 
+No
+graph618.hcp 
+Number of Vertices: 3519, number of edges: 5812
+0 hours 0 minutes 0 seconds 366 milliseconds 787 microseconds 
+No
+graph619.hcp 
+Number of Vertices: 3534, number of edges: 5301
+0 hours 0 minutes 0 seconds 328 milliseconds 172 microseconds 
+No
+graph620.hcp 
+Number of Vertices: 3536, number of edges: 5305
+0 hours 0 minutes 0 seconds 347 milliseconds 97 microseconds 
+No
+graph621.hcp 
+Number of Vertices: 3540, number of edges: 5311
+0 hours 0 minutes 0 seconds 330 milliseconds 535 microseconds 
+No
+graph622.hcp 
+Number of Vertices: 3541, number of edges: 12291
+0 hours 0 minutes 0 seconds 663 milliseconds 483 microseconds 
+No
+graph623.hcp 
+Number of Vertices: 3546, number of edges: 8139
+0 hours 0 minutes 0 seconds 468 milliseconds 524 microseconds 
+No
+graph624.hcp 
+Number of Vertices: 3549, number of edges: 6376
+0 hours 0 minutes 0 seconds 369 milliseconds 519 microseconds 
+No
+graph625.hcp 
+Number of Vertices: 3549, number of edges: 8148
+0 hours 0 minutes 0 seconds 463 milliseconds 706 microseconds 
+No
+graph626.hcp 
+Number of Vertices: 3552, number of edges: 6337
+0 hours 0 minutes 0 seconds 384 milliseconds 802 microseconds 
+No
+graph627.hcp 
+Number of Vertices: 3564, number of edges: 5347
+0 hours 0 minutes 0 seconds 327 milliseconds 985 microseconds 
+No
+graph628.hcp 
+Number of Vertices: 3576, number of edges: 6142
+0 hours 0 minutes 0 seconds 388 milliseconds 314 microseconds 
+No
+graph629.hcp 
+Number of Vertices: 3576, number of edges: 6134
+0 hours 0 minutes 0 seconds 375 milliseconds 268 microseconds 
+No
+graph630.hcp 
+Number of Vertices: 3582, number of edges: 5373
+0 hours 0 minutes 0 seconds 363 milliseconds 810 microseconds 
+No
+graph631.hcp 
+Number of Vertices: 3588, number of edges: 5383
+0 hours 0 minutes 0 seconds 326 milliseconds 811 microseconds 
+No
+graph632.hcp 
+Number of Vertices: 3591, number of edges: 6516
+0 hours 0 minutes 0 seconds 419 milliseconds 258 microseconds 
+No
+graph633.hcp 
+Number of Vertices: 3596, number of edges: 5668
+0 hours 0 minutes 0 seconds 365 milliseconds 399 microseconds 
+No
+graph634.hcp 
+Number of Vertices: 3607, number of edges: 9001
+0 hours 0 minutes 0 seconds 511 milliseconds 242 microseconds 
+No
+graph635.hcp 
+Number of Vertices: 3611, number of edges: 15711
+0 hours 0 minutes 0 seconds 895 milliseconds 498 microseconds 
+No
+graph636.hcp 
+Number of Vertices: 3612, number of edges: 5419
+0 hours 0 minutes 0 seconds 339 milliseconds 151 microseconds 
+No
+graph637.hcp 
+Number of Vertices: 3616, number of edges: 5425
+0 hours 0 minutes 0 seconds 360 milliseconds 448 microseconds 
+No
+graph638.hcp 
+Number of Vertices: 3631, number of edges: 9061
+0 hours 0 minutes 0 seconds 523 milliseconds 677 microseconds 
+No
+graph639.hcp 
+Number of Vertices: 3636, number of edges: 5455
+0 hours 0 minutes 0 seconds 335 milliseconds 320 microseconds 
+No
+graph640.hcp 
+Number of Vertices: 3638, number of edges: 8356
+0 hours 0 minutes 0 seconds 507 milliseconds 709 microseconds 
+No
+graph641.hcp 
+Number of Vertices: 3641, number of edges: 12641
+0 hours 0 minutes 0 seconds 713 milliseconds 28 microseconds 
+No
+graph642.hcp 
+Number of Vertices: 3654, number of edges: 5755
+0 hours 0 minutes 0 seconds 368 milliseconds 501 microseconds 
+No
+graph643.hcp 
+Number of Vertices: 3660, number of edges: 5491
+0 hours 0 minutes 0 seconds 336 milliseconds 354 microseconds 
+No
+graph644.hcp 
+Number of Vertices: 3661, number of edges: 12711
+0 hours 0 minutes 0 seconds 745 milliseconds 612 microseconds 
+No
+graph645.hcp 
+Number of Vertices: 3681, number of edges: 12781
+0 hours 0 minutes 0 seconds 774 milliseconds 814 microseconds 
+No
+graph646.hcp 
+Number of Vertices: 3681, number of edges: 12781
+0 hours 0 minutes 0 seconds 767 milliseconds 751 microseconds 
+No
+graph647.hcp 
+Number of Vertices: 3688, number of edges: 5994
+0 hours 0 minutes 0 seconds 386 milliseconds 11 microseconds 
+No
+graph648.hcp 
+Number of Vertices: 3688, number of edges: 6788
+0 hours 0 minutes 0 seconds 425 milliseconds 517 microseconds 
+No
+graph649.hcp 
+Number of Vertices: 3690, number of edges: 5535
+0 hours 0 minutes 0 seconds 347 milliseconds 159 microseconds 
+No
+graph650.hcp 
+Number of Vertices: 3696, number of edges: 5545
+0 hours 0 minutes 0 seconds 360 milliseconds 384 microseconds 
+No
+graph651.hcp 
+Number of Vertices: 3701, number of edges: 6272
+0 hours 0 minutes 0 seconds 413 milliseconds 871 microseconds 
+No
+graph652.hcp 
+Number of Vertices: 3702, number of edges: 5553
+0 hours 0 minutes 0 seconds 363 milliseconds 952 microseconds 
+No
+graph653.hcp 
+Number of Vertices: 3711, number of edges: 16161
+0 hours 0 minutes 0 seconds 971 milliseconds 783 microseconds 
+No
+graph654.hcp 
+Number of Vertices: 3711, number of edges: 16161
+0 hours 0 minutes 0 seconds 992 milliseconds 699 microseconds 
+No
+graph655.hcp 
+Number of Vertices: 3714, number of edges: 6499
+0 hours 0 minutes 0 seconds 398 milliseconds 628 microseconds 
+No
+graph656.hcp 
+Number of Vertices: 3718, number of edges: 8536
+0 hours 0 minutes 0 seconds 542 milliseconds 302 microseconds 
+No
+graph657.hcp 
+Number of Vertices: 3720, number of edges: 6325
+0 hours 0 minutes 0 seconds 423 milliseconds 505 microseconds 
+No
+graph658.hcp 
+Number of Vertices: 3721, number of edges: 12921
+0 hours 0 minutes 0 seconds 777 milliseconds 421 microseconds 
+No
+graph659.hcp 
+Number of Vertices: 3721, number of edges: 12921
+0 hours 0 minutes 0 seconds 775 milliseconds 534 microseconds 
+No
+graph660.hcp 
+Number of Vertices: 3721, number of edges: 12921
+0 hours 0 minutes 0 seconds 756 milliseconds 369 microseconds 
+No
+graph661.hcp 
+Number of Vertices: 3726, number of edges: 5589
+0 hours 0 minutes 0 seconds 360 milliseconds 751 microseconds 
+No
+graph662.hcp 
+Number of Vertices: 3763, number of edges: 6080
+0 hours 0 minutes 0 seconds 404 milliseconds 112 microseconds 
+No
+graph663.hcp 
+Number of Vertices: 3774, number of edges: 6513
+0 hours 0 minutes 0 seconds 427 milliseconds 689 microseconds 
+No
+graph664.hcp 
+Number of Vertices: 3774, number of edges: 6513
+0 hours 0 minutes 0 seconds 430 milliseconds 435 microseconds 
+No
+graph665.hcp 
+Number of Vertices: 3776, number of edges: 5665
+0 hours 0 minutes 0 seconds 369 milliseconds 10 microseconds 
+No
+graph666.hcp 
+Number of Vertices: 3777, number of edges: 6562
+0 hours 0 minutes 0 seconds 425 milliseconds 141 microseconds 
+No
+graph667.hcp 
+Number of Vertices: 3779, number of edges: 9431
+0 hours 0 minutes 0 seconds 552 milliseconds 81 microseconds 
+No
+graph668.hcp 
+Number of Vertices: 3783, number of edges: 6861
+0 hours 0 minutes 0 seconds 449 milliseconds 147 microseconds 
+No
+graph669.hcp 
+Number of Vertices: 3794, number of edges: 6530
+0 hours 0 minutes 0 seconds 396 milliseconds 644 microseconds 
+No
+graph670.hcp 
+Number of Vertices: 3811, number of edges: 16611
+0 hours 0 minutes 1 seconds 4 milliseconds 163 microseconds 
+No
+graph671.hcp 
+Number of Vertices: 3821, number of edges: 6586
+0 hours 0 minutes 0 seconds 406 milliseconds 222 microseconds 
+No
+graph672.hcp 
+Number of Vertices: 3831, number of edges: 9561
+0 hours 0 minutes 0 seconds 588 milliseconds 589 microseconds 
+No
+graph673.hcp 
+Number of Vertices: 3847, number of edges: 9601
+0 hours 0 minutes 0 seconds 589 milliseconds 379 microseconds 
+No
+graph674.hcp 
+Number of Vertices: 3856, number of edges: 5785
+0 hours 0 minutes 0 seconds 383 milliseconds 507 microseconds 
+No
+graph675.hcp 
+Number of Vertices: 3859, number of edges: 8857
+0 hours 0 minutes 0 seconds 566 milliseconds 189 microseconds 
+No
+graph676.hcp 
+Number of Vertices: 3863, number of edges: 9641
+0 hours 0 minutes 0 seconds 580 milliseconds 721 microseconds 
+No
+graph677.hcp 
+Number of Vertices: 3868, number of edges: 6388
+0 hours 0 minutes 0 seconds 391 milliseconds 654 microseconds 
+No
+graph678.hcp 
+Number of Vertices: 3868, number of edges: 6388
+0 hours 0 minutes 0 seconds 401 milliseconds 125 microseconds 
+No
+graph679.hcp 
+Number of Vertices: 3886, number of edges: 6021
+0 hours 0 minutes 0 seconds 400 milliseconds 479 microseconds 
+No
+graph680.hcp 
+Number of Vertices: 3887, number of edges: 8924
+0 hours 0 minutes 0 seconds 562 milliseconds 943 microseconds 
+No
+graph681.hcp 
+Number of Vertices: 3888, number of edges: 6841
+0 hours 0 minutes 0 seconds 456 milliseconds 999 microseconds 
+No
+graph682.hcp 
+Number of Vertices: 3891, number of edges: 9711
+0 hours 0 minutes 0 seconds 589 milliseconds 655 microseconds 
+No
+graph683.hcp 
+Number of Vertices: 3894, number of edges: 6247
+0 hours 0 minutes 0 seconds 426 milliseconds 773 microseconds 
+No
+graph684.hcp 
+Number of Vertices: 3911, number of edges: 17061
+0 hours 0 minutes 1 seconds 41 milliseconds 1 microseconds 
+No
+graph685.hcp 
+Number of Vertices: 3936, number of edges: 5905
+0 hours 0 minutes 0 seconds 390 milliseconds 167 microseconds 
+No
+graph686.hcp 
+Number of Vertices: 3939, number of edges: 9831
+0 hours 0 minutes 0 seconds 607 milliseconds 441 microseconds 
+No
+graph687.hcp 
+Number of Vertices: 3946, number of edges: 6846
+0 hours 0 minutes 0 seconds 451 milliseconds 827 microseconds 
+No
+graph688.hcp 
+Number of Vertices: 3961, number of edges: 9098
+0 hours 0 minutes 0 seconds 571 milliseconds 374 microseconds 
+No
+graph689.hcp 
+Number of Vertices: 3969, number of edges: 9109
+0 hours 0 minutes 0 seconds 583 milliseconds 887 microseconds 
+No
+graph690.hcp 
+Number of Vertices: 3971, number of edges: 9911
+0 hours 0 minutes 0 seconds 609 milliseconds 356 microseconds 
+No
+graph691.hcp 
+Number of Vertices: 3971, number of edges: 9911
+0 hours 0 minutes 0 seconds 611 milliseconds 133 microseconds 
+No
+graph692.hcp 
+Number of Vertices: 3972, number of edges: 6904
+0 hours 0 minutes 0 seconds 461 milliseconds 400 microseconds 
+No
+graph693.hcp 
+Number of Vertices: 3972, number of edges: 6900
+0 hours 0 minutes 0 seconds 459 milliseconds 749 microseconds 
+No
+graph694.hcp 
+Number of Vertices: 3976, number of edges: 6238
+0 hours 0 minutes 0 seconds 416 milliseconds 326 microseconds 
+No
+graph695.hcp 
+Number of Vertices: 3981, number of edges: 13831
+0 hours 0 minutes 0 seconds 838 milliseconds 447 microseconds 
+No
+graph696.hcp 
+Number of Vertices: 3998, number of edges: 5667
+0 hours 0 minutes 0 seconds 381 milliseconds 40 microseconds 
+No
+graph697.hcp 
+Number of Vertices: 3998, number of edges: 9177
+0 hours 0 minutes 0 seconds 588 milliseconds 939 microseconds 
+No
+graph698.hcp 
+Number of Vertices: 3998, number of edges: 9177
+0 hours 0 minutes 0 seconds 582 milliseconds 20 microseconds 
+No
+graph699.hcp 
+Number of Vertices: 4004, number of edges: 6325
+0 hours 0 minutes 0 seconds 421 milliseconds 543 microseconds 
+No
+graph700.hcp 
+Number of Vertices: 4016, number of edges: 6025
+0 hours 0 minutes 0 seconds 412 milliseconds 400 microseconds 
+No
+graph701.hcp 
+Number of Vertices: 4019, number of edges: 8422
+0 hours 0 minutes 0 seconds 539 milliseconds 938 microseconds 
+No
+graph702.hcp 
+Number of Vertices: 4019, number of edges: 10031
+0 hours 0 minutes 0 seconds 614 milliseconds 428 microseconds 
+No
+graph703.hcp 
+Number of Vertices: 4024, number of edges: 5900
+0 hours 0 minutes 0 seconds 391 milliseconds 590 microseconds 
+No
+graph704.hcp 
+Number of Vertices: 4039, number of edges: 9269
+0 hours 0 minutes 0 seconds 568 milliseconds 98 microseconds 
+No
+graph705.hcp 
+Number of Vertices: 4040, number of edges: 6532
+0 hours 0 minutes 0 seconds 434 milliseconds 656 microseconds 
+No
+graph706.hcp 
+Number of Vertices: 4040, number of edges: 7317
+0 hours 0 minutes 0 seconds 474 milliseconds 593 microseconds 
+No
+graph707.hcp 
+Number of Vertices: 4050, number of edges: 6075
+0 hours 0 minutes 0 seconds 432 milliseconds 882 microseconds 
+No
+graph708.hcp 
+Number of Vertices: 4056, number of edges: 9312
+0 hours 0 minutes 0 seconds 580 milliseconds 157 microseconds 
+No
+graph709.hcp 
+Number of Vertices: 4062, number of edges: 6300
+0 hours 0 minutes 0 seconds 415 milliseconds 332 microseconds 
+No
+graph710.hcp 
+Number of Vertices: 4064, number of edges: 6800
+0 hours 0 minutes 0 seconds 428 milliseconds 282 microseconds 
+No
+graph711.hcp 
+Number of Vertices: 4096, number of edges: 6145
+0 hours 0 minutes 0 seconds 410 milliseconds 408 microseconds 
+No
+graph712.hcp 
+Number of Vertices: 4100, number of edges: 6565
+0 hours 0 minutes 0 seconds 445 milliseconds 596 microseconds 
+No
+graph713.hcp 
+Number of Vertices: 4101, number of edges: 14251
+0 hours 0 minutes 0 seconds 893 milliseconds 921 microseconds 
+No
+graph714.hcp 
+Number of Vertices: 4112, number of edges: 9439
+0 hours 0 minutes 0 seconds 675 milliseconds 747 microseconds 
+No
+graph715.hcp 
+Number of Vertices: 4112, number of edges: 6858
+0 hours 0 minutes 0 seconds 464 milliseconds 663 microseconds 
+No
+graph716.hcp 
+Number of Vertices: 4115, number of edges: 10271
+0 hours 0 minutes 0 seconds 631 milliseconds 753 microseconds 
+No
+graph717.hcp 
+Number of Vertices: 4122, number of edges: 7638
+0 hours 0 minutes 0 seconds 507 milliseconds 174 microseconds 
+No
+graph718.hcp 
+Number of Vertices: 4134, number of edges: 6408
+0 hours 0 minutes 0 seconds 420 milliseconds 924 microseconds 
+No
+graph719.hcp 
+Number of Vertices: 4141, number of edges: 14391
+0 hours 0 minutes 0 seconds 896 milliseconds 256 microseconds 
+No
+graph720.hcp 
+Number of Vertices: 4141, number of edges: 14391
+0 hours 0 minutes 0 seconds 899 milliseconds 914 microseconds 
+No
+graph721.hcp 
+Number of Vertices: 4143, number of edges: 10341
+0 hours 0 minutes 0 seconds 657 milliseconds 153 microseconds 
+No
+graph722.hcp 
+Number of Vertices: 4146, number of edges: 7038
+0 hours 0 minutes 0 seconds 461 milliseconds 421 microseconds 
+No
+graph723.hcp 
+Number of Vertices: 4149, number of edges: 9521
+0 hours 0 minutes 0 seconds 610 milliseconds 43 microseconds 
+No
+graph724.hcp 
+Number of Vertices: 4151, number of edges: 7611
+0 hours 0 minutes 0 seconds 503 milliseconds 707 microseconds 
+No
+graph725.hcp 
+Number of Vertices: 4163, number of edges: 7028
+0 hours 0 minutes 0 seconds 465 milliseconds 88 microseconds 
+No
+graph726.hcp 
+Number of Vertices: 4170, number of edges: 7283
+0 hours 0 minutes 0 seconds 491 milliseconds 122 microseconds 
+No
+graph727.hcp 
+Number of Vertices: 4170, number of edges: 7283
+0 hours 0 minutes 0 seconds 489 milliseconds 214 microseconds 
+No
+graph728.hcp 
+Number of Vertices: 4170, number of edges: 6255
+0 hours 0 minutes 0 seconds 422 milliseconds 19 microseconds 
+No
+graph729.hcp 
+Number of Vertices: 4176, number of edges: 6265
+0 hours 0 minutes 0 seconds 436 milliseconds 448 microseconds 
+No
+graph730.hcp 
+Number of Vertices: 4188, number of edges: 6275
+0 hours 0 minutes 0 seconds 401 milliseconds 381 microseconds 
+No
+graph731.hcp 
+Number of Vertices: 4204, number of edges: 7125
+0 hours 0 minutes 0 seconds 495 milliseconds 366 microseconds 
+No
+graph732.hcp 
+Number of Vertices: 4221, number of edges: 14671
+0 hours 0 minutes 0 seconds 938 milliseconds 279 microseconds 
+No
+graph733.hcp 
+Number of Vertices: 4225, number of edges: 9700
+0 hours 0 minutes 0 seconds 633 milliseconds 73 microseconds 
+No
+graph734.hcp 
+Number of Vertices: 4232, number of edges: 7038
+0 hours 0 minutes 0 seconds 479 milliseconds 249 microseconds 
+No
+graph735.hcp 
+Number of Vertices: 4237, number of edges: 9725
+0 hours 0 minutes 0 seconds 629 milliseconds 936 microseconds 
+No
+graph736.hcp 
+Number of Vertices: 4242, number of edges: 7865
+0 hours 0 minutes 0 seconds 549 milliseconds 681 microseconds 
+No
+graph737.hcp 
+Number of Vertices: 4243, number of edges: 10591
+0 hours 0 minutes 0 seconds 664 milliseconds 61 microseconds 
+No
+graph738.hcp 
+Number of Vertices: 4248, number of edges: 7176
+0 hours 0 minutes 0 seconds 451 milliseconds 114 microseconds 
+No
+graph739.hcp 
+Number of Vertices: 4256, number of edges: 6385
+0 hours 0 minutes 0 seconds 447 milliseconds 423 microseconds 
+No
+graph740.hcp 
+Number of Vertices: 4262, number of edges: 7053
+0 hours 0 minutes 0 seconds 499 milliseconds 575 microseconds 
+No
+graph741.hcp 
+Number of Vertices: 4266, number of edges: 7363
+0 hours 0 minutes 0 seconds 474 milliseconds 159 microseconds 
+No
+graph742.hcp 
+Number of Vertices: 4274, number of edges: 6827
+0 hours 0 minutes 0 seconds 454 milliseconds 683 microseconds 
+No
+graph743.hcp 
+Number of Vertices: 4275, number of edges: 13995
+0 hours 0 minutes 0 seconds 887 milliseconds 871 microseconds 
+No
+graph744.hcp 
+Number of Vertices: 4278, number of edges: 7272
+0 hours 0 minutes 0 seconds 482 milliseconds 48 microseconds 
+No
+graph745.hcp 
+Number of Vertices: 4284, number of edges: 9840
+0 hours 0 minutes 0 seconds 621 milliseconds 160 microseconds 
+No
+graph746.hcp 
+Number of Vertices: 4286, number of edges: 18286
+0 hours 0 minutes 1 seconds 144 milliseconds 461 microseconds 
+No
+graph747.hcp 
+Number of Vertices: 4306, number of edges: 6460
+0 hours 0 minutes 0 seconds 436 milliseconds 499 microseconds 
+No
+graph748.hcp 
+Number of Vertices: 4307, number of edges: 9885
+0 hours 0 minutes 0 seconds 609 milliseconds 751 microseconds 
+No
+graph749.hcp 
+Number of Vertices: 4336, number of edges: 6505
+0 hours 0 minutes 0 seconds 450 milliseconds 71 microseconds 
+No
+graph750.hcp 
+Number of Vertices: 4336, number of edges: 9953
+0 hours 0 minutes 0 seconds 625 milliseconds 834 microseconds 
+No
+graph751.hcp 
+Number of Vertices: 4341, number of edges: 15091
+0 hours 0 minutes 0 seconds 967 milliseconds 602 microseconds 
+No
+graph752.hcp 
+Number of Vertices: 4359, number of edges: 8184
+0 hours 0 minutes 0 seconds 540 milliseconds 775 microseconds 
+No
+graph753.hcp 
+Number of Vertices: 4366, number of edges: 7751
+0 hours 0 minutes 0 seconds 499 milliseconds 276 microseconds 
+No
+graph754.hcp 
+Number of Vertices: 4368, number of edges: 7678
+0 hours 0 minutes 0 seconds 506 milliseconds 2 microseconds 
+No
+graph755.hcp 
+Number of Vertices: 4368, number of edges: 7666
+0 hours 0 minutes 0 seconds 503 milliseconds 470 microseconds 
+No
+graph756.hcp 
+Number of Vertices: 4382, number of edges: 8290
+0 hours 0 minutes 0 seconds 503 milliseconds 601 microseconds 
+No
+graph757.hcp 
+Number of Vertices: 4394, number of edges: 10088
+0 hours 0 minutes 0 seconds 634 milliseconds 597 microseconds 
+No
+graph758.hcp 
+Number of Vertices: 4407, number of edges: 11001
+0 hours 0 minutes 0 seconds 681 milliseconds 585 microseconds 
+No
+graph759.hcp 
+Number of Vertices: 4407, number of edges: 11001
+0 hours 0 minutes 0 seconds 669 milliseconds 27 microseconds 
+No
+graph760.hcp 
+Number of Vertices: 4422, number of edges: 6633
+0 hours 0 minutes 0 seconds 436 milliseconds 186 microseconds 
+No
+graph761.hcp 
+Number of Vertices: 4430, number of edges: 6963
+0 hours 0 minutes 0 seconds 458 milliseconds 303 microseconds 
+No
+graph762.hcp 
+Number of Vertices: 4441, number of edges: 15441
+0 hours 0 minutes 0 seconds 894 milliseconds 822 microseconds 
+No
+graph763.hcp 
+Number of Vertices: 4442, number of edges: 8375
+0 hours 0 minutes 0 seconds 518 milliseconds 734 microseconds 
+No
+graph764.hcp 
+Number of Vertices: 4442, number of edges: 7853
+0 hours 0 minutes 0 seconds 466 milliseconds 366 microseconds 
+No
+graph765.hcp 
+Number of Vertices: 4454, number of edges: 8596
+0 hours 0 minutes 0 seconds 519 milliseconds 335 microseconds 
+No
+graph766.hcp 
+Number of Vertices: 4465, number of edges: 7979
+0 hours 0 minutes 0 seconds 505 milliseconds 406 microseconds 
+No
+graph767.hcp 
+Number of Vertices: 4494, number of edges: 8855
+0 hours 0 minutes 0 seconds 564 milliseconds 161 microseconds 
+No
+graph768.hcp 
+Number of Vertices: 4495, number of edges: 8782
+0 hours 0 minutes 0 seconds 564 milliseconds 330 microseconds 
+No
+graph769.hcp 
+Number of Vertices: 4509, number of edges: 7200
+0 hours 0 minutes 0 seconds 477 milliseconds 300 microseconds 
+No
+graph770.hcp 
+Number of Vertices: 4509, number of edges: 7642
+0 hours 0 minutes 0 seconds 460 milliseconds 177 microseconds 
+No
+graph771.hcp 
+Number of Vertices: 4514, number of edges: 7961
+0 hours 0 minutes 0 seconds 484 milliseconds 487 microseconds 
+No
+graph772.hcp 
+Number of Vertices: 4525, number of edges: 8059
+0 hours 0 minutes 0 seconds 513 milliseconds 509 microseconds 
+No
+graph773.hcp 
+Number of Vertices: 4532, number of edges: 7224
+0 hours 0 minutes 0 seconds 478 milliseconds 142 microseconds 
+No
+graph774.hcp 
+Number of Vertices: 4532, number of edges: 7224
+0 hours 0 minutes 0 seconds 480 milliseconds 992 microseconds 
+No
+graph775.hcp 
+Number of Vertices: 4538, number of edges: 7502
+0 hours 0 minutes 0 seconds 488 milliseconds 527 microseconds 
+No
+graph776.hcp 
+Number of Vertices: 4540, number of edges: 7629
+0 hours 0 minutes 0 seconds 506 milliseconds 71 microseconds 
+No
+graph777.hcp 
+Number of Vertices: 4541, number of edges: 15791
+0 hours 0 minutes 0 seconds 939 milliseconds 358 microseconds 
+No
+graph778.hcp 
+Number of Vertices: 4561, number of edges: 15861
+0 hours 0 minutes 0 seconds 946 milliseconds 565 microseconds 
+No
+graph779.hcp 
+Number of Vertices: 4563, number of edges: 10476
+0 hours 0 minutes 0 seconds 667 milliseconds 698 microseconds 
+No
+graph780.hcp 
+Number of Vertices: 4566, number of edges: 8081
+0 hours 0 minutes 0 seconds 539 milliseconds 466 microseconds 
+No
+graph781.hcp 
+Number of Vertices: 4566, number of edges: 8065
+0 hours 0 minutes 0 seconds 531 milliseconds 136 microseconds 
+No
+graph782.hcp 
+Number of Vertices: 4578, number of edges: 6867
+0 hours 0 minutes 0 seconds 449 milliseconds 502 microseconds 
+No
+graph783.hcp 
+Number of Vertices: 4582, number of edges: 6536
+0 hours 0 minutes 0 seconds 445 milliseconds 172 microseconds 
+No
+graph784.hcp 
+Number of Vertices: 4590, number of edges: 6885
+0 hours 0 minutes 0 seconds 453 milliseconds 542 microseconds 
+No
+graph785.hcp 
+Number of Vertices: 4596, number of edges: 7310
+0 hours 0 minutes 0 seconds 487 milliseconds 961 microseconds 
+No
+graph786.hcp 
+Number of Vertices: 4607, number of edges: 10582
+0 hours 0 minutes 0 seconds 647 milliseconds 528 microseconds 
+No
+graph787.hcp 
+Number of Vertices: 4608, number of edges: 6582
+0 hours 0 minutes 0 seconds 452 milliseconds 486 microseconds 
+No
+graph788.hcp 
+Number of Vertices: 4620, number of edges: 7560
+0 hours 0 minutes 0 seconds 511 milliseconds 138 microseconds 
+No
+graph789.hcp 
+Number of Vertices: 4628, number of edges: 7959
+0 hours 0 minutes 0 seconds 518 milliseconds 928 microseconds 
+No
+graph790.hcp 
+Number of Vertices: 4641, number of edges: 16141
+0 hours 0 minutes 1 seconds 3 milliseconds 772 microseconds 
+No
+graph791.hcp 
+Number of Vertices: 4641, number of edges: 16141
+0 hours 0 minutes 0 seconds 994 milliseconds 787 microseconds 
+No
+graph792.hcp 
+Number of Vertices: 4654, number of edges: 6982
+0 hours 0 minutes 0 seconds 469 milliseconds 155 microseconds 
+No
+graph793.hcp 
+Number of Vertices: 4674, number of edges: 7993
+0 hours 0 minutes 0 seconds 497 milliseconds 61 microseconds 
+No
+graph794.hcp 
+Number of Vertices: 4680, number of edges: 7643
+0 hours 0 minutes 0 seconds 520 milliseconds 685 microseconds 
+No
+graph795.hcp 
+Number of Vertices: 4682, number of edges: 7897
+0 hours 0 minutes 0 seconds 546 milliseconds 48 microseconds 
+No
+graph796.hcp 
+Number of Vertices: 4684, number of edges: 8753
+0 hours 0 minutes 0 seconds 567 milliseconds 385 microseconds 
+No
+graph797.hcp 
+Number of Vertices: 4701, number of edges: 16351
+0 hours 0 minutes 1 seconds 47 milliseconds 765 microseconds 
+No
+graph798.hcp 
+Number of Vertices: 4704, number of edges: 8063
+0 hours 0 minutes 0 seconds 524 milliseconds 604 microseconds 
+No
+graph799.hcp 
+Number of Vertices: 4706, number of edges: 7333
+0 hours 0 minutes 0 seconds 485 milliseconds 693 microseconds 
+No
+graph800.hcp 
+Number of Vertices: 4706, number of edges: 7486
+0 hours 0 minutes 0 seconds 520 milliseconds 357 microseconds 
+No
+graph801.hcp 
+Number of Vertices: 4715, number of edges: 9112
+0 hours 0 minutes 0 seconds 592 milliseconds 44 microseconds 
+No
+graph802.hcp 
+Number of Vertices: 4732, number of edges: 10864
+0 hours 0 minutes 0 seconds 704 milliseconds 911 microseconds 
+No
+graph803.hcp 
+Number of Vertices: 4734, number of edges: 8035
+0 hours 0 minutes 0 seconds 541 milliseconds 541 microseconds 
+No
+graph804.hcp 
+Number of Vertices: 4746, number of edges: 7119
+0 hours 0 minutes 0 seconds 477 milliseconds 99 microseconds 
+No
+graph805.hcp 
+Number of Vertices: 4764, number of edges: 8468
+0 hours 0 minutes 0 seconds 565 milliseconds 782 microseconds 
+No
+graph806.hcp 
+Number of Vertices: 4764, number of edges: 8472
+0 hours 0 minutes 0 seconds 566 milliseconds 980 microseconds 
+No
+graph807.hcp 
+Number of Vertices: 4786, number of edges: 6849
+0 hours 0 minutes 0 seconds 457 milliseconds 642 microseconds 
+No
+graph808.hcp 
+Number of Vertices: 4795, number of edges: 11005
+0 hours 0 minutes 0 seconds 686 milliseconds 578 microseconds 
+No
+graph809.hcp 
+Number of Vertices: 4810, number of edges: 7783
+0 hours 0 minutes 0 seconds 522 milliseconds 988 microseconds 
+No
+graph810.hcp 
+Number of Vertices: 4832, number of edges: 8354
+0 hours 0 minutes 0 seconds 520 milliseconds 862 microseconds 
+No
+graph811.hcp 
+Number of Vertices: 4840, number of edges: 8732
+0 hours 0 minutes 0 seconds 564 milliseconds 731 microseconds 
+No
+graph812.hcp 
+Number of Vertices: 4854, number of edges: 7817
+0 hours 0 minutes 0 seconds 492 milliseconds 57 microseconds 
+No
+graph813.hcp 
+Number of Vertices: 4856, number of edges: 7899
+0 hours 0 minutes 0 seconds 502 milliseconds 793 microseconds 
+No
+graph814.hcp 
+Number of Vertices: 4901, number of edges: 11252
+0 hours 0 minutes 0 seconds 721 milliseconds 217 microseconds 
+No
+graph815.hcp 
+Number of Vertices: 4908, number of edges: 7042
+0 hours 0 minutes 0 seconds 489 milliseconds 212 microseconds 
+No
+graph816.hcp 
+Number of Vertices: 4914, number of edges: 7371
+0 hours 0 minutes 0 seconds 499 milliseconds 784 microseconds 
+No
+graph817.hcp 
+Number of Vertices: 4930, number of edges: 11324
+0 hours 0 minutes 0 seconds 755 milliseconds 66 microseconds 
+No
+graph818.hcp 
+Number of Vertices: 4938, number of edges: 7407
+0 hours 0 minutes 0 seconds 498 milliseconds 274 microseconds 
+No
+graph819.hcp 
+Number of Vertices: 4947, number of edges: 9366
+0 hours 0 minutes 0 seconds 628 milliseconds 964 microseconds 
+No
+graph820.hcp 
+Number of Vertices: 4962, number of edges: 8871
+0 hours 0 minutes 0 seconds 614 milliseconds 785 microseconds 
+No
+graph821.hcp 
+Number of Vertices: 4962, number of edges: 8871
+0 hours 0 minutes 0 seconds 605 milliseconds 308 microseconds 
+No
+graph822.hcp 
+Number of Vertices: 4975, number of edges: 8589
+0 hours 0 minutes 0 seconds 541 milliseconds 23 microseconds 
+No
+graph823.hcp 
+Number of Vertices: 4980, number of edges: 7146
+0 hours 0 minutes 0 seconds 497 milliseconds 864 microseconds 
+No
+graph824.hcp 
+Number of Vertices: 4992, number of edges: 8148
+0 hours 0 minutes 0 seconds 558 milliseconds 964 microseconds 
+No
+graph825.hcp 
+Number of Vertices: 4995, number of edges: 9720
+0 hours 0 minutes 0 seconds 638 milliseconds 38 microseconds 
+No
+graph826.hcp 
+Number of Vertices: 4995, number of edges: 9720
+0 hours 0 minutes 0 seconds 629 milliseconds 979 microseconds 
+No
+graph827.hcp 
+Number of Vertices: 5000, number of edges: 9674
+0 hours 0 minutes 0 seconds 641 milliseconds 156 microseconds 
+No
+graph828.hcp 
+Number of Vertices: 5038, number of edges: 7558
+0 hours 0 minutes 0 seconds 546 milliseconds 688 microseconds 
+No
+graph829.hcp 
+Number of Vertices: 5053, number of edges: 7387
+0 hours 0 minutes 0 seconds 492 milliseconds 675 microseconds 
+No
+graph830.hcp 
+Number of Vertices: 5056, number of edges: 17151
+0 hours 0 minutes 1 seconds 77 milliseconds 900 microseconds 
+No
+graph831.hcp 
+Number of Vertices: 5066, number of edges: 8188
+0 hours 0 minutes 0 seconds 546 milliseconds 352 microseconds 
+No
+graph832.hcp 
+Number of Vertices: 5070, number of edges: 7986
+0 hours 0 minutes 0 seconds 552 milliseconds 352 microseconds 
+No
+graph833.hcp 
+Number of Vertices: 5070, number of edges: 11640
+0 hours 0 minutes 0 seconds 738 milliseconds 3 microseconds 
+No
+graph834.hcp 
+Number of Vertices: 5116, number of edges: 8797
+0 hours 0 minutes 0 seconds 613 milliseconds 319 microseconds 
+No
+graph835.hcp 
+Number of Vertices: 5128, number of edges: 7421
+0 hours 0 minutes 0 seconds 499 milliseconds 782 microseconds 
+No
+graph836.hcp 
+Number of Vertices: 5130, number of edges: 16794
+0 hours 0 minutes 1 seconds 66 milliseconds 484 microseconds 
+No
+graph837.hcp 
+Number of Vertices: 5160, number of edges: 9294
+0 hours 0 minutes 0 seconds 655 milliseconds 629 microseconds 
+No
+graph838.hcp 
+Number of Vertices: 5160, number of edges: 9294
+0 hours 0 minutes 0 seconds 615 milliseconds 552 microseconds 
+No
+graph839.hcp 
+Number of Vertices: 5164, number of edges: 10108
+0 hours 0 minutes 0 seconds 656 milliseconds 867 microseconds 
+No
+graph840.hcp 
+Number of Vertices: 5177, number of edges: 8301
+0 hours 0 minutes 0 seconds 528 milliseconds 237 microseconds 
+No
+graph841.hcp 
+Number of Vertices: 5190, number of edges: 8321
+0 hours 0 minutes 0 seconds 528 milliseconds 894 microseconds 
+No
+graph842.hcp 
+Number of Vertices: 5191, number of edges: 9148
+0 hours 0 minutes 0 seconds 627 milliseconds 780 microseconds 
+No
+graph843.hcp 
+Number of Vertices: 5191, number of edges: 8223
+0 hours 0 minutes 0 seconds 562 milliseconds 710 microseconds 
+No
+graph844.hcp 
+Number of Vertices: 5226, number of edges: 17626
+0 hours 0 minutes 1 seconds 83 milliseconds 719 microseconds 
+No
+graph845.hcp 
+Number of Vertices: 5239, number of edges: 12028
+0 hours 0 minutes 0 seconds 750 milliseconds 552 microseconds 
+No
+graph846.hcp 
+Number of Vertices: 5244, number of edges: 9055
+0 hours 0 minutes 0 seconds 566 milliseconds 646 microseconds 
+No
+graph847.hcp 
+Number of Vertices: 5253, number of edges: 12066
+0 hours 0 minutes 0 seconds 773 milliseconds 785 microseconds 
+No
+graph848.hcp 
+Number of Vertices: 5257, number of edges: 7557
+0 hours 0 minutes 0 seconds 528 milliseconds 302 microseconds 
+No
+graph849.hcp 
+Number of Vertices: 5274, number of edges: 7911
+0 hours 0 minutes 0 seconds 523 milliseconds 675 microseconds 
+No
+graph850.hcp 
+Number of Vertices: 5285, number of edges: 9185
+0 hours 0 minutes 0 seconds 621 milliseconds 402 microseconds 
+No
+graph851.hcp 
+Number of Vertices: 5333, number of edges: 10496
+0 hours 0 minutes 0 seconds 691 milliseconds 779 microseconds 
+No
+graph852.hcp 
+Number of Vertices: 5338, number of edges: 8008
+0 hours 0 minutes 0 seconds 559 milliseconds 224 microseconds 
+No
+graph853.hcp 
+Number of Vertices: 5354, number of edges: 8755
+0 hours 0 minutes 0 seconds 621 milliseconds 588 microseconds 
+No
+graph854.hcp 
+Number of Vertices: 5354, number of edges: 8755
+0 hours 0 minutes 0 seconds 549 milliseconds 996 microseconds 
+No
+graph855.hcp 
+Number of Vertices: 5358, number of edges: 9697
+0 hours 0 minutes 0 seconds 665 milliseconds 56 microseconds 
+No
+graph856.hcp 
+Number of Vertices: 5358, number of edges: 9689
+0 hours 0 minutes 0 seconds 660 milliseconds 147 microseconds 
+No
+graph857.hcp 
+Number of Vertices: 5388, number of edges: 10622
+0 hours 0 minutes 0 seconds 711 milliseconds 952 microseconds 
+No
+graph858.hcp 
+Number of Vertices: 5404, number of edges: 9229
+0 hours 0 minutes 0 seconds 647 milliseconds 481 microseconds 
+No
+graph859.hcp 
+Number of Vertices: 5408, number of edges: 12416
+0 hours 0 minutes 0 seconds 841 milliseconds 876 microseconds 
+No
+graph860.hcp 
+Number of Vertices: 5424, number of edges: 8687
+0 hours 0 minutes 0 seconds 599 milliseconds 178 microseconds 
+No
+graph861.hcp 
+Number of Vertices: 5433, number of edges: 10203
+0 hours 0 minutes 0 seconds 700 milliseconds 70 microseconds 
+No
+graph862.hcp 
+Number of Vertices: 5452, number of edges: 7852
+0 hours 0 minutes 0 seconds 549 milliseconds 484 microseconds 
+No
+graph863.hcp 
+Number of Vertices: 5461, number of edges: 19011
+0 hours 0 minutes 1 seconds 215 milliseconds 766 microseconds 
+No
+graph864.hcp 
+Number of Vertices: 5506, number of edges: 8260
+0 hours 0 minutes 0 seconds 581 milliseconds 485 microseconds 
+No
+graph865.hcp 
+Number of Vertices: 5538, number of edges: 8307
+0 hours 0 minutes 0 seconds 608 milliseconds 615 microseconds 
+No
+graph866.hcp 
+Number of Vertices: 5538, number of edges: 9203
+0 hours 0 minutes 0 seconds 667 milliseconds 61 microseconds 
+No
+graph867.hcp 
+Number of Vertices: 5543, number of edges: 10274
+0 hours 0 minutes 0 seconds 690 milliseconds 827 microseconds 
+No
+graph868.hcp 
+Number of Vertices: 5544, number of edges: 9072
+0 hours 0 minutes 0 seconds 665 milliseconds 213 microseconds 
+No
+graph869.hcp 
+Number of Vertices: 5556, number of edges: 10112
+0 hours 0 minutes 0 seconds 667 milliseconds 93 microseconds 
+No
+graph870.hcp 
+Number of Vertices: 5556, number of edges: 10104
+0 hours 0 minutes 0 seconds 673 milliseconds 860 microseconds 
+No
+graph871.hcp 
+Number of Vertices: 5561, number of edges: 9775
+0 hours 0 minutes 0 seconds 688 milliseconds 588 microseconds 
+No
+graph872.hcp 
+Number of Vertices: 5566, number of edges: 9715
+0 hours 0 minutes 0 seconds 657 milliseconds 315 microseconds 
+No
+graph873.hcp 
+Number of Vertices: 5566, number of edges: 9715
+0 hours 0 minutes 0 seconds 665 milliseconds 962 microseconds 
+No
+graph874.hcp 
+Number of Vertices: 5575, number of edges: 10511
+0 hours 0 minutes 0 seconds 710 milliseconds 403 microseconds 
+No
+graph875.hcp 
+Number of Vertices: 5576, number of edges: 12808
+0 hours 0 minutes 0 seconds 858 milliseconds 158 microseconds 
+No
+graph876.hcp 
+Number of Vertices: 5577, number of edges: 12804
+0 hours 0 minutes 0 seconds 876 milliseconds 519 microseconds 
+No
+graph877.hcp 
+Number of Vertices: 5610, number of edges: 8415
+0 hours 0 minutes 0 seconds 604 milliseconds 190 microseconds 
+No
+graph878.hcp 
+Number of Vertices: 5615, number of edges: 10144
+0 hours 0 minutes 0 seconds 671 milliseconds 434 microseconds 
+No
+graph879.hcp 
+Number of Vertices: 5618, number of edges: 10779
+0 hours 0 minutes 0 seconds 746 milliseconds 464 microseconds 
+No
+graph880.hcp 
+Number of Vertices: 5664, number of edges: 7902
+0 hours 0 minutes 0 seconds 570 milliseconds 54 microseconds 
+No
+graph881.hcp 
+Number of Vertices: 5675, number of edges: 11528
+0 hours 0 minutes 0 seconds 816 milliseconds 156 microseconds 
+No
+graph882.hcp 
+Number of Vertices: 5686, number of edges: 9306
+0 hours 0 minutes 0 seconds 678 milliseconds 57 microseconds 
+No
+graph883.hcp 
+Number of Vertices: 5696, number of edges: 9325
+0 hours 0 minutes 0 seconds 692 milliseconds 379 microseconds 
+No
+graph884.hcp 
+Number of Vertices: 5706, number of edges: 11025
+0 hours 0 minutes 0 seconds 783 milliseconds 676 microseconds 
+No
+graph885.hcp 
+Number of Vertices: 5714, number of edges: 9590
+0 hours 0 minutes 0 seconds 680 milliseconds 292 microseconds 
+No
+graph886.hcp 
+Number of Vertices: 5727, number of edges: 10202
+0 hours 0 minutes 0 seconds 727 milliseconds 515 microseconds 
+No
+graph887.hcp 
+Number of Vertices: 5728, number of edges: 9891
+0 hours 0 minutes 0 seconds 732 milliseconds 743 microseconds 
+No
+graph888.hcp 
+Number of Vertices: 5739, number of edges: 13950
+0 hours 0 minutes 0 seconds 968 milliseconds 512 microseconds 
+No
+graph889.hcp 
+Number of Vertices: 5754, number of edges: 10523
+0 hours 0 minutes 0 seconds 716 milliseconds 799 microseconds 
+No
+graph890.hcp 
+Number of Vertices: 5754, number of edges: 10531
+0 hours 0 minutes 0 seconds 734 milliseconds 563 microseconds 
+No
+graph891.hcp 
+Number of Vertices: 5754, number of edges: 9412
+0 hours 0 minutes 0 seconds 675 milliseconds 149 microseconds 
+No
+graph892.hcp 
+Number of Vertices: 5772, number of edges: 13086
+0 hours 0 minutes 0 seconds 889 milliseconds 292 microseconds 
+No
+graph893.hcp 
+Number of Vertices: 5775, number of edges: 9718
+0 hours 0 minutes 0 seconds 671 milliseconds 195 microseconds 
+No
+graph894.hcp 
+Number of Vertices: 5787, number of edges: 13662
+0 hours 0 minutes 0 seconds 932 milliseconds 767 microseconds 
+No
+graph895.hcp 
+Number of Vertices: 5788, number of edges: 9651
+0 hours 0 minutes 0 seconds 700 milliseconds 364 microseconds 
+No
+graph896.hcp 
+Number of Vertices: 5797, number of edges: 10131
+0 hours 0 minutes 0 seconds 685 milliseconds 162 microseconds 
+No
+graph897.hcp 
+Number of Vertices: 5844, number of edges: 9787
+0 hours 0 minutes 0 seconds 684 milliseconds 192 microseconds 
+No
+graph898.hcp 
+Number of Vertices: 5892, number of edges: 13644
+0 hours 0 minutes 0 seconds 944 milliseconds 698 microseconds 
+No
+graph899.hcp 
+Number of Vertices: 5895, number of edges: 14604
+0 hours 0 minutes 0 seconds 997 milliseconds 619 microseconds 
+No
+graph900.hcp 
+Number of Vertices: 5920, number of edges: 9416
+0 hours 0 minutes 0 seconds 685 milliseconds 107 microseconds 
+No
+graph901.hcp 
+Number of Vertices: 5922, number of edges: 8883
+0 hours 0 minutes 0 seconds 642 milliseconds 304 microseconds 
+No
+graph902.hcp 
+Number of Vertices: 5932, number of edges: 8491
+0 hours 0 minutes 0 seconds 615 milliseconds 714 microseconds 
+No
+graph903.hcp 
+Number of Vertices: 5952, number of edges: 10958
+0 hours 0 minutes 0 seconds 730 milliseconds 703 microseconds 
+No
+graph904.hcp 
+Number of Vertices: 5952, number of edges: 10954
+0 hours 0 minutes 0 seconds 733 milliseconds 537 microseconds 
+No
+graph905.hcp 
+Number of Vertices: 5985, number of edges: 19593
+0 hours 0 minutes 1 seconds 296 milliseconds 662 microseconds 
+No
+graph906.hcp 
+Number of Vertices: 5986, number of edges: 10022
+0 hours 0 minutes 0 seconds 730 milliseconds 830 microseconds 
+No
+graph907.hcp 
+Number of Vertices: 6009, number of edges: 9188
+0 hours 0 minutes 0 seconds 673 milliseconds 523 microseconds 
+No
+graph908.hcp 
+Number of Vertices: 6018, number of edges: 9808
+0 hours 0 minutes 0 seconds 707 milliseconds 959 microseconds 
+No
+graph909.hcp 
+Number of Vertices: 6048, number of edges: 14274
+0 hours 0 minutes 0 seconds 964 milliseconds 592 microseconds 
+No
+graph910.hcp 
+Number of Vertices: 6057, number of edges: 10693
+0 hours 0 minutes 0 seconds 753 milliseconds 322 microseconds 
+No
+graph911.hcp 
+Number of Vertices: 6058, number of edges: 9485
+0 hours 0 minutes 0 seconds 651 milliseconds 126 microseconds 
+No
+graph912.hcp 
+Number of Vertices: 6072, number of edges: 8514
+0 hours 0 minutes 0 seconds 609 milliseconds 898 microseconds 
+No
+graph913.hcp 
+Number of Vertices: 6072, number of edges: 9963
+0 hours 0 minutes 0 seconds 702 milliseconds 470 microseconds 
+No
+graph914.hcp 
+Number of Vertices: 6072, number of edges: 14690
+0 hours 0 minutes 0 seconds 995 milliseconds 944 microseconds 
+No
+graph915.hcp 
+Number of Vertices: 6087, number of edges: 14524
+0 hours 0 minutes 0 seconds 978 milliseconds 417 microseconds 
+No
+graph916.hcp 
+Number of Vertices: 6105, number of edges: 13794
+0 hours 0 minutes 0 seconds 946 milliseconds 926 microseconds 
+No
+graph917.hcp 
+Number of Vertices: 6109, number of edges: 10935
+0 hours 0 minutes 0 seconds 757 milliseconds 737 microseconds 
+No
+graph918.hcp 
+Number of Vertices: 6150, number of edges: 11361
+0 hours 0 minutes 0 seconds 792 milliseconds 310 microseconds 
+No
+graph919.hcp 
+Number of Vertices: 6150, number of edges: 11385
+0 hours 0 minutes 0 seconds 794 milliseconds 968 microseconds 
+No
+graph920.hcp 
+Number of Vertices: 6164, number of edges: 10289
+0 hours 0 minutes 0 seconds 767 milliseconds 559 microseconds 
+No
+graph921.hcp 
+Number of Vertices: 6164, number of edges: 10289
+0 hours 0 minutes 0 seconds 770 milliseconds 771 microseconds 
+No
+graph922.hcp 
+Number of Vertices: 6164, number of edges: 8840
+0 hours 0 minutes 0 seconds 682 milliseconds 176 microseconds 
+No
+graph923.hcp 
+Number of Vertices: 6178, number of edges: 9268
+0 hours 0 minutes 0 seconds 687 milliseconds 901 microseconds 
+No
+graph924.hcp 
+Number of Vertices: 6186, number of edges: 9279
+0 hours 0 minutes 0 seconds 676 milliseconds 254 microseconds 
+No
+graph925.hcp 
+Number of Vertices: 6245, number of edges: 10143
+0 hours 0 minutes 0 seconds 743 milliseconds 799 microseconds 
+No
+graph926.hcp 
+Number of Vertices: 6264, number of edges: 15408
+0 hours 0 minutes 1 seconds 89 milliseconds 9 microseconds 
+No
+graph927.hcp 
+Number of Vertices: 6282, number of edges: 9423
+0 hours 0 minutes 0 seconds 705 milliseconds 761 microseconds 
+No
+graph928.hcp 
+Number of Vertices: 6294, number of edges: 10471
+0 hours 0 minutes 0 seconds 773 milliseconds 871 microseconds 
+No
+graph929.hcp 
+Number of Vertices: 6297, number of edges: 14472
+0 hours 0 minutes 1 seconds 26 milliseconds 267 microseconds 
+No
+graph930.hcp 
+Number of Vertices: 6303, number of edges: 15666
+0 hours 0 minutes 1 seconds 129 milliseconds 369 microseconds 
+No
+graph931.hcp 
+Number of Vertices: 6348, number of edges: 11796
+0 hours 0 minutes 0 seconds 827 milliseconds 566 microseconds 
+No
+graph932.hcp 
+Number of Vertices: 6348, number of edges: 11804
+0 hours 0 minutes 0 seconds 825 milliseconds 718 microseconds 
+No
+graph933.hcp 
+Number of Vertices: 6348, number of edges: 10553
+0 hours 0 minutes 0 seconds 789 milliseconds 604 microseconds 
+No
+graph934.hcp 
+Number of Vertices: 6350, number of edges: 9989
+0 hours 0 minutes 0 seconds 743 milliseconds 962 microseconds 
+No
+graph935.hcp 
+Number of Vertices: 6382, number of edges: 10792
+0 hours 0 minutes 0 seconds 812 milliseconds 16 microseconds 
+No
+graph936.hcp 
+Number of Vertices: 6405, number of edges: 15430
+0 hours 0 minutes 1 seconds 79 milliseconds 779 microseconds 
+No
+graph937.hcp 
+Number of Vertices: 6412, number of edges: 10762
+0 hours 0 minutes 0 seconds 787 milliseconds 42 microseconds 
+No
+graph938.hcp 
+Number of Vertices: 6468, number of edges: 10933
+0 hours 0 minutes 0 seconds 834 milliseconds 85 microseconds 
+No
+graph939.hcp 
+Number of Vertices: 6494, number of edges: 10941
+0 hours 0 minutes 0 seconds 799 milliseconds 443 microseconds 
+No
+graph940.hcp 
+Number of Vertices: 6498, number of edges: 10629
+0 hours 0 minutes 0 seconds 810 milliseconds 862 microseconds 
+No
+graph941.hcp 
+Number of Vertices: 6519, number of edges: 12848
+0 hours 0 minutes 0 seconds 971 milliseconds 956 microseconds 
+No
+graph942.hcp 
+Number of Vertices: 6524, number of edges: 9374
+0 hours 0 minutes 0 seconds 730 milliseconds 419 microseconds 
+No
+graph943.hcp 
+Number of Vertices: 6543, number of edges: 15250
+0 hours 0 minutes 1 seconds 84 milliseconds 358 microseconds 
+No
+graph944.hcp 
+Number of Vertices: 6544, number of edges: 10925
+0 hours 0 minutes 0 seconds 806 milliseconds 735 microseconds 
+No
+graph945.hcp 
+Number of Vertices: 6574, number of edges: 9862
+0 hours 0 minutes 0 seconds 758 milliseconds 241 microseconds 
+No
+graph946.hcp 
+Number of Vertices: 6576, number of edges: 10186
+0 hours 0 minutes 0 seconds 791 milliseconds 196 microseconds 
+No
+graph947.hcp 
+Number of Vertices: 6598, number of edges: 9898
+0 hours 0 minutes 0 seconds 758 milliseconds 172 microseconds 
+No
+graph948.hcp 
+Number of Vertices: 6604, number of edges: 9490
+0 hours 0 minutes 0 seconds 732 milliseconds 788 microseconds 
+No
+graph949.hcp 
+Number of Vertices: 6606, number of edges: 9909
+0 hours 0 minutes 0 seconds 748 milliseconds 861 microseconds 
+No
+graph950.hcp 
+Number of Vertices: 6620, number of edges: 28718
+0 hours 0 minutes 2 seconds 29 milliseconds 632 microseconds 
+No
+graph951.hcp 
+Number of Vertices: 6630, number of edges: 10578
+0 hours 0 minutes 0 seconds 817 milliseconds 304 microseconds 
+No
+graph952.hcp 
+Number of Vertices: 6654, number of edges: 15620
+0 hours 0 minutes 1 seconds 129 milliseconds 717 microseconds 
+No
+graph953.hcp 
+Number of Vertices: 6682, number of edges: 12223
+0 hours 0 minutes 0 seconds 865 milliseconds 668 microseconds 
+No
+graph954.hcp 
+Number of Vertices: 6735, number of edges: 11504
+0 hours 0 minutes 0 seconds 874 milliseconds 123 microseconds 
+No
+graph955.hcp 
+Number of Vertices: 6840, number of edges: 22392
+0 hours 0 minutes 1 seconds 589 milliseconds 332 microseconds 
+No
+graph956.hcp 
+Number of Vertices: 6852, number of edges: 11126
+0 hours 0 minutes 0 seconds 847 milliseconds 196 microseconds 
+No
+graph957.hcp 
+Number of Vertices: 6858, number of edges: 10287
+0 hours 0 minutes 0 seconds 788 milliseconds 633 microseconds 
+No
+graph958.hcp 
+Number of Vertices: 6916, number of edges: 11652
+0 hours 0 minutes 0 seconds 836 milliseconds 229 microseconds 
+No
+graph959.hcp 
+Number of Vertices: 6925, number of edges: 11727
+0 hours 0 minutes 0 seconds 895 milliseconds 303 microseconds 
+No
+graph960.hcp 
+Number of Vertices: 6930, number of edges: 11340
+0 hours 0 minutes 0 seconds 875 milliseconds 865 microseconds 
+No
+graph961.hcp 
+Number of Vertices: 6939, number of edges: 11528
+0 hours 0 minutes 0 seconds 833 milliseconds 270 microseconds 
+No
+graph962.hcp 
+Number of Vertices: 7004, number of edges: 11361
+0 hours 0 minutes 0 seconds 877 milliseconds 596 microseconds 
+No
+graph963.hcp 
+Number of Vertices: 7020, number of edges: 30518
+0 hours 0 minutes 2 seconds 170 milliseconds 985 microseconds 
+No
+graph964.hcp 
+Number of Vertices: 7042, number of edges: 10564
+0 hours 0 minutes 0 seconds 834 milliseconds 175 microseconds 
+No
+graph965.hcp 
+Number of Vertices: 7102, number of edges: 11680
+0 hours 0 minutes 0 seconds 835 milliseconds 564 microseconds 
+No
+graph966.hcp 
+Number of Vertices: 7104, number of edges: 11952
+0 hours 0 minutes 0 seconds 951 milliseconds 350 microseconds 
+No
+graph967.hcp 
+Number of Vertices: 7124, number of edges: 10092
+0 hours 0 minutes 0 seconds 770 milliseconds 687 microseconds 
+No
+graph968.hcp 
+Number of Vertices: 7138, number of edges: 12824
+0 hours 0 minutes 0 seconds 994 milliseconds 613 microseconds 
+No
+graph969.hcp 
+Number of Vertices: 7209, number of edges: 11910
+0 hours 0 minutes 0 seconds 878 milliseconds 365 microseconds 
+No
+graph970.hcp 
+Number of Vertices: 7218, number of edges: 10827
+0 hours 0 minutes 0 seconds 834 milliseconds 417 microseconds 
+No
+graph971.hcp 
+Number of Vertices: 7295, number of edges: 11907
+0 hours 0 minutes 0 seconds 888 milliseconds 580 microseconds 
+No
+graph972.hcp 
+Number of Vertices: 7376, number of edges: 13617
+0 hours 0 minutes 1 seconds 0 milliseconds 853 microseconds 
+No
+graph973.hcp 
+Number of Vertices: 7386, number of edges: 14841
+0 hours 0 minutes 1 seconds 158 milliseconds 812 microseconds 
+No
+graph974.hcp 
+Number of Vertices: 7418, number of edges: 11885
+0 hours 0 minutes 0 seconds 989 milliseconds 394 microseconds 
+No
+graph975.hcp 
+Number of Vertices: 7420, number of edges: 32318
+0 hours 0 minutes 2 seconds 398 milliseconds 231 microseconds 
+No
+graph976.hcp 
+Number of Vertices: 7434, number of edges: 11910
+0 hours 0 minutes 0 seconds 967 milliseconds 806 microseconds 
+No
+graph977.hcp 
+Number of Vertices: 7470, number of edges: 12839
+0 hours 0 minutes 1 seconds 46 milliseconds 847 microseconds 
+No
+graph978.hcp 
+Number of Vertices: 7480, number of edges: 10628
+0 hours 0 minutes 0 seconds 913 milliseconds 945 microseconds 
+No
+graph979.hcp 
+Number of Vertices: 7482, number of edges: 11223
+0 hours 0 minutes 0 seconds 953 milliseconds 222 microseconds 
+No
+graph980.hcp 
+Number of Vertices: 7566, number of edges: 11349
+0 hours 0 minutes 0 seconds 945 milliseconds 757 microseconds 
+No
+graph981.hcp 
+Number of Vertices: 7620, number of edges: 12251
+0 hours 0 minutes 1 seconds 40 milliseconds 167 microseconds 
+No
+graph982.hcp 
+Number of Vertices: 7620, number of edges: 33218
+0 hours 0 minutes 2 seconds 545 milliseconds 268 microseconds 
+No
+graph983.hcp 
+Number of Vertices: 7650, number of edges: 12234
+0 hours 0 minutes 1 seconds 57 milliseconds 260 microseconds 
+No
+graph984.hcp 
+Number of Vertices: 7695, number of edges: 25191
+0 hours 0 minutes 1 seconds 909 milliseconds 398 microseconds 
+No
+graph985.hcp 
+Number of Vertices: 7698, number of edges: 12868
+0 hours 0 minutes 1 seconds 46 milliseconds 735 microseconds 
+No
+graph986.hcp 
+Number of Vertices: 7824, number of edges: 12245
+0 hours 0 minutes 1 seconds 26 milliseconds 295 microseconds 
+No
+graph987.hcp 
+Number of Vertices: 7850, number of edges: 12408
+0 hours 0 minutes 1 seconds 45 milliseconds 277 microseconds 
+No
+graph988.hcp 
+Number of Vertices: 7914, number of edges: 11871
+0 hours 0 minutes 1 seconds 7 milliseconds 130 microseconds 
+No
+graph989.hcp 
+Number of Vertices: 7918, number of edges: 11608
+0 hours 0 minutes 0 seconds 998 milliseconds 328 microseconds 
+No
+graph990.hcp 
+Number of Vertices: 8020, number of edges: 35018
+0 hours 0 minutes 2 seconds 632 milliseconds 850 microseconds 
+No
+graph991.hcp 
+Number of Vertices: 8262, number of edges: 12393
+0 hours 0 minutes 1 seconds 24 milliseconds 184 microseconds 
+No
+graph992.hcp 
+Number of Vertices: 8272, number of edges: 13687
+0 hours 0 minutes 1 seconds 33 milliseconds 872 microseconds 
+No
+graph993.hcp 
+Number of Vertices: 8380, number of edges: 13329
+0 hours 0 minutes 1 seconds 113 milliseconds 131 microseconds 
+No
+graph994.hcp 
+Number of Vertices: 8401, number of edges: 13828
+0 hours 0 minutes 1 seconds 98 milliseconds 47 microseconds 
+No
+graph995.hcp 
+Number of Vertices: 8544, number of edges: 14927
+0 hours 0 minutes 1 seconds 191 milliseconds 378 microseconds 
+No
+graph996.hcp 
+Number of Vertices: 8550, number of edges: 27990
+0 hours 0 minutes 1 seconds 986 milliseconds 797 microseconds 
+No
+graph997.hcp 
+Number of Vertices: 8562, number of edges: 12843
+0 hours 0 minutes 0 seconds 989 milliseconds 364 microseconds 
+No
+graph998.hcp 
+Number of Vertices: 8613, number of edges: 14352
+0 hours 0 minutes 1 seconds 116 milliseconds 782 microseconds 
+No
+graph999.hcp 
+Number of Vertices: 8886, number of edges: 13329
+0 hours 0 minutes 1 seconds 49 milliseconds 31 microseconds 
+No
+graph1000.hcp 
+Number of Vertices: 9058, number of edges: 13077
+0 hours 0 minutes 1 seconds 47 milliseconds 722 microseconds 
+No
+graph1001.hcp 
+Number of Vertices: 9528, number of edges: 13968
+0 hours 0 minutes 1 seconds 171 milliseconds 864 microseconds 
+No
