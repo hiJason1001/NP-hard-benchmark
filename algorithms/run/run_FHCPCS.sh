@@ -6,7 +6,7 @@ filename="HPA"
 
 executable="./../${filename}.out"
 input_folder="../../data_processed/FHCPCS_processed"
-output_file="${filename}_FHCPCS_processed.txt"
+output_file="${filename}_FHCPCS.txt"
 time_limit_minutes=10  # set timeout minutes
 time_limit_seconds=$((time_limit_minutes * 60))
 
