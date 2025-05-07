@@ -3,44 +3,6 @@
 
 using namespace std;
 
-// HPA3: DFS backtracking version, O(n!) time, O(n) space
-bool dfs_hpa3(int u, int finish,
-    const vector<vector<int>>& graph,
-    vector<bool>& visited,
-    vector<int>& path,
-    int n) {
-
-    if ((int)path.size() == n) {
-        if (u == finish) {
-            return true;
-        }
-        return false;
-    }
-    for (int v : graph[u]) {
-        if (!visited[v]) {
-        visited[v] = true;
-        path.push_back(v);
-        if (dfs_hpa3(v, finish, graph, visited, path, n)) 
-            return true;
-        path.pop_back();
-        visited[v] = false;
-        }
-    }
-    return false;
-}
-
-// Wrapper for HPA3
-bool HPA3(const vector<vector<int>>& graph, int n, int start, int finish) {
-    vector<bool> visited(n, false);
-    vector<int> path;
-    path.reserve(n);
-    path.push_back(start);
-    visited[start] = true;
-    // This recursion uses at most n stack frames and O(n) extra memory.
-    return dfs_hpa3(start, finish, graph, visited, path, n);
-}
-
-
 vector<unordered_map<int, bool>> get_random_coloring_graph(const vector<vector<int>>& graph, int n) {
     std::random_device rd;
     std::mt19937 gen(rd());
@@ -58,6 +20,83 @@ vector<unordered_map<int, bool>> get_random_coloring_graph(const vector<vector<i
     return res;
 }
 
+
+bool HPA3() {
+    return false;
+}
+
+static std::vector<bool> make_in_env(const vector<vector<int>>& F, int n) {
+    std::vector<bool> inEnv(n, false);
+    for (auto &path : F)
+        for (int v : path)
+            inEnv[v] = true;
+    return inEnv;
+}
+
+static void peel_high_fan(std::unordered_set<int>& X,
+                          std::deque<int>& List,
+                          const vector<vector<int>>& graph)
+{
+    while (true) {
+        int sz = X.size();
+        vector<int> toRemove;
+        for (int v : X) {
+            if ((int)graph[v].size() >= 3 * sz) {
+                toRemove.push_back(v);
+            }
+        }
+        if (toRemove.empty()) break;
+        for (int v : toRemove) {
+            X.erase(v);
+            List.push_front(v);
+        }
+    }
+}
+
+
+static bool extend_envelope_newpath(vector<vector<int>>& F,
+                                    int v,
+                                    const vector<vector<int>>& graph,
+                                    const vector<bool>& inEnv)
+{
+    // collect all endpoints of current envelope
+    std::vector<int> endpoints;
+    for (auto &path : F) {
+        endpoints.push_back(path.front());
+        endpoints.push_back(path.back());
+    }
+
+    // try all distinct pairs (u,w) in graph[v] that lie in endpoints
+    for (int u : graph[v]) if (inEnv[u]) {
+        for (int w : graph[v]) if (w != u && inEnv[w]) {
+            // insert a new path [u, v, w]
+            F.push_back({u, v, w});
+            return true;
+        }
+    }
+    return false;
+}
+
+static bool extend_envelope_endpoint(vector<vector<int>>& F,
+                                     int v,
+                                     const vector<vector<int>>& graph,
+                                     const vector<bool> &inEnv)
+{
+    for (auto &path : F) {
+        bool atFront = (path.front() == v);
+        bool atBack  = (path.back()  == v);
+        if (!atFront && !atBack) continue;
+        for (int u : graph[v]) {
+            if (!inEnv[u]) {
+                if (atFront) path.insert(path.begin(), u);
+                else         path.push_back(u);
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
 bool envelope_contains(const vector<vector<int>>& F, int v, int start, int finish) {
     for (auto &path : F) {
         if (v == start && path.front() == start) return true;
@@ -70,63 +109,7 @@ bool envelope_contains(const vector<vector<int>>& F, int v, int start, int finis
     return false;
 }
 
-// Attempts to extend an existing path endpoint by one neighbor of v
-bool extend_envelope_endpoint(vector<vector<int>>& F, int v,
-                               const vector<vector<int>>& graph) {
-    for (auto &path : F) {
-        if (path.front() == v) {
-            // extend at front
-            for (int u : graph[v]) {
-                // ensure u not in any path
-                bool used=false;
-                for (auto &P:F) for(int x:P) if(x==u) used=true;
-                if (!used) {
-                    path.insert(path.begin(), u);
-                    return true;
-                }
-            }
-        } else if (path.back() == v) {
-            // extend at back
-            for (int u : graph[v]) {
-                bool used=false;
-                for (auto &P:F) for(int x:P) if(x==u) used=true;
-                if (!used) {
-                    path.push_back(u);
-                    return true;
-                }
-            }
-        }
-    }
-    return false;
-}
 
-// Creates a new 3-vertex path (u, v, w) for v not in any path
-bool extend_envelope_newpath(vector<vector<int>>& F, int v,
-                             const vector<vector<int>>& graph,
-                             int start, int finish) {
-    // find u adjacent to v and to finish
-    int u_found=-1;
-    for (int u: graph[v]) {
-        if (find(graph[u].begin(), graph[u].end(), finish) != graph[u].end()) {
-            u_found = u;
-            break;
-        }
-    }
-    if (u_found<0) return false;
-    // find w adjacent to v and to start
-    int w_found=-1;
-    for (int w: graph[v]) {
-        if (find(graph[w].begin(), graph[w].end(), start) != graph[w].end() && w!=u_found) {
-            w_found = w;
-            break;
-        }
-    }
-    if (w_found<0) return false;
-    F.push_back({u_found, v, w_found});
-    return true;
-}
-
-// Exhaustive envelope search on X: brute-force permutations
 bool find_envelope(const unordered_set<int>& X,
                    const vector<vector<int>>& graph,
                    int start, int finish,
@@ -135,6 +118,7 @@ bool find_envelope(const unordered_set<int>& X,
     vector<int> Xv(X.begin(), X.end());
     int m = Xv.size();
     if (m == 0) return true;
+    if (m > 8) return false;
     // If both start and finish are in X, ensure distinct paths
     bool startIn = X.count(start), finishIn = X.count(finish);
     sort(Xv.begin(), Xv.end());
@@ -172,7 +156,7 @@ bool find_envelope(const unordered_set<int>& X,
         if (startIn && finishIn && cand.size()>1) {
             // ensure start and finish on different paths
             int pi=-1, pj=-1;
-            for (int i=0;i<cand.size();++i) {
+            for (int i = 0; i < int(cand.size()); ++i) {
                 if (cand[i].front()==start) pi=i;
                 if (cand[i].back()==finish) pj=i;
             }
@@ -187,116 +171,168 @@ bool find_envelope(const unordered_set<int>& X,
 }
 
 
-// Stage 2: envelope construction (properties a–d + reinsertion)
-bool stage2_build_envelope(int n, int start, int finish,
-    const vector<vector<int>>& graph,
-    unordered_set<int>& T,
-    vector<vector<int>>& F) {
-    // Step 1: X = T, build List of high-degree removals
-    unordered_set<int> X = T;
-    deque<int> List;
-    while (true) {
-        bool removed = false;
-        int sz = X.size();
-        for (auto it = X.begin(); it != X.end(); ++it) {
-            int v = *it;
-            int deg = graph[v].size();
-            if (deg >= 3*sz) {
-                List.push_front(v);
-                X.erase(it);
-                removed = true;
-                break;
-            }
-        }
-        if (!removed) break;
-    }
+bool stage2_build_envelope(int start, int finish,
+                           const vector<vector<int>>& graph,
+                           std::unordered_set<int> &T,
+                           vector<vector<int>>& F)
+{
+    std::unordered_set<int> X = T;
+    std::deque<int> List;
+    peel_high_fan(X, List, graph);
 
-    // Step 2: exhaustive search for envelope on X
-    // (here, use DP/pseudo-path algorithm or brute force for small X)
-    if (!find_envelope(X, graph, start, finish, F)) return false;
+    if (!find_envelope(X, graph, start, finish, F))
+        return false;
 
-    // Step 3: reinsert removed vertices
     while (!List.empty()) {
-        int v = List.front(); List.pop_front();
-        // Case (i): already internal or correct endpoint
-        if (envelope_contains(F, v, start, finish)) {
+        int v = List.front();
+        List.pop_front();
+
+        auto inEnv = make_in_env(F, graph.size());
+
+        if (inEnv[v]) {
             X.insert(v);
             continue;
         }
-        // Case (ii): v is endpoint of some path
-        if (extend_envelope_endpoint(F, v, graph)) {
-            X.insert(v);
-            continue;
+
+        bool inserted = false;
+
+        if (!inserted && extend_envelope_endpoint(F, v, graph, inEnv)) {
+            inserted = true;
         }
-        // Case (iii): v not in F at all
-        if (!extend_envelope_newpath(F, v, graph, start, finish))
+
+        if (!inserted && extend_envelope_newpath(F, v, graph, inEnv)) {
+            inserted = true;
+        }
+
+        if (!inserted) {
             return false;
+        }
+
+        auto afterEnv = make_in_env(F, graph.size());
+        assert(afterEnv[v]);
+
+        int countV = 0;
+        for (auto &path : F)
+            for (int x : path)
+                if (x == v) ++countV;
+        assert(countV == 1);
         X.insert(v);
     }
+
+
     return true;
 }
 
-// Stage 3: Extend each path in F by r_n vertices using orange edges
+static bool extend_chain_backtrack(
+    vector<int>& P,
+    const vector<vector<int>>& orange,
+    vector<bool>& used,
+    int rn,
+    bool back)
+{
+    struct Frame { int v, depth, idx; };
+    vector<Frame> stk;
+    vector<int> trail;
+    stk.push_back({ back ? P.back() : P.front(), 0, 0 });
+
+    while (!stk.empty()) {
+        auto [v, depth, idx] = stk.back(); stk.pop_back();
+
+        auto &nbrs = orange[v];
+        bool advanced = false;
+        for (int i = idx; i < (int)nbrs.size(); ++i) {
+            int y = nbrs[i];
+            if (used[y]) continue;
+            // choose y
+            used[y] = true;
+            trail.push_back(y);
+            // if full length, commit:
+            if (depth+1 == rn) {
+                if (back) {
+                    for (int z : trail) P.push_back(z);
+                } else {
+                    for (int j = (int)trail.size()-1; j >= 0; --j)
+                        P.insert(P.begin(), trail[j]);
+                }
+                return true;
+            }
+            // push resume and descend
+            stk.push_back({ v, depth, i+1 });
+            stk.push_back({ y, depth+1, 0 });
+            advanced = true;
+            break;
+        }
+        if (!advanced) {
+            // backtrack one choice
+            if (!trail.empty()) {
+                used[trail.back()] = false;
+                trail.pop_back();
+            }
+        }
+    }
+    // clear any leftover trail marks
+    for (int y : trail) used[y] = false;
+    return false;
+}
+
 bool stage3_extend_orange(int n,
-    const unordered_set<int>& T,
-    vector<vector<int>>& F,           
-    const vector<vector<int>>& orange)
+    const std::unordered_set<int>& T,
+    std::vector<std::vector<int>>& F,
+    const std::vector<std::vector<int>>& orange)
 {
     int k = F.size();
     int t = T.size();
+    int limit = n/12 - 3*t;
+    int denom = 2*(k-1);
+    int rn = (denom > 0 && limit > 0) ? (limit / denom) : 0;
 
-    int rn = 0;
-    while (3*t + 2*(rn+1)*(k-1) <= n/12) ++rn;
-
-    vector<bool> used(n,false);
+    std::vector<bool> used(n,false);
     for (auto &P : F)
         for (int v : P)
             used[v] = true;
 
-    for (int i = 0; i < k; ++i) {
-        auto &P = F[i];
-        // EXTEND END:
-        if (i >= 1) {
-            int x = P.back();
-            for (int step = 0; step < rn; ++step) {
-                // find any orange neighbor y of x that's unused
-                bool found = false;
-                for (int y : orange[x]) {
-                    if (!used[y]) {
-                        P.push_back(y);
-                        used[y] = true;
-                        x = y;
-                        found = true;
-                        break;
-                    }
-                }
-                if (!found) return false;  // fail ⇒ HPA3
-            }
+    for (int i = 0; i+1 < k; ++i) {
+        // extend back of F[i]
+        if (!extend_chain_backtrack(F[i], orange, used, rn, true))
+            return false;
+
+        // post-back extension check
+        int szb = F[i].size();
+        for (int d = 1; d <= rn; ++d) {
+            int y = F[i][szb-d];
+            assert(std::find(orange[F[i][szb-d-1]].begin(),
+                             orange[F[i][szb-d-1]].end(), y)
+                   != orange[F[i][szb-d-1]].end());
         }
-        // EXTEND FRONT:
-        if (i <= k-2) {
-            int x = P.front();
-            for (int step = 0; step < rn; ++step) {
-                bool found = false;
-                for (int y : orange[x]) {
-                    if (!used[y]) {
-                        P.insert(P.begin(), y);
-                        used[y] = true;
-                        x = y;
-                        found = true;
-                        break;
-                    }
-                }
-                if (!found) return false;
+
+        // extend front of F[i+1]
+        if (!extend_chain_backtrack(F[i+1], orange, used, rn, false))
+            return false;
+
+        // post-front extension check
+        for (int d = 0; d < rn; ++d) {
+            int y = F[i+1][d];
+            assert(std::find(orange[F[i+1][d+1]].begin(),
+                             orange[F[i+1][d+1]].end(), y)
+                   != orange[F[i+1][d+1]].end());
+        }
+
+        // global no-duplicate check
+        {
+          std::unordered_set<int> seen;
+          for (auto &P : F)
+            for (int v : P) {
+              if (!used[v]) return false;
+              if (!seen.insert(v).second) return false;
             }
         }
     }
     return true;
 }
 
+
 // Stage 4: Sew F-paths into one path Q0 using yellow edges
-bool stage4_sew_yellow(int n,
-    int start, int finish,
+bool stage4_sew_yellow(
     vector<vector<int>>& F,
     vector<int>& Q0,
     const vector<vector<int>>& yellow)
@@ -335,84 +371,119 @@ bool stage4_sew_yellow(int n,
     return true;
 }
 
-// Stage 5: Partition V-Q0 into disjoint paths Q1..Qm using yellow edges
 bool stage5_partition(int n,
-    const vector<int>& Q0,
-    vector<vector<int>>& Qs,            // Q1..Qm
-    const vector<vector<int>>& yellow)
+    const std::vector<int>& Q0,
+    std::vector<std::vector<int>>& Qs,
+    const std::vector<std::vector<int>>& yellow)
 {
-    vector<bool> inQ0(n,false);
+    // 1) Mark Q0
+    std::vector<bool> inQ0(n,false);
     for (int v : Q0) inQ0[v] = true;
-    vector<bool> used = inQ0;
 
-    for (int v = 0; v < n; ++v) {
-        if (used[v]) continue;
-        vector<int> X = {v};
-        used[v] = true;
+    // 2) used[v]=true if v in Q0 or already in some Qi
+    std::vector<bool> used = inQ0;
 
-        // extend forward
+    // threshold = |Q0|/12
+    int thresh = Q0.size() / 12;
+
+    Qs.clear();
+    std::deque<int> X;  // use deque for O(1) front inserts
+
+    for (int start = 0; start < n; ++start) {
+        if (used[start]) continue;
+        // begin new path
+        X.clear();
+        X.push_back(start);
+        used[start] = true;
+
+        // Forward extension
         while (true) {
             int x = X.back();
-            bool extended = false;
+            bool ext = false;
             for (int y : yellow[x]) {
                 if (!used[y]) {
                     X.push_back(y);
                     used[y] = true;
-                    extended = true;
+                    ext = true;
                     break;
                 }
             }
-            if (!extended) break;
-        }
-        // extend backward
-        while (true) {
-            int x = X.front();
-            bool extended = false;
-            for (int y : yellow[x]) {
-                if (!used[y]) {
-                    X.insert(X.begin(), y);
-                    used[y] = true;
-                    extended = true;
-                    break;
-                }
-            }
-            if (!extended) break;
+            if (!ext) break;
         }
 
-        // check endpoints connectivity to Q0
-        int half = n/12;
-        auto count_conn = [&](int u){
-            int c=0;
-            for (int w : yellow[u]) if (inQ0[w]) ++c;
-            return c;
-        };
-        if (count_conn(X.front()) >= half && count_conn(X.back()) >= half) {
-            Qs.push_back(X);
-        } else {
-            // form a circuit
-            int u = X.front();
-            int best = -1, best_idx = -1;
-            for (int i = 0; i < (int)X.size(); ++i) {
-                int w = X[i];
-                // edge w->u?
-                for (int y : yellow[w]) if (y==u) {
-                    best = w; best_idx = i;
+        // Snapshot used for rollback
+        auto used_snapshot = used;
+
+        // Backward extension
+        while (true) {
+            int x = X.front();
+            bool ext = false;
+            for (int y : yellow[x]) {
+                if (!used[y]) {
+                    X.push_front(y);
+                    used[y] = true;
+                    ext = true;
+                    break;
                 }
             }
-            if (best_idx<0) return false; // unexpected
-            // throw away successors of best_idx
-            X.resize(best_idx+1);
-            // add edge w->u (implicitly circuit)
-            Qs.push_back(X);
+            if (!ext) break;
         }
+
+        // Check anchors into Q0
+        auto count_conn = [&](int u) {
+            int c = 0;
+            for (int w : yellow[u])
+                if (inQ0[w]) ++c;
+            return c;
+        };
+
+        if (count_conn(X.front()) >= thresh &&
+            count_conn(X.back())  >= thresh)
+        {
+            // accept
+        }
+        else {
+            // rollback backward marks if needed
+            // we require a circuit: find w in X.back()’s neighbors back to X.front()
+            used = used_snapshot;
+
+            int u = X.front();
+            // build set of X for O(1) test
+            std::unordered_set<int> Xset(X.begin(), X.end());
+
+            int best_idx = -1;
+            // scan neighbors of u once
+            for (int w : yellow[u]) {
+                if (Xset.count(w)) {
+                    // position of w in X:
+                    auto it = std::find(X.begin(), X.end(), w);
+                    best_idx = std::distance(X.begin(), it);
+                    break;
+                }
+            }
+            if (best_idx < 0) return false;
+
+            // truncate and close circuit by re-appending u
+            X.resize(best_idx+1);
+            X.push_back(u);
+        }
+
+        // Ensure no duplicate within X
+        {
+          std::unordered_set<int> seen;
+          for (int v : X)
+            assert(seen.insert(v).second);
+        }
+
+        // Move X into Qs
+        Qs.emplace_back(X.begin(), X.end());
     }
     return true;
 }
 
+
 // Stage 6: Merge Q0, Q1..Qm into one Hamiltonian path using green and yellow edges
 bool stage6_merge(int n,
-    int start,
-    int finish,
     const unordered_set<int>& T,
     vector<int>& R,                     // accumulates the merged path (initially Q0)
     vector<vector<int>>& Qs,
@@ -601,29 +672,30 @@ bool HPA2(const vector<vector<int>>& graph, int n, int start, int finish) {
             T_prime.insert(v);
         }
     }
-    
+    vector<int> VV;
+    for (int i = 0; i < n; i++) {
+        VV.push_back(i);
+    }
+
     if (T_prime.size() >= ceil(3.0 / -std::log2(q_green))) {
-        return HPA3(graph, n, start, finish);
+        return HPA3();
     }
     
     T_prime.insert(start);
     T_prime.insert(finish);
 
     vector<vector<int>> F;
-    if (!stage2_build_envelope(n,start,finish,graph,T_prime,F)) return HPA3(graph, n, start, finish);
+    if (!stage2_build_envelope(start, finish, graph, T_prime, F)) return HPA3();
 
-    // --- In your HPA2 function, after Stage 2: ---
-// assume F is your envelope vector<vector<int>>, and you have T_prime
-
-    if (!stage3_extend_orange(n,T_prime,F,orange_graph)) return HPA3(graph, n, start, finish);
+    if (!stage3_extend_orange(n, T_prime, F,orange_graph)) return HPA3();
     vector<int> Q0;
-    if (!stage4_sew_yellow(n,start,finish,F,Q0,yellow_graph)) return HPA3(graph, n, start, finish);
+    if (!stage4_sew_yellow(F, Q0, yellow_graph)) return HPA3();
     vector<vector<int>> Qs;
-    if (!stage5_partition(n,Q0,Qs,yellow_graph)) return HPA3(graph, n, start, finish);
+    if (!stage5_partition(n,Q0,Qs,yellow_graph)) return HPA3();
     vector<bool> inTarr(n,false);
     for(int v:T_prime) inTarr[v]=true;
     vector<int> R = Q0;
-    if (!stage6_merge(n,start,finish,T_prime,R,Qs,green_graph,yellow_graph)) return HPA3(graph, n, start, finish);
+    if (!stage6_merge(n, T_prime, R, Qs, green_graph, yellow_graph)) return HPA3();
 
     return true;
 }
@@ -791,7 +863,7 @@ int main(int argc, char* argv[]) {
     if (!Util::get_adjList(INPUT, n, m, graph)) {
         return 1;
     }
-    cout << "Number of Vertices: " << n << ", number of edges: " << m << '\n';
+    cout << "Number of Vertices: " << n << ", number of edges: " << m << endl;
 
 
     

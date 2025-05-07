@@ -2,7 +2,7 @@
 
 set -m
 
-filename="hybridHam"
+filename="HPA"
 
 executable="./../${filename}.out"
 input_folder="../../data_processed/tsphcp_processed"
