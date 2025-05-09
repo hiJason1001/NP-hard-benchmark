@@ -1,0 +1,400 @@
+example1.hcp 
+Number of Vertices: 23, number of edges: 97
+0 hours 0 minutes 0 seconds 5 milliseconds 130 microseconds 
+No
+example2.hcp 
+Number of Vertices: 14, number of edges: 81
+0 hours 0 minutes 0 seconds 0 milliseconds 197 microseconds 
+Yes
+example3.hcp 
+Number of Vertices: 2, number of edges: 1
+0 hours 0 minutes 0 seconds 0 milliseconds 35 microseconds 
+Yes
+example4.hcp 
+Number of Vertices: 3, number of edges: 2
+0 hours 0 minutes 0 seconds 0 milliseconds 433 microseconds 
+Yes
+example5.hcp 
+Number of Vertices: 11, number of edges: 52
+0 hours 0 minutes 0 seconds 1 milliseconds 553 microseconds 
+No
+example6.hcp 
+Number of Vertices: 9, number of edges: 13
+0 hours 0 minutes 0 seconds 0 milliseconds 833 microseconds 
+No
+example7.hcp 
+Number of Vertices: 21, number of edges: 148
+0 hours 0 minutes 0 seconds 4 milliseconds 730 microseconds 
+No
+example8.hcp 
+Number of Vertices: 19, number of edges: 154
+0 hours 0 minutes 0 seconds 0 milliseconds 144 microseconds 
+Yes
+example9.hcp 
+Number of Vertices: 7, number of edges: 17
+0 hours 0 minutes 0 seconds 0 milliseconds 723 microseconds 
+No
+example10.hcp 
+Number of Vertices: 19, number of edges: 118
+0 hours 0 minutes 0 seconds 3 milliseconds 550 microseconds 
+No
+example11.hcp 
+Number of Vertices: 9, number of edges: 8
+0 hours 0 minutes 0 seconds 0 milliseconds 698 microseconds 
+No
+example12.hcp 
+Number of Vertices: 23, number of edges: 31
+0 hours 0 minutes 0 seconds 1 milliseconds 693 microseconds 
+No
+example13.hcp 
+Number of Vertices: 21, number of edges: 76
+0 hours 0 minutes 0 seconds 2 milliseconds 892 microseconds 
+No
+example14.hcp 
+Number of Vertices: 16, number of edges: 113
+0 hours 0 minutes 0 seconds 0 milliseconds 199 microseconds 
+Yes
+example15.hcp 
+Number of Vertices: 4, number of edges: 6
+0 hours 0 minutes 0 seconds 0 milliseconds 419 microseconds 
+Yes
+example16.hcp 
+Number of Vertices: 14, number of edges: 70
+0 hours 0 minutes 0 seconds 2 milliseconds 123 microseconds 
+No
+example17.hcp 
+Number of Vertices: 11, number of edges: 37
+0 hours 0 minutes 0 seconds 1 milliseconds 324 microseconds 
+No
+example18.hcp 
+Number of Vertices: 16, number of edges: 83
+0 hours 0 minutes 0 seconds 3 milliseconds 781 microseconds 
+No
+example19.hcp 
+Number of Vertices: 7, number of edges: 20
+0 hours 0 minutes 0 seconds 0 milliseconds 856 microseconds 
+Yes
+example20.hcp 
+Number of Vertices: 1, number of edges: 0
+0 hours 0 minutes 0 seconds 0 milliseconds 27 microseconds 
+No
+example21.hcp 
+Number of Vertices: 23, number of edges: 111
+0 hours 0 minutes 0 seconds 3 milliseconds 775 microseconds 
+No
+example22.hcp 
+Number of Vertices: 13, number of edges: 35
+0 hours 0 minutes 0 seconds 1 milliseconds 525 microseconds 
+No
+example23.hcp 
+Number of Vertices: 22, number of edges: 57
+0 hours 0 minutes 0 seconds 2 milliseconds 412 microseconds 
+No
+example24.hcp 
+Number of Vertices: 23, number of edges: 105
+0 hours 0 minutes 0 seconds 3 milliseconds 716 microseconds 
+No
+example25.hcp 
+Number of Vertices: 11, number of edges: 26
+0 hours 0 minutes 0 seconds 1 milliseconds 132 microseconds 
+No
+example26.hcp 
+Number of Vertices: 21, number of edges: 55
+0 hours 0 minutes 0 seconds 2 milliseconds 254 microseconds 
+No
+example27.hcp 
+Number of Vertices: 4, number of edges: 6
+0 hours 0 minutes 0 seconds 0 milliseconds 39 microseconds 
+Yes
+example28.hcp 
+Number of Vertices: 13, number of edges: 40
+0 hours 0 minutes 0 seconds 1 milliseconds 613 microseconds 
+No
+example29.hcp 
+Number of Vertices: 16, number of edges: 80
+0 hours 0 minutes 0 seconds 3 milliseconds 382 microseconds 
+No
+example30.hcp 
+Number of Vertices: 19, number of edges: 51
+0 hours 0 minutes 0 seconds 2 milliseconds 973 microseconds 
+No
+example31.hcp 
+Number of Vertices: 20, number of edges: 189
+0 hours 0 minutes 0 seconds 0 milliseconds 271 microseconds 
+Yes
+example32.hcp 
+Number of Vertices: 22, number of edges: 123
+0 hours 0 minutes 0 seconds 5 milliseconds 801 microseconds 
+No
+example33.hcp 
+Number of Vertices: 5, number of edges: 4
+0 hours 0 minutes 0 seconds 0 milliseconds 534 microseconds 
+No
+example34.hcp 
+Number of Vertices: 17, number of edges: 32
+0 hours 0 minutes 0 seconds 1 milliseconds 903 microseconds 
+No
+example35.hcp 
+Number of Vertices: 10, number of edges: 31
+0 hours 0 minutes 0 seconds 0 milliseconds 76 microseconds 
+Yes
+example36.hcp 
+Number of Vertices: 9, number of edges: 29
+0 hours 0 minutes 0 seconds 1 milliseconds 227 microseconds 
+No
+example37.hcp 
+Number of Vertices: 16, number of edges: 112
+0 hours 0 minutes 0 seconds 0 milliseconds 226 microseconds 
+Yes
+example38.hcp 
+Number of Vertices: 23, number of edges: 210
+0 hours 0 minutes 0 seconds 6 milliseconds 496 microseconds 
+No
+example39.hcp 
+Number of Vertices: 16, number of edges: 91
+0 hours 0 minutes 0 seconds 2 milliseconds 599 microseconds 
+No
+example40.hcp 
+Number of Vertices: 25, number of edges: 40
+0 hours 0 minutes 0 seconds 2 milliseconds 419 microseconds 
+No
+example41.hcp 
+Number of Vertices: 25, number of edges: 202
+0 hours 0 minutes 0 seconds 11 milliseconds 467 microseconds 
+No
+example42.hcp 
+Number of Vertices: 8, number of edges: 23
+0 hours 0 minutes 0 seconds 1 milliseconds 418 microseconds 
+No
+example43.hcp 
+Number of Vertices: 15, number of edges: 43
+0 hours 0 minutes 0 seconds 2 milliseconds 660 microseconds 
+No
+example44.hcp 
+Number of Vertices: 25, number of edges: 272
+0 hours 0 minutes 0 seconds 17 milliseconds 350 microseconds 
+No
+example45.hcp 
+Number of Vertices: 17, number of edges: 70
+0 hours 0 minutes 0 seconds 0 milliseconds 189 microseconds 
+Yes
+example46.hcp 
+Number of Vertices: 23, number of edges: 183
+0 hours 0 minutes 0 seconds 12 milliseconds 749 microseconds 
+No
+example47.hcp 
+Number of Vertices: 3, number of edges: 3
+0 hours 0 minutes 0 seconds 0 milliseconds 539 microseconds 
+Yes
+example48.hcp 
+Number of Vertices: 6, number of edges: 12
+0 hours 0 minutes 0 seconds 0 milliseconds 672 microseconds 
+Yes
+example49.hcp 
+Number of Vertices: 15, number of edges: 97
+0 hours 0 minutes 0 seconds 3 milliseconds 511 microseconds 
+No
+example50.hcp 
+Number of Vertices: 1, number of edges: 0
+0 hours 0 minutes 0 seconds 0 milliseconds 30 microseconds 
+No
+example51.hcp 
+Number of Vertices: 25, number of edges: 207
+0 hours 0 minutes 0 seconds 6 milliseconds 668 microseconds 
+No
+example52.hcp 
+Number of Vertices: 24, number of edges: 209
+0 hours 0 minutes 0 seconds 7 milliseconds 262 microseconds 
+No
+example53.hcp 
+Number of Vertices: 1, number of edges: 0
+0 hours 0 minutes 0 seconds 0 milliseconds 43 microseconds 
+No
+example54.hcp 
+Number of Vertices: 6, number of edges: 14
+0 hours 0 minutes 0 seconds 0 milliseconds 712 microseconds 
+Yes
+example55.hcp 
+Number of Vertices: 3, number of edges: 3
+0 hours 0 minutes 0 seconds 0 milliseconds 344 microseconds 
+Yes
+example56.hcp 
+Number of Vertices: 20, number of edges: 35
+0 hours 0 minutes 0 seconds 4 milliseconds 318 microseconds 
+No
+example57.hcp 
+Number of Vertices: 9, number of edges: 34
+0 hours 0 minutes 0 seconds 1 milliseconds 367 microseconds 
+No
+example58.hcp 
+Number of Vertices: 4, number of edges: 4
+0 hours 0 minutes 0 seconds 0 milliseconds 628 microseconds 
+No
+example59.hcp 
+Number of Vertices: 3, number of edges: 2
+0 hours 0 minutes 0 seconds 0 milliseconds 489 microseconds 
+No
+example60.hcp 
+Number of Vertices: 24, number of edges: 184
+0 hours 0 minutes 0 seconds 5 milliseconds 925 microseconds 
+No
+example61.hcp 
+Number of Vertices: 23, number of edges: 27
+0 hours 0 minutes 0 seconds 1 milliseconds 681 microseconds 
+No
+example62.hcp 
+Number of Vertices: 13, number of edges: 19
+0 hours 0 minutes 0 seconds 1 milliseconds 738 microseconds 
+No
+example63.hcp 
+Number of Vertices: 10, number of edges: 16
+0 hours 0 minutes 0 seconds 0 milliseconds 944 microseconds 
+No
+example64.hcp 
+Number of Vertices: 9, number of edges: 17
+0 hours 0 minutes 0 seconds 1 milliseconds 299 microseconds 
+No
+example65.hcp 
+Number of Vertices: 23, number of edges: 135
+0 hours 0 minutes 0 seconds 4 milliseconds 568 microseconds 
+No
+example66.hcp 
+Number of Vertices: 4, number of edges: 3
+0 hours 0 minutes 0 seconds 0 milliseconds 428 microseconds 
+No
+example67.hcp 
+Number of Vertices: 17, number of edges: 116
+0 hours 0 minutes 0 seconds 0 milliseconds 140 microseconds 
+Yes
+example68.hcp 
+Number of Vertices: 5, number of edges: 8
+0 hours 0 minutes 0 seconds 0 milliseconds 561 microseconds 
+No
+example69.hcp 
+Number of Vertices: 11, number of edges: 44
+0 hours 0 minutes 0 seconds 2 milliseconds 370 microseconds 
+No
+example70.hcp 
+Number of Vertices: 16, number of edges: 114
+0 hours 0 minutes 0 seconds 3 milliseconds 295 microseconds 
+No
+example71.hcp 
+Number of Vertices: 1, number of edges: 0
+0 hours 0 minutes 0 seconds 0 milliseconds 53 microseconds 
+No
+example72.hcp 
+Number of Vertices: 18, number of edges: 83
+0 hours 0 minutes 0 seconds 2 milliseconds 892 microseconds 
+No
+example73.hcp 
+Number of Vertices: 18, number of edges: 66
+0 hours 0 minutes 0 seconds 2 milliseconds 256 microseconds 
+No
+example74.hcp 
+Number of Vertices: 10, number of edges: 38
+0 hours 0 minutes 0 seconds 2 milliseconds 24 microseconds 
+No
+example75.hcp 
+Number of Vertices: 1, number of edges: 0
+0 hours 0 minutes 0 seconds 0 milliseconds 31 microseconds 
+No
+example76.hcp 
+Number of Vertices: 1, number of edges: 0
+0 hours 0 minutes 0 seconds 0 milliseconds 43 microseconds 
+No
+example77.hcp 
+Number of Vertices: 8, number of edges: 18
+0 hours 0 minutes 0 seconds 1 milliseconds 244 microseconds 
+No
+example78.hcp 
+Number of Vertices: 22, number of edges: 125
+0 hours 0 minutes 0 seconds 6 milliseconds 785 microseconds 
+No
+example79.hcp 
+Number of Vertices: 24, number of edges: 25
+0 hours 0 minutes 0 seconds 1 milliseconds 654 microseconds 
+No
+example80.hcp 
+Number of Vertices: 20, number of edges: 53
+0 hours 0 minutes 0 seconds 2 milliseconds 358 microseconds 
+No
+example81.hcp 
+Number of Vertices: 16, number of edges: 44
+0 hours 0 minutes 0 seconds 1 milliseconds 688 microseconds 
+No
+example82.hcp 
+Number of Vertices: 24, number of edges: 220
+0 hours 0 minutes 0 seconds 8 milliseconds 488 microseconds 
+No
+example83.hcp 
+Number of Vertices: 8, number of edges: 25
+0 hours 0 minutes 0 seconds 1 milliseconds 330 microseconds 
+Yes
+example84.hcp 
+Number of Vertices: 2, number of edges: 1
+0 hours 0 minutes 0 seconds 0 milliseconds 38 microseconds 
+Yes
+example85.hcp 
+Number of Vertices: 18, number of edges: 117
+0 hours 0 minutes 0 seconds 4 milliseconds 369 microseconds 
+No
+example86.hcp 
+Number of Vertices: 20, number of edges: 41
+0 hours 0 minutes 0 seconds 3 milliseconds 387 microseconds 
+No
+example87.hcp 
+Number of Vertices: 12, number of edges: 13
+0 hours 0 minutes 0 seconds 0 milliseconds 949 microseconds 
+No
+example88.hcp 
+Number of Vertices: 9, number of edges: 13
+0 hours 0 minutes 0 seconds 1 milliseconds 162 microseconds 
+No
+example89.hcp 
+Number of Vertices: 19, number of edges: 105
+0 hours 0 minutes 0 seconds 5 milliseconds 537 microseconds 
+No
+example90.hcp 
+Number of Vertices: 12, number of edges: 47
+0 hours 0 minutes 0 seconds 2 milliseconds 699 microseconds 
+No
+example91.hcp 
+Number of Vertices: 19, number of edges: 80
+0 hours 0 minutes 0 seconds 0 milliseconds 378 microseconds 
+Yes
+example92.hcp 
+Number of Vertices: 18, number of edges: 149
+0 hours 0 minutes 0 seconds 4 milliseconds 865 microseconds 
+No
+example93.hcp 
+Number of Vertices: 2, number of edges: 1
+0 hours 0 minutes 0 seconds 0 milliseconds 38 microseconds 
+Yes
+example94.hcp 
+Number of Vertices: 12, number of edges: 35
+0 hours 0 minutes 0 seconds 1 milliseconds 330 microseconds 
+No
+example95.hcp 
+Number of Vertices: 9, number of edges: 11
+0 hours 0 minutes 0 seconds 0 milliseconds 825 microseconds 
+No
+example96.hcp 
+Number of Vertices: 21, number of edges: 77
+0 hours 0 minutes 0 seconds 3 milliseconds 436 microseconds 
+No
+example97.hcp 
+Number of Vertices: 25, number of edges: 241
+0 hours 0 minutes 0 seconds 8 milliseconds 318 microseconds 
+No
+example98.hcp 
+Number of Vertices: 8, number of edges: 16
+0 hours 0 minutes 0 seconds 0 milliseconds 862 microseconds 
+Yes
+example99.hcp 
+Number of Vertices: 12, number of edges: 59
+0 hours 0 minutes 0 seconds 0 milliseconds 82 microseconds 
+Yes
+example100.hcp 
+Number of Vertices: 6, number of edges: 14
+0 hours 0 minutes 0 seconds 0 milliseconds 688 microseconds 
+Yes
