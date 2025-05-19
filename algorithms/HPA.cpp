@@ -869,7 +869,14 @@ int main(int argc, char* argv[]) {
     
     auto start = chrono::steady_clock::now();
 
-    bool found = HPA1(graph, n, 0, n - 1);
+    bool found = false;
+    for (int src = 0; src < n; src++) {
+        for (int dest = src + 1; dest < n; dest++) {
+            found = HPA1(graph, n, src, dest);
+            if (found) break;
+        }
+        if (found) break;
+    }
 
     auto end = chrono::steady_clock::now();
     auto duration = chrono::duration_cast<chrono::microseconds>(end - start).count();
