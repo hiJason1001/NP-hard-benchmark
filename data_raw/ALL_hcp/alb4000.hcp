@@ -8002,8 +8002,4 @@ EDGE_DATA_SECTION
      9      5
      8      6
 -1
-FIXED_EDGES :
-  4000   2142 
-  4000    812
--1 
 EOF
