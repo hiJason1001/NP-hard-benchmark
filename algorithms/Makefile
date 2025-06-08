@@ -2,7 +2,7 @@ CXX = g++
 CXXFLAGS = -Wall -Wextra -Wpedantic -Wreorder -Wunused -Wshadow -Werror=return-type -std=c++20
 
 # SRC = $(wildcard *.cpp)
-SRC = HPA.cpp
+SRC = run_LKH.cpp
 
 # Derive output file names based on the source file names
 OUT = $(SRC:.cpp=.out)
