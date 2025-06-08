@@ -1,0 +1,180 @@
+COL_1000.hcp
+Number of Vertices: 1086, number of edges: 2922
+0 hours 0 minutes 1 seconds 621 milliseconds 787 microseconds
+Yes
+COL_1950.hcp
+Number of Vertices: 1950, number of edges: 5250
+0 hours 0 minutes 3 seconds 628 milliseconds 968 microseconds
+Yes
+COL_4110.hcp
+Number of Vertices: 4110, number of edges: 11070
+0 hours 0 minutes 23 seconds 398 milliseconds 510 microseconds
+Yes
+COL_7998.hcp
+Number of Vertices: 7998, number of edges: 21546
+0 hours 2 minutes 44 seconds 535 milliseconds 335 microseconds
+Yes
+FLS3_1054.hcp
+Number of Vertices: 1054, number of edges: 4840
+Time Limit Exceeded
+No
+FLS3_408.hcp
+Number of Vertices: 408, number of edges: 1872
+Time Limit Exceeded
+No
+FLS3_731.hcp
+Number of Vertices: 731, number of edges: 3356
+Time Limit Exceeded
+No
+FLS_1014.hcp
+Number of Vertices: 1014, number of edges: 4656
+Time Limit Exceeded
+No
+FLS_170.hcp
+Number of Vertices: 170, number of edges: 780
+Time Limit Exceeded
+No
+FLS_338.hcp
+Number of Vertices: 338, number of edges: 1552
+Time Limit Exceeded
+No
+FLS_507.hcp
+Number of Vertices: 507, number of edges: 2328
+Time Limit Exceeded
+No
+FLS_676.hcp
+Number of Vertices: 676, number of edges: 3104
+Time Limit Exceeded
+No
+FLS_845.hcp
+Number of Vertices: 845, number of edges: 3880
+Time Limit Exceeded
+No
+GP0m_1006.hcp
+Number of Vertices: 1006, number of edges: 3020
+Time Limit Exceeded
+No
+GP0m_130.hcp
+Number of Vertices: 130, number of edges: 392
+0 hours 0 minutes 0 seconds 172 milliseconds 356 microseconds
+Yes
+GP0m_250.hcp
+Number of Vertices: 250, number of edges: 752
+Time Limit Exceeded
+No
+GP0m_490.hcp
+Number of Vertices: 490, number of edges: 1472
+Time Limit Exceeded
+No
+GP3_1002.hcp
+Number of Vertices: 1002, number of edges: 3006
+Time Limit Exceeded
+No
+GP3_126.hcp
+Number of Vertices: 126, number of edges: 378
+Time Limit Exceeded
+No
+GP3_246.hcp
+Number of Vertices: 246, number of edges: 738
+0 hours 3 minutes 6 seconds 418 milliseconds 38 microseconds
+Yes
+GP3_486.hcp
+Number of Vertices: 486, number of edges: 1458
+Time Limit Exceeded
+No
+GPN_122.hcp
+Number of Vertices: 122, number of edges: 366
+0 hours 1 minutes 26 seconds 20 milliseconds 976 microseconds
+Yes
+GPN_244.hcp
+Number of Vertices: 244, number of edges: 732
+0 hours 0 minutes 0 seconds 272 milliseconds 916 microseconds
+Yes
+GPN_482.hcp
+Number of Vertices: 482, number of edges: 1446
+Time Limit Exceeded
+No
+GPN_998.hcp
+Number of Vertices: 998, number of edges: 2994
+Time Limit Exceeded
+No
+II_1002.hcp
+Number of Vertices: 1002, number of edges: 3150
+0 hours 0 minutes 10 seconds 161 milliseconds 185 microseconds
+Yes
+II_1992.hcp
+Number of Vertices: 1992, number of edges: 6500
+0 hours 3 minutes 12 seconds 209 milliseconds 91 microseconds
+Yes
+II_3972.hcp
+Number of Vertices: 3972, number of edges: 13808
+Time Limit Exceeded
+No
+II_7932.hcp
+Number of Vertices: 7932, number of edges: 30784
+Time Limit Exceeded
+No
+QN_1044.hcp
+Number of Vertices: 1044, number of edges: 1517
+0 hours 0 minutes 2 seconds 31 milliseconds 211 microseconds
+Yes
+QN_1968.hcp
+Number of Vertices: 1968, number of edges: 2983
+0 hours 0 minutes 21 seconds 648 milliseconds 589 microseconds
+Yes
+QN_3894.hcp
+Number of Vertices: 3894, number of edges: 6247
+Time Limit Exceeded
+No
+QN_8544.hcp
+Number of Vertices: 8544, number of edges: 14927
+Time Limit Exceeded
+No
+SH_125.hcp
+Number of Vertices: 125, number of edges: 7814
+0 hours 0 minutes 0 seconds 620 milliseconds 566 microseconds
+Yes
+SH_250.hcp
+Number of Vertices: 250, number of edges: 31252
+0 hours 0 minutes 1 seconds 725 milliseconds 373 microseconds
+Yes
+SH_500.hcp
+Number of Vertices: 500, number of edges: 125002
+0 hours 0 minutes 4 seconds 387 milliseconds 79 microseconds
+Yes
+SH_64.hcp
+Number of Vertices: 64, number of edges: 2050
+0 hours 0 minutes 0 seconds 268 milliseconds 321 microseconds
+Yes
+SNm_1004.hcp
+Number of Vertices: 1004, number of edges: 3014
+0 hours 0 minutes 1 seconds 322 milliseconds 207 microseconds
+Yes
+SNm_124.hcp
+Number of Vertices: 124, number of edges: 374
+0 hours 0 minutes 0 seconds 170 milliseconds 383 microseconds
+Yes
+SNm_252.hcp
+Number of Vertices: 252, number of edges: 758
+0 hours 0 minutes 0 seconds 269 milliseconds 586 microseconds
+Yes
+SNm_500.hcp
+Number of Vertices: 500, number of edges: 1502
+Time Limit Exceeded
+No
+SSP_1011.hcp
+Number of Vertices: 1011, number of edges: 2962
+Time Limit Exceeded
+No
+SSP_2007.hcp
+Number of Vertices: 2007, number of edges: 5884
+Time Limit Exceeded
+No
+SSP_4050.hcp
+Number of Vertices: 4050, number of edges: 12492
+Time Limit Exceeded
+No
+SSP_8040.hcp
+Number of Vertices: 8040, number of edges: 23516
+Time Limit Exceeded
+No
