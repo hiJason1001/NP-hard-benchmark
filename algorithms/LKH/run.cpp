@@ -119,6 +119,40 @@ bool parseLKHOutput(const std::string& logFile, int numNodes) {
     return foundValidTour;
 }
 
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <unistd.h>
+
+bool runLKHWithTimeout(const std::string& command, int timeoutSeconds, std::string& logPath) {
+    pid_t pid = fork();
+    if (pid == -1) {
+        std::cerr << "Failed to fork\n";
+        return false;
+    } else if (pid == 0) {
+        execl("/bin/sh", "sh", "-c", command.c_str(), (char*)nullptr);
+        _exit(127); 
+    } else {
+        int status = 0;
+        auto start = std::chrono::steady_clock::now();
+        while (true) {
+            pid_t result = waitpid(pid, &status, WNOHANG);
+            if (result == pid) {
+                return (WIFEXITED(status) && WEXITSTATUS(status) == 0);
+            }
+
+            auto elapsed = std::chrono::steady_clock::now() - start;
+            if (std::chrono::duration_cast<std::chrono::seconds>(elapsed).count() > timeoutSeconds) {
+                kill(pid, SIGKILL); 
+                waitpid(pid, &status, 0);
+                return false;
+            }
+
+            std::this_thread::sleep_for(std::chrono::milliseconds(100));
+        }
+    }
+}
+
+
 int main(int argc, char* argv[]) {
     if (argc != 4) {
         std::cerr << "Usage: " << argv[0] << " <folder_with_par_tsp> <lkh_executable> <output_file>\n";
@@ -129,7 +163,7 @@ int main(int argc, char* argv[]) {
     std::string lkhExe = argv[2];
     std::string outputFile = argv[3];
 
-    std::ofstream fout(outputFile);
+    std::ofstream fout(outputFile, std::ios::app);
     if (!fout) {
         std::cerr << "Failed to open output file\n";
         return 1;
@@ -157,37 +191,34 @@ int main(int argc, char* argv[]) {
         std::string baseName = entry.path().stem().string();
         std::string tspPath = folder + "/" + baseName + ".tsp";
         std::string logPath = folder + "/" + baseName + ".log";
+        // file names are graphX.par, graphX.tsp
+        // std::string num = baseName.substr(5);
+        // if (std::stoi(num) <= 910) continue;
 
-        std::string command = lkhExe + " " + parPath + " > " + logPath + " 2>&1";
+
+        std::string command = "timeout 300s " + lkhExe + " " + parPath + " > " + logPath + " 2>&1";
         auto start = std::chrono::steady_clock::now();
-        int ret = std::system(command.c_str());
+        bool completed = runLKHWithTimeout(command, 600, logPath);
         auto end = std::chrono::steady_clock::now();
-
-        std::string timeStr;
         auto duration = std::chrono::duration_cast<std::chrono::microseconds>(end - start).count();
-        long ms = duration / 1000;
-        long us = duration % 1000;
-        if (ret != 0) {
-            ms = 0;
-            us = 0;
-        }
 
-        timeStr = "0 hours 0 minutes 0 seconds " + std::to_string(ms) + " milliseconds " + std::to_string(us) + " microseconds";
-        
         int numVertices = 0, numEdges = 0;
         if (!extractGraphInfo(tspPath, numVertices, numEdges)) {
             std::cerr << "Could not parse " << tspPath << "\n";
             continue;
         }
-        
+
         bool found = parseLKHOutput(logPath, numVertices);
-        if (ret != 0) {
-            found = true;
-        }
         fout << baseName << ".hcp\n";
-        fout << "Number of Vertices: " << numVertices << ", number of edges: " << numEdges << "\n";
-        fout << Util::display_time(duration, Util::micro);
-        fout << (found ? "Yes" : "No") << "\n";
+        fout << "Number of Vertices: " << numVertices << ", number of edges: " << numEdges << std::endl;
+
+        if (!completed) {
+            fout << "Time Limit Exceeded\n";
+        } else {
+            fout << Util::display_time(duration, Util::micro);
+        }
+
+        fout << (found ? "Yes" : "No") << std::endl;
     }
 
     return 0;
