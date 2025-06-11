@@ -1,0 +1,36 @@
+alb1000.hcp 
+Number of Vertices: 1000, number of edges: 1998
+0 hours 0 minutes 1 seconds 642 milliseconds 531 microseconds 
+No
+alb2000.hcp 
+Number of Vertices: 2000, number of edges: 3996
+0 hours 0 minutes 7 seconds 857 milliseconds 952 microseconds 
+No
+alb3000a.hcp 
+Number of Vertices: 3000, number of edges: 5999
+0 hours 0 minutes 25 seconds 964 milliseconds 490 microseconds 
+No
+alb3000b.hcp 
+Number of Vertices: 3000, number of edges: 5997
+0 hours 0 minutes 33 seconds 703 milliseconds 28 microseconds 
+No
+alb3000c.hcp 
+Number of Vertices: 3000, number of edges: 5996
+0 hours 0 minutes 27 seconds 375 milliseconds 451 microseconds 
+No
+alb3000d.hcp 
+Number of Vertices: 3000, number of edges: 5993
+0 hours 0 minutes 19 seconds 939 milliseconds 206 microseconds 
+No
+alb3000e.hcp 
+Number of Vertices: 3000, number of edges: 5996
+0 hours 0 minutes 22 seconds 90 milliseconds 401 microseconds 
+No
+alb4000.hcp 
+Number of Vertices: 4000, number of edges: 7997
+0 hours 0 minutes 59 seconds 909 milliseconds 41 microseconds 
+No
+alb5000.hcp 
+Number of Vertices: 5000, number of edges: 9999
+0 hours 1 minutes 31 seconds 280 milliseconds 181 microseconds 
+No

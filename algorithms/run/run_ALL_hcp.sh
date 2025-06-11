@@ -2,10 +2,10 @@
 
 set -m
 
-filename="HPA"
+filename="NN"
 
 executable="./../${filename}.out"
-input_folder="../../data_processed/tsphcp_processed"
+input_folder="../../data_processed/ALL_hcp_processed"
 output_file="${filename}_ALL_hcp.txt"
 time_limit_minutes=10  # set timeout minutes
 time_limit_seconds=$((time_limit_minutes * 60))

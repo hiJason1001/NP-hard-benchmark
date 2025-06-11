@@ -1,6 +1,6 @@
 #!/bin/bash
 
-filename="HPA"
+filename="NN"
 
 executable="./../${filename}.out"
 input_folder="../../data_processed/examples"

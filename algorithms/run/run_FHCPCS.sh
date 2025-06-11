@@ -2,7 +2,7 @@
 
 set -m
 
-filename="HPA"
+filename="NN"
 
 executable="./../${filename}.out"
 input_folder="../../data_processed/FHCPCS_processed"
