@@ -21,6 +21,6 @@ do
 
     status=$?
     if [ $status -eq 124 ]; then
-        echo "TimeLimitExceeded" >> "$output_file"
+        echo "Time Limit Exceeded" >> "$output_file"
     fi
 done

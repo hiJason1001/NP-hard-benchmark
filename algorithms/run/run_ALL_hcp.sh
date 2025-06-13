@@ -2,13 +2,13 @@
 
 set -m
 
-filename="NN"
+filename="HPA"
 
 executable="./../${filename}.out"
 input_folder="../../data_processed/ALL_hcp_processed"
 output_file="${filename}_ALL_hcp.txt"
 time_limit_minutes=10  # set timeout minutes
-time_limit_seconds=$((time_limit_minutes * 60))
+time_limit_seconds=$((time_limit_minutes /10))
 
 > "$output_file"
 
@@ -21,6 +21,6 @@ do
 
     status=$?
     if [ $status -eq 124 ]; then
-        echo "TimeLimitExceeded" >> "$output_file"
+        echo "Time Limit Exceeded" >> "$output_file"
     fi
 done

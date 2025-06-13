@@ -1,0 +1,27 @@
+alb1000.hcp 
+Number of Vertices: 1000, number of edges: 1998
+Time Limit Exceeded
+alb2000.hcp 
+Number of Vertices: 2000, number of edges: 3996
+Time Limit Exceeded
+alb3000a.hcp 
+Number of Vertices: 3000, number of edges: 5999
+Time Limit Exceeded
+alb3000b.hcp 
+Number of Vertices: 3000, number of edges: 5997
+Time Limit Exceeded
+alb3000c.hcp 
+Number of Vertices: 3000, number of edges: 5996
+Time Limit Exceeded
+alb3000d.hcp 
+Number of Vertices: 3000, number of edges: 5993
+Time Limit Exceeded
+alb3000e.hcp 
+Number of Vertices: 3000, number of edges: 5996
+Time Limit Exceeded
+alb4000.hcp 
+Number of Vertices: 4000, number of edges: 7997
+Time Limit Exceeded
+alb5000.hcp 
+Number of Vertices: 5000, number of edges: 9999
+Time Limit Exceeded
