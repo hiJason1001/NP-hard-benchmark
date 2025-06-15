@@ -2,9 +2,9 @@
 # CONFIGURATION
 # ========================
 
-NAME = "concorde_tsphcp"
+NAME = "LKH_ALL_hcp"
 
-EXPERIMENTAL_FILE = f"result/concorde/{NAME}.txt"
+EXPERIMENTAL_FILE = f"result/LKH/{NAME}.txt"
 OUTPUT_FILE = f"{NAME}_accuracy.txt"
 # ========================
 

@@ -1,135 +1,180 @@
 COL_1000.tsp
+Number of Vertices: 1086, number of edges: 2922
 0 hours 0 minutes 3 seconds 434 milliseconds 478 microseconds
 Yes
 COL_1950.tsp
+Number of Vertices: 1950, number of edges: 5250
 0 hours 0 minutes 5 seconds 791 milliseconds 361 microseconds
 Yes
 COL_4110.tsp
+Number of Vertices: 4110, number of edges: 11070
 0 hours 0 minutes 17 seconds 330 milliseconds 406 microseconds
 Yes
 COL_7998.tsp
+Number of Vertices: 7998, number of edges: 21546
 0 hours 0 minutes 56 seconds 644 milliseconds 934 microseconds
 Yes
 FLS3_1054.tsp
+Number of Vertices: 1054, number of edges: 4840
 0 hours 0 minutes 9 seconds 863 milliseconds 584 microseconds
 Yes
 FLS3_408.tsp
+Number of Vertices: 408, number of edges: 1872
 0 hours 0 minutes 3 seconds 82 milliseconds 185 microseconds
 Yes
 FLS3_731.tsp
+Number of Vertices: 731, number of edges: 3356
 0 hours 0 minutes 7 seconds 449 milliseconds 491 microseconds
 Yes
 FLS_1014.tsp
+Number of Vertices: 1014, number of edges: 4656
 0 hours 0 minutes 10 seconds 517 milliseconds 379 microseconds
 Yes
 FLS_170.tsp
+Number of Vertices: 170, number of edges: 780
 0 hours 0 minutes 1 seconds 129 milliseconds 41 microseconds
 Yes
 FLS_338.tsp
+Number of Vertices: 338, number of edges: 1552
 0 hours 0 minutes 2 seconds 528 milliseconds 799 microseconds
 Yes
 FLS_507.tsp
+Number of Vertices: 507, number of edges: 2328
 0 hours 0 minutes 4 seconds 387 milliseconds 566 microseconds
 Yes
 FLS_676.tsp
+Number of Vertices: 676, number of edges: 3104
 0 hours 0 minutes 6 seconds 347 milliseconds 733 microseconds
 Yes
 FLS_845.tsp
+Number of Vertices: 845, number of edges: 3880
 0 hours 0 minutes 8 seconds 507 milliseconds 249 microseconds
 Yes
 GP0m_1006.tsp
+Number of Vertices: 1006, number of edges: 3020
 0 hours 0 minutes 5 seconds 189 milliseconds 12 microseconds
 Yes
 GP0m_130.tsp
+Number of Vertices: 130, number of edges: 392
 0 hours 0 minutes 0 seconds 424 milliseconds 334 microseconds
 Yes
 GP0m_250.tsp
+Number of Vertices: 250, number of edges: 752
 0 hours 0 minutes 0 seconds 973 milliseconds 223 microseconds
 Yes
 GP0m_490.tsp
+Number of Vertices: 490, number of edges: 1472
 0 hours 0 minutes 1 seconds 976 milliseconds 88 microseconds
 Yes
 GP3_1002.tsp
+Number of Vertices: 1002, number of edges: 3006
 0 hours 0 minutes 6 seconds 41 milliseconds 362 microseconds
 Yes
 GP3_126.tsp
+Number of Vertices: 126, number of edges: 378
 0 hours 0 minutes 0 seconds 418 milliseconds 531 microseconds
 Yes
 GP3_246.tsp
+Number of Vertices: 246, number of edges: 738
 0 hours 0 minutes 0 seconds 923 milliseconds 182 microseconds
 Yes
 GP3_486.tsp
+Number of Vertices: 486, number of edges: 1458
 0 hours 0 minutes 1 seconds 975 milliseconds 973 microseconds
 Yes
 GPN_122.tsp
+Number of Vertices: 122, number of edges: 366
 0 hours 0 minutes 0 seconds 419 milliseconds 680 microseconds
 Yes
 GPN_244.tsp
+Number of Vertices: 244, number of edges: 732
 0 hours 0 minutes 0 seconds 922 milliseconds 621 microseconds
 Yes
 GPN_482.tsp
+Number of Vertices: 482, number of edges: 1446
 0 hours 0 minutes 2 seconds 25 milliseconds 402 microseconds
 Yes
 GPN_998.tsp
+Number of Vertices: 998, number of edges: 2994
 0 hours 0 minutes 5 seconds 393 milliseconds 548 microseconds
 Yes
 II_1002.tsp
+Number of Vertices: 1002, number of edges: 3150
 0 hours 0 minutes 4 seconds 385 milliseconds 349 microseconds
 Yes
 II_1992.tsp
+Number of Vertices: 1992, number of edges: 6500
 0 hours 0 minutes 8 seconds 200 milliseconds 261 microseconds
 Yes
 II_3972.tsp
+Number of Vertices: 3972, number of edges: 13808
 0 hours 0 minutes 18 seconds 935 milliseconds 429 microseconds
 Yes
 II_7932.tsp
+Number of Vertices: 7932, number of edges: 30784
 0 hours 1 minutes 2 seconds 720 milliseconds 413 microseconds
 Yes
 QN_1044.tsp
+Number of Vertices: 1044, number of edges: 1517
 0 hours 0 minutes 3 seconds 682 milliseconds 881 microseconds
 Yes
 QN_1968.tsp
+Number of Vertices: 1968, number of edges: 2983
 0 hours 0 minutes 6 seconds 590 milliseconds 262 microseconds
 Yes
 QN_3894.tsp
+Number of Vertices: 3894, number of edges: 6247
 0 hours 0 minutes 18 seconds 381 milliseconds 103 microseconds
 Yes
 QN_8544.tsp
+Number of Vertices: 8544, number of edges: 14927
 0 hours 2 minutes 11 seconds 485 milliseconds 92 microseconds
 Yes
 SH_125.tsp
+Number of Vertices: 125, number of edges: 7814
 0 hours 0 minutes 1 seconds 121 milliseconds 920 microseconds
 Yes
 SH_250.tsp
+Number of Vertices: 250, number of edges: 31252
 0 hours 0 minutes 3 seconds 33 milliseconds 389 microseconds
 Yes
 SH_500.tsp
+Number of Vertices: 500, number of edges: 125002
 0 hours 0 minutes 6 seconds 748 milliseconds 411 microseconds
 Yes
 SH_64.tsp
+Number of Vertices: 64, number of edges: 2050
 0 hours 0 minutes 0 seconds 468 milliseconds 966 microseconds
 Yes
 SNm_1004.tsp
+Number of Vertices: 1004, number of edges: 3014
 0 hours 0 minutes 5 seconds 89 milliseconds 597 microseconds
 Yes
 SNm_124.tsp
+Number of Vertices: 124, number of edges: 374
 0 hours 0 minutes 0 seconds 419 milliseconds 426 microseconds
 Yes
 SNm_252.tsp
+Number of Vertices: 252, number of edges: 758
 0 hours 0 minutes 0 seconds 921 milliseconds 916 microseconds
 Yes
 SNm_500.tsp
+Number of Vertices: 500, number of edges: 1502
 0 hours 0 minutes 2 seconds 26 milliseconds 413 microseconds
 Yes
 SSP_1011.tsp
+Number of Vertices: 1011, number of edges: 2962
 0 hours 0 minutes 4 seconds 184 milliseconds 448 microseconds
 Yes
 SSP_2007.tsp
+Number of Vertices: 2007, number of edges: 5884
 0 hours 0 minutes 8 seconds 603 milliseconds 755 microseconds
 Yes
 SSP_4050.tsp
+Number of Vertices: 4050, number of edges: 12492
 0 hours 0 minutes 20 seconds 487 milliseconds 153 microseconds
 Yes
 SSP_8040.tsp
+Number of Vertices: 8040, number of edges: 23516
 0 hours 1 minutes 30 seconds 803 milliseconds 121 microseconds
 Yes

@@ -3,11 +3,11 @@ import re
 # ========================
 # CONFIGURATION
 # ========================
-NAME = "hybridHam_tsphcp"
+NAME = "LKH_examples"
 
 ACTUAL_FILE = "result/exmaples_actual_results.txt"
 
-INPUT_FILE = f"result/hybridHam/{NAME}.txt"
+INPUT_FILE = f"result/LKH/{NAME}.txt"
 OUTPUT_FILE = f"{NAME}_accuracy.txt"
 # ========================
 
