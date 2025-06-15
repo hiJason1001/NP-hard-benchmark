@@ -1,0 +1,180 @@
+SH_64.hcp
+Number of Vertices: 64, number of edges: 0
+0 hours 0 minutes 0 seconds 100 milliseconds 513 microseconds
+Yes
+GPN_122.hcp
+Number of Vertices: 122, number of edges: 0
+0 hours 0 minutes 0 seconds 100 milliseconds 369 microseconds
+No
+SNm_124.hcp
+Number of Vertices: 124, number of edges: 0
+0 hours 0 minutes 0 seconds 100 milliseconds 365 microseconds
+Yes
+SH_125.hcp
+Number of Vertices: 125, number of edges: 0
+0 hours 0 minutes 0 seconds 100 milliseconds 540 microseconds
+Yes
+GP3_126.hcp
+Number of Vertices: 126, number of edges: 0
+0 hours 0 minutes 0 seconds 200 milliseconds 506 microseconds
+Yes
+GP0m_130.hcp
+Number of Vertices: 130, number of edges: 0
+0 hours 0 minutes 0 seconds 100 milliseconds 897 microseconds
+No
+FLS_170.hcp
+Number of Vertices: 170, number of edges: 0
+0 hours 0 minutes 0 seconds 200 milliseconds 739 microseconds
+Yes
+GPN_244.hcp
+Number of Vertices: 244, number of edges: 0
+0 hours 0 minutes 0 seconds 300 milliseconds 795 microseconds
+No
+GP3_246.hcp
+Number of Vertices: 246, number of edges: 0
+0 hours 0 minutes 0 seconds 400 milliseconds 989 microseconds
+No
+GP0m_250.hcp
+Number of Vertices: 250, number of edges: 0
+0 hours 0 minutes 0 seconds 300 milliseconds 766 microseconds
+No
+SH_250.hcp
+Number of Vertices: 250, number of edges: 0
+0 hours 0 minutes 0 seconds 300 milliseconds 633 microseconds
+Yes
+SNm_252.hcp
+Number of Vertices: 252, number of edges: 0
+0 hours 0 minutes 0 seconds 300 milliseconds 684 microseconds
+No
+FLS_338.hcp
+Number of Vertices: 338, number of edges: 0
+0 hours 0 minutes 0 seconds 600 milliseconds 979 microseconds
+Yes
+FLS3_408.hcp
+Number of Vertices: 408, number of edges: 0
+0 hours 0 minutes 0 seconds 701 milliseconds 668 microseconds
+Yes
+GPN_482.hcp
+Number of Vertices: 482, number of edges: 0
+0 hours 0 minutes 0 seconds 801 milliseconds 556 microseconds
+No
+GP3_486.hcp
+Number of Vertices: 486, number of edges: 0
+0 hours 0 minutes 0 seconds 801 milliseconds 355 microseconds
+No
+GP0m_490.hcp
+Number of Vertices: 490, number of edges: 0
+0 hours 0 minutes 0 seconds 801 milliseconds 383 microseconds
+No
+SH_500.hcp
+Number of Vertices: 500, number of edges: 0
+0 hours 0 minutes 0 seconds 902 milliseconds 571 microseconds
+Yes
+SNm_500.hcp
+Number of Vertices: 500, number of edges: 0
+0 hours 0 minutes 0 seconds 901 milliseconds 512 microseconds
+No
+FLS_507.hcp
+Number of Vertices: 507, number of edges: 0
+0 hours 0 minutes 1 seconds 2 milliseconds 12 microseconds
+Yes
+FLS_676.hcp
+Number of Vertices: 676, number of edges: 0
+0 hours 0 minutes 1 seconds 703 milliseconds 152 microseconds
+Yes
+FLS3_731.hcp
+Number of Vertices: 731, number of edges: 0
+0 hours 0 minutes 2 seconds 203 milliseconds 263 microseconds
+Yes
+FLS_845.hcp
+Number of Vertices: 845, number of edges: 0
+0 hours 0 minutes 2 seconds 604 milliseconds 325 microseconds
+Yes
+GPN_998.hcp
+Number of Vertices: 998, number of edges: 0
+0 hours 0 minutes 3 seconds 205 milliseconds 266 microseconds
+No
+COL_1000.hcp
+Number of Vertices: 1086, number of edges: 0
+0 hours 0 minutes 3 seconds 705 milliseconds 520 microseconds
+No
+II_1002.hcp
+Number of Vertices: 1002, number of edges: 0
+0 hours 0 minutes 3 seconds 304 milliseconds 580 microseconds
+No
+GP3_1002.hcp
+Number of Vertices: 1002, number of edges: 0
+0 hours 0 minutes 3 seconds 304 milliseconds 762 microseconds
+No
+SNm_1004.hcp
+Number of Vertices: 1004, number of edges: 0
+0 hours 0 minutes 3 seconds 204 milliseconds 653 microseconds
+No
+GP0m_1006.hcp
+Number of Vertices: 1006, number of edges: 0
+0 hours 0 minutes 3 seconds 305 milliseconds 23 microseconds
+No
+SSP_1011.hcp
+Number of Vertices: 1011, number of edges: 0
+0 hours 0 minutes 3 seconds 305 milliseconds 287 microseconds
+No
+FLS_1014.hcp
+Number of Vertices: 1014, number of edges: 0
+0 hours 0 minutes 3 seconds 705 milliseconds 729 microseconds
+Yes
+QN_1044.hcp
+Number of Vertices: 1044, number of edges: 0
+0 hours 0 minutes 3 seconds 505 milliseconds 732 microseconds
+No
+FLS3_1054.hcp
+Number of Vertices: 1054, number of edges: 0
+0 hours 0 minutes 4 seconds 206 milliseconds 318 microseconds
+No
+COL_1950.hcp
+Number of Vertices: 1950, number of edges: 0
+0 hours 0 minutes 12 seconds 16 milliseconds 327 microseconds
+No
+QN_1968.hcp
+Number of Vertices: 1968, number of edges: 0
+0 hours 0 minutes 12 seconds 417 milliseconds 394 microseconds
+No
+II_1992.hcp
+Number of Vertices: 1992, number of edges: 0
+0 hours 0 minutes 13 seconds 719 milliseconds 90 microseconds
+No
+SSP_2007.hcp
+Number of Vertices: 2007, number of edges: 0
+0 hours 0 minutes 13 seconds 19 milliseconds 590 microseconds
+No
+QN_3894.hcp
+Number of Vertices: 3894, number of edges: 0
+0 hours 0 minutes 51 seconds 174 milliseconds 858 microseconds
+No
+II_3972.hcp
+Number of Vertices: 3972, number of edges: 0
+0 hours 0 minutes 55 seconds 483 milliseconds 424 microseconds
+No
+SSP_4050.hcp
+Number of Vertices: 4050, number of edges: 0
+0 hours 0 minutes 57 seconds 184 milliseconds 383 microseconds
+No
+COL_4110.hcp
+Number of Vertices: 4110, number of edges: 0
+0 hours 0 minutes 57 seconds 685 milliseconds 899 microseconds
+No
+II_7932.hcp
+Number of Vertices: 7932, number of edges: 0
+0 hours 4 minutes 30 seconds 532 milliseconds 699 microseconds
+No
+COL_7998.hcp
+Number of Vertices: 7998, number of edges: 0
+0 hours 4 minutes 19 seconds 498 milliseconds 999 microseconds
+No
+SSP_8040.hcp
+Number of Vertices: 8040, number of edges: 0
+0 hours 4 minutes 47 seconds 156 milliseconds 531 microseconds
+No
+QN_8544.hcp
+Number of Vertices: 8544, number of edges: 0
+Time Limit Exceeded
+No
