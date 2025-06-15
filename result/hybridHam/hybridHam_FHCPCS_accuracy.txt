@@ -1,4 +1,4 @@
-Accuracy: 0.10%
+Accuracy: 5.00%
 Total Test Cases: 1001
-Correct (Expected "Yes"): 1
-Incorrect (Got "No" instead of "Yes"): 1000
+Correct (Expected "Yes"): 50
+Incorrect (Got "No" instead of "Yes"): 951

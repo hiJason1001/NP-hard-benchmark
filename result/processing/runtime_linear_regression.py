@@ -7,11 +7,12 @@ import numpy as np
 # CONFIGURATION
 # ========================
 # Options: "seconds", "milliseconds", "microseconds"
-NAME = "hybridHam_tsphcp"
+NAME = "LKH_examples"
+FOLDER = "LKH"
 TIME_UNIT = "seconds"
 
-INPUT_FILE = f"result/hybridHam/{NAME}.txt"
-OUTPUT_FILE = f"{NAME}.png"
+INPUT_FILE = f"result/{FOLDER}/{NAME}.txt"
+OUTPUT_FILE = f"result/{FOLDER}/{NAME}.png"
 
 # ========================
 
@@ -110,6 +111,7 @@ else:
         plt.ylim(bottom=0)
 
     plt.legend()
+    # plt.ylim(bottom=0)
     plt.tight_layout()
     plt.savefig(OUTPUT_FILE)
     print(f"Graph saved as {OUTPUT_FILE}")

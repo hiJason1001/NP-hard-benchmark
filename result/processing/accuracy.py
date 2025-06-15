@@ -2,9 +2,9 @@
 # CONFIGURATION
 # ========================
 
-NAME = "hybridHam_tsphcp"
+NAME = "concorde_tsphcp"
 
-EXPERIMENTAL_FILE = f"result/hybridHam/{NAME}.txt"
+EXPERIMENTAL_FILE = f"result/concorde/{NAME}.txt"
 OUTPUT_FILE = f"{NAME}_accuracy.txt"
 # ========================
 

@@ -1,15 +1,15 @@
 graph1.hcp 
 Number of Vertices: 66, number of edges: 99
 0 hours 0 minutes 0 seconds 6 milliseconds 128 microseconds 
-No
+Yes
 graph2.hcp 
 Number of Vertices: 70, number of edges: 106
 0 hours 0 minutes 0 seconds 2 milliseconds 133 microseconds 
-No
+Yes
 graph3.hcp 
 Number of Vertices: 78, number of edges: 117
 0 hours 0 minutes 0 seconds 7 milliseconds 336 microseconds 
-No
+Yes
 graph4.hcp 
 Number of Vertices: 84, number of edges: 127
 0 hours 0 minutes 0 seconds 9 milliseconds 339 microseconds 
@@ -17,23 +17,23 @@ Yes
 graph5.hcp 
 Number of Vertices: 90, number of edges: 135
 0 hours 0 minutes 0 seconds 4 milliseconds 129 microseconds 
-No
+Yes
 graph6.hcp 
 Number of Vertices: 94, number of edges: 142
 0 hours 0 minutes 0 seconds 11 milliseconds 994 microseconds 
-No
+Yes
 graph7.hcp 
 Number of Vertices: 102, number of edges: 153
 0 hours 0 minutes 0 seconds 2 milliseconds 389 microseconds 
-No
+Yes
 graph8.hcp 
 Number of Vertices: 108, number of edges: 163
 0 hours 0 minutes 0 seconds 12 milliseconds 434 microseconds 
-No
+Yes
 graph9.hcp 
 Number of Vertices: 114, number of edges: 171
 0 hours 0 minutes 0 seconds 9 milliseconds 704 microseconds 
-No
+Yes
 graph10.hcp 
 Number of Vertices: 118, number of edges: 178
 0 hours 0 minutes 0 seconds 17 milliseconds 831 microseconds 
@@ -41,11 +41,11 @@ No
 graph11.hcp 
 Number of Vertices: 126, number of edges: 189
 0 hours 0 minutes 0 seconds 30 milliseconds 730 microseconds 
-No
+Yes
 graph12.hcp 
 Number of Vertices: 132, number of edges: 199
 0 hours 0 minutes 0 seconds 2 milliseconds 911 microseconds 
-No
+Yes
 graph13.hcp 
 Number of Vertices: 138, number of edges: 207
 0 hours 0 minutes 0 seconds 18 milliseconds 379 microseconds 
@@ -53,23 +53,23 @@ No
 graph14.hcp 
 Number of Vertices: 142, number of edges: 214
 0 hours 0 minutes 0 seconds 27 milliseconds 912 microseconds 
-No
+Yes
 graph15.hcp 
 Number of Vertices: 150, number of edges: 225
 0 hours 0 minutes 0 seconds 34 milliseconds 115 microseconds 
-No
+Yes
 graph16.hcp 
 Number of Vertices: 156, number of edges: 235
 0 hours 0 minutes 0 seconds 24 milliseconds 26 microseconds 
-No
+Yes
 graph17.hcp 
 Number of Vertices: 162, number of edges: 243
 0 hours 0 minutes 0 seconds 36 milliseconds 737 microseconds 
-No
+Yes
 graph18.hcp 
 Number of Vertices: 166, number of edges: 250
 0 hours 0 minutes 0 seconds 28 milliseconds 975 microseconds 
-No
+Yes
 graph19.hcp 
 Number of Vertices: 170, number of edges: 390
 0 hours 0 minutes 0 seconds 28 milliseconds 777 microseconds 
@@ -77,19 +77,19 @@ No
 graph20.hcp 
 Number of Vertices: 174, number of edges: 261
 0 hours 0 minutes 0 seconds 32 milliseconds 441 microseconds 
-No
+Yes
 graph21.hcp 
 Number of Vertices: 180, number of edges: 271
 0 hours 0 minutes 0 seconds 30 milliseconds 162 microseconds 
-No
+Yes
 graph22.hcp 
 Number of Vertices: 186, number of edges: 279
 0 hours 0 minutes 0 seconds 49 milliseconds 610 microseconds 
-No
+Yes
 graph23.hcp 
 Number of Vertices: 190, number of edges: 286
 0 hours 0 minutes 0 seconds 72 milliseconds 432 microseconds 
-No
+Yes
 graph24.hcp 
 Number of Vertices: 198, number of edges: 297
 0 hours 0 minutes 0 seconds 64 milliseconds 161 microseconds 
@@ -97,15 +97,15 @@ No
 graph25.hcp 
 Number of Vertices: 204, number of edges: 307
 0 hours 0 minutes 0 seconds 29 milliseconds 540 microseconds 
-No
+Yes
 graph26.hcp 
 Number of Vertices: 210, number of edges: 315
 0 hours 0 minutes 0 seconds 20 milliseconds 108 microseconds 
-No
+Yes
 graph27.hcp 
 Number of Vertices: 214, number of edges: 322
 0 hours 0 minutes 0 seconds 48 milliseconds 96 microseconds 
-No
+Yes
 graph28.hcp 
 Number of Vertices: 222, number of edges: 333
 0 hours 0 minutes 0 seconds 29 milliseconds 832 microseconds 
@@ -113,7 +113,7 @@ No
 graph29.hcp 
 Number of Vertices: 228, number of edges: 343
 0 hours 0 minutes 0 seconds 54 milliseconds 687 microseconds 
-No
+Yes
 graph30.hcp 
 Number of Vertices: 234, number of edges: 351
 0 hours 0 minutes 0 seconds 79 milliseconds 129 microseconds 
@@ -125,27 +125,27 @@ No
 graph32.hcp 
 Number of Vertices: 246, number of edges: 369
 0 hours 0 minutes 0 seconds 70 milliseconds 539 microseconds 
-No
+Yes
 graph33.hcp 
 Number of Vertices: 252, number of edges: 379
 0 hours 0 minutes 0 seconds 90 milliseconds 830 microseconds 
-No
+Yes
 graph34.hcp 
 Number of Vertices: 258, number of edges: 387
 0 hours 0 minutes 0 seconds 34 milliseconds 532 microseconds 
-No
+Yes
 graph35.hcp 
 Number of Vertices: 262, number of edges: 394
 0 hours 0 minutes 0 seconds 112 milliseconds 212 microseconds 
-No
+Yes
 graph36.hcp 
 Number of Vertices: 270, number of edges: 405
 0 hours 0 minutes 0 seconds 65 milliseconds 598 microseconds 
-No
+Yes
 graph37.hcp 
 Number of Vertices: 276, number of edges: 415
 0 hours 0 minutes 0 seconds 66 milliseconds 172 microseconds 
-No
+Yes
 graph38.hcp 
 Number of Vertices: 282, number of edges: 423
 0 hours 0 minutes 0 seconds 90 milliseconds 372 microseconds 
@@ -157,7 +157,7 @@ No
 graph40.hcp 
 Number of Vertices: 294, number of edges: 441
 0 hours 0 minutes 0 seconds 41 milliseconds 686 microseconds 
-No
+Yes
 graph41.hcp 
 Number of Vertices: 300, number of edges: 451
 0 hours 0 minutes 0 seconds 35 milliseconds 120 microseconds 
@@ -173,11 +173,11 @@ No
 graph44.hcp 
 Number of Vertices: 318, number of edges: 477
 0 hours 0 minutes 0 seconds 89 milliseconds 410 microseconds 
-No
+Yes
 graph45.hcp 
 Number of Vertices: 324, number of edges: 487
 0 hours 0 minutes 0 seconds 98 milliseconds 724 microseconds 
-No
+Yes
 graph46.hcp 
 Number of Vertices: 330, number of edges: 495
 0 hours 0 minutes 0 seconds 152 milliseconds 499 microseconds 
@@ -197,7 +197,7 @@ No
 graph50.hcp 
 Number of Vertices: 348, number of edges: 523
 0 hours 0 minutes 0 seconds 31 milliseconds 142 microseconds 
-No
+Yes
 graph51.hcp 
 Number of Vertices: 354, number of edges: 531
 0 hours 0 minutes 0 seconds 188 milliseconds 580 microseconds 
@@ -233,7 +233,7 @@ No
 graph59.hcp 
 Number of Vertices: 400, number of edges: 40001
 0 hours 0 minutes 0 seconds 320 milliseconds 574 microseconds 
-No
+Yes
 graph60.hcp 
 Number of Vertices: 402, number of edges: 603
 0 hours 0 minutes 0 seconds 302 milliseconds 47 microseconds 
@@ -273,7 +273,7 @@ No
 graph69.hcp 
 Number of Vertices: 444, number of edges: 667
 0 hours 0 minutes 0 seconds 40 milliseconds 111 microseconds 
-No
+Yes
 graph70.hcp 
 Number of Vertices: 450, number of edges: 675
 0 hours 0 minutes 0 seconds 316 milliseconds 196 microseconds 
@@ -285,7 +285,7 @@ No
 graph72.hcp 
 Number of Vertices: 460, number of edges: 52901
 0 hours 0 minutes 0 seconds 678 milliseconds 958 microseconds 
-No
+Yes
 graph73.hcp 
 Number of Vertices: 462, number of edges: 693
 0 hours 0 minutes 0 seconds 318 milliseconds 275 microseconds 
@@ -313,7 +313,7 @@ No
 graph79.hcp 
 Number of Vertices: 480, number of edges: 57601
 0 hours 0 minutes 1 seconds 145 milliseconds 940 microseconds 
-No
+Yes
 graph80.hcp 
 Number of Vertices: 486, number of edges: 729
 0 hours 0 minutes 0 seconds 282 milliseconds 702 microseconds 
@@ -333,7 +333,7 @@ No
 graph84.hcp 
 Number of Vertices: 500, number of edges: 62501
 0 hours 1 minutes 17 seconds 351 milliseconds 277 microseconds 
-No
+Yes
 graph85.hcp 
 Number of Vertices: 502, number of edges: 754
 0 hours 0 minutes 0 seconds 280 milliseconds 419 microseconds 
@@ -357,11 +357,11 @@ No
 graph90.hcp 
 Number of Vertices: 510, number of edges: 65026
 0 hours 0 minutes 0 seconds 680 milliseconds 507 microseconds 
-No
+Yes
 graph91.hcp 
 Number of Vertices: 516, number of edges: 775
 0 hours 0 minutes 0 seconds 75 milliseconds 687 microseconds 
-No
+Yes
 graph92.hcp 
 Number of Vertices: 522, number of edges: 783
 0 hours 0 minutes 0 seconds 361 milliseconds 207 microseconds 
@@ -377,11 +377,11 @@ No
 graph95.hcp 
 Number of Vertices: 540, number of edges: 811
 0 hours 0 minutes 0 seconds 50 milliseconds 126 microseconds 
-No
+Yes
 graph96.hcp 
 Number of Vertices: 540, number of edges: 72901
 0 hours 0 minutes 0 seconds 518 milliseconds 102 microseconds 
-No
+Yes
 graph97.hcp 
 Number of Vertices: 546, number of edges: 819
 0 hours 0 minutes 0 seconds 125 milliseconds 735 microseconds 
@@ -421,7 +421,7 @@ No
 graph106.hcp 
 Number of Vertices: 588, number of edges: 883
 0 hours 0 minutes 0 seconds 104 milliseconds 173 microseconds 
-No
+Yes
 graph107.hcp 
 Number of Vertices: 594, number of edges: 891
 0 hours 0 minutes 0 seconds 401 milliseconds 102 microseconds 
@@ -445,7 +445,7 @@ No
 graph112.hcp 
 Number of Vertices: 612, number of edges: 919
 0 hours 0 minutes 0 seconds 87 milliseconds 99 microseconds 
-No
+Yes
 graph113.hcp 
 Number of Vertices: 618, number of edges: 927
 0 hours 0 minutes 0 seconds 662 milliseconds 386 microseconds 
@@ -465,7 +465,7 @@ No
 graph117.hcp 
 Number of Vertices: 631, number of edges: 1561
 0 hours 0 minutes 0 seconds 212 milliseconds 798 microseconds 
-No
+Yes
 graph118.hcp 
 Number of Vertices: 636, number of edges: 955
 0 hours 0 minutes 0 seconds 106 milliseconds 194 microseconds 
@@ -509,7 +509,7 @@ No
 graph128.hcp 
 Number of Vertices: 677, number of edges: 114583
 0 hours 3 minutes 23 seconds 535 milliseconds 499 microseconds 
-No
+Yes
 graph129.hcp 
 Number of Vertices: 684, number of edges: 1027
 0 hours 0 minutes 0 seconds 89 milliseconds 622 microseconds 
@@ -605,7 +605,7 @@ No
 graph152.hcp 
 Number of Vertices: 838, number of edges: 1258
 0 hours 0 minutes 0 seconds 58 milliseconds 21 microseconds 
-No
+Yes
 graph153.hcp 
 Number of Vertices: 845, number of edges: 1940
 0 hours 0 minutes 0 seconds 556 milliseconds 528 microseconds 
@@ -701,7 +701,7 @@ No
 graph176.hcp 
 Number of Vertices: 1020, number of edges: 1531
 0 hours 0 minutes 0 seconds 520 milliseconds 191 microseconds 
-No
+Yes
 graph177.hcp 
 Number of Vertices: 1030, number of edges: 1546
 0 hours 0 minutes 1 seconds 741 milliseconds 866 microseconds 
@@ -801,7 +801,7 @@ No
 graph201.hcp 
 Number of Vertices: 1206, number of edges: 1809
 0 hours 0 minutes 2 seconds 190 milliseconds 717 microseconds 
-No
+Yes
 graph202.hcp 
 Number of Vertices: 1212, number of edges: 1819
 0 hours 0 minutes 0 seconds 599 milliseconds 707 microseconds 
