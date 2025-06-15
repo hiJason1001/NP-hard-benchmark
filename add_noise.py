@@ -18,11 +18,21 @@ def read_edge_list(filepath):
 def add_random_edges(edges, n, k, seed=42):
     random.seed(seed)
     edge_set = set(edges)
-    added = 0
+    max_possible_edges = n * (n - 1) // 2
+    available_edges = max_possible_edges - len(edge_set)
 
-    while added < k:
+    if k > available_edges:
+        print(f"Warning: Only {available_edges} edges can be added, but requested {k}. Adding only {available_edges}.")
+        k = available_edges
+
+    added = 0
+    attempts = 0
+    max_attempts = 10 * k
+
+    while added < k and attempts < max_attempts:
         u = random.randint(0, n - 1)
         v = random.randint(0, n - 1)
+        attempts += 1
         if u == v:
             continue
         edge = (min(u, v), max(u, v))
@@ -31,7 +41,11 @@ def add_random_edges(edges, n, k, seed=42):
         edge_set.add(edge)
         added += 1
 
+    if added < k:
+        print(f"Stopped early: only added {added} edges out of {k} requested due to lack of new unique edges.")
+
     return edge_set
+
 
 def write_edge_list(filepath, edges):
     n = 0
@@ -72,9 +86,9 @@ def process_directory(input_dir, output_dir, epsilon=None, k_fixed=None, seed=42
 
 INPUT_DIR = "data_processed/tsphcp_processed"
 OUTPUT_DIR = "data_noisy/tsphcp"
-EPSILON = 0.05      # Add 5% of possible edges
+EPSILON = 0.05      # Add % of possible edges
 K_FIXED = None      # Alternatively: set this to an int like 50 to override EPSILON
-SEED = 42
+SEED = 99
 
 # ==== RUN ====
 

@@ -9,7 +9,6 @@ def hcp_to_tsp(input_file, output_file):
     edges = []
     edge_data_index = None
 
-    # Handle variations in headers (like DIMENTION / EDGE_DATA_SELECTION)
     for i, line in enumerate(lines):
         line_clean = line.strip().upper()
         if line_clean.startswith("DIMENSION") or line_clean.startswith("DIMENTION"):
@@ -24,7 +23,6 @@ def hcp_to_tsp(input_file, output_file):
     if edge_data_index is None:
         raise ValueError(f"No valid EDGE_DATA_SECTION found in {input_file}")
 
-    # Parse edge list
     for line in lines[edge_data_index:]:
         line = line.strip()
         if not line or line.upper() == "EOF":
@@ -34,16 +32,14 @@ def hcp_to_tsp(input_file, output_file):
             print(f"Warning: Skipping malformed line in {input_file}: '{line}'")
             continue
         u, v = map(int, parts)
-        edges.append((u - 1, v - 1))  # 0-indexed
+        edges.append((u - 1, v - 1))
 
-    # Build matrix
     matrix = [[2] * dim for _ in range(dim)]
     for i in range(dim):
         matrix[i][i] = 0
     for u, v in edges:
         matrix[u][v] = matrix[v][u] = 1
 
-    # Write TSP file
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
     with open(output_file, 'w') as f:
         f.write(f"NAME: converted\n")
@@ -95,8 +91,9 @@ def simple_hcp_to_tsp(input_file, output_file):
         f.write("EOF\n")
 
 
-def process_all_hcp_files(input_root='data_processed/examples', output_root='data_concorde/examples'):
+def process_all_hcp_files(input_root='data_noisy/tsphcp', output_root='data_concorde/tsphcp_noisy'):
     for dirpath, _, filenames in os.walk(input_root):
+        # print(filenames)
         for filename in filenames:
             if filename.lower().endswith(".hcp"):
                 input_path = os.path.join(dirpath, filename)

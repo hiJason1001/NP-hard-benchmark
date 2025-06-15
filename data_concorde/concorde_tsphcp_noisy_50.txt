@@ -1,0 +1,135 @@
+COL_1000.tsp
+0 hours 0 minutes 3 seconds 434 milliseconds 478 microseconds
+Yes
+COL_1950.tsp
+0 hours 0 minutes 5 seconds 791 milliseconds 361 microseconds
+Yes
+COL_4110.tsp
+0 hours 0 minutes 17 seconds 330 milliseconds 406 microseconds
+Yes
+COL_7998.tsp
+0 hours 0 minutes 56 seconds 644 milliseconds 934 microseconds
+Yes
+FLS3_1054.tsp
+0 hours 0 minutes 9 seconds 863 milliseconds 584 microseconds
+Yes
+FLS3_408.tsp
+0 hours 0 minutes 3 seconds 82 milliseconds 185 microseconds
+Yes
+FLS3_731.tsp
+0 hours 0 minutes 7 seconds 449 milliseconds 491 microseconds
+Yes
+FLS_1014.tsp
+0 hours 0 minutes 10 seconds 517 milliseconds 379 microseconds
+Yes
+FLS_170.tsp
+0 hours 0 minutes 1 seconds 129 milliseconds 41 microseconds
+Yes
+FLS_338.tsp
+0 hours 0 minutes 2 seconds 528 milliseconds 799 microseconds
+Yes
+FLS_507.tsp
+0 hours 0 minutes 4 seconds 387 milliseconds 566 microseconds
+Yes
+FLS_676.tsp
+0 hours 0 minutes 6 seconds 347 milliseconds 733 microseconds
+Yes
+FLS_845.tsp
+0 hours 0 minutes 8 seconds 507 milliseconds 249 microseconds
+Yes
+GP0m_1006.tsp
+0 hours 0 minutes 5 seconds 189 milliseconds 12 microseconds
+Yes
+GP0m_130.tsp
+0 hours 0 minutes 0 seconds 424 milliseconds 334 microseconds
+Yes
+GP0m_250.tsp
+0 hours 0 minutes 0 seconds 973 milliseconds 223 microseconds
+Yes
+GP0m_490.tsp
+0 hours 0 minutes 1 seconds 976 milliseconds 88 microseconds
+Yes
+GP3_1002.tsp
+0 hours 0 minutes 6 seconds 41 milliseconds 362 microseconds
+Yes
+GP3_126.tsp
+0 hours 0 minutes 0 seconds 418 milliseconds 531 microseconds
+Yes
+GP3_246.tsp
+0 hours 0 minutes 0 seconds 923 milliseconds 182 microseconds
+Yes
+GP3_486.tsp
+0 hours 0 minutes 1 seconds 975 milliseconds 973 microseconds
+Yes
+GPN_122.tsp
+0 hours 0 minutes 0 seconds 419 milliseconds 680 microseconds
+Yes
+GPN_244.tsp
+0 hours 0 minutes 0 seconds 922 milliseconds 621 microseconds
+Yes
+GPN_482.tsp
+0 hours 0 minutes 2 seconds 25 milliseconds 402 microseconds
+Yes
+GPN_998.tsp
+0 hours 0 minutes 5 seconds 393 milliseconds 548 microseconds
+Yes
+II_1002.tsp
+0 hours 0 minutes 4 seconds 385 milliseconds 349 microseconds
+Yes
+II_1992.tsp
+0 hours 0 minutes 8 seconds 200 milliseconds 261 microseconds
+Yes
+II_3972.tsp
+0 hours 0 minutes 18 seconds 935 milliseconds 429 microseconds
+Yes
+II_7932.tsp
+0 hours 1 minutes 2 seconds 720 milliseconds 413 microseconds
+Yes
+QN_1044.tsp
+0 hours 0 minutes 3 seconds 682 milliseconds 881 microseconds
+Yes
+QN_1968.tsp
+0 hours 0 minutes 6 seconds 590 milliseconds 262 microseconds
+Yes
+QN_3894.tsp
+0 hours 0 minutes 18 seconds 381 milliseconds 103 microseconds
+Yes
+QN_8544.tsp
+0 hours 2 minutes 11 seconds 485 milliseconds 92 microseconds
+Yes
+SH_125.tsp
+0 hours 0 minutes 1 seconds 121 milliseconds 920 microseconds
+Yes
+SH_250.tsp
+0 hours 0 minutes 3 seconds 33 milliseconds 389 microseconds
+Yes
+SH_500.tsp
+0 hours 0 minutes 6 seconds 748 milliseconds 411 microseconds
+Yes
+SH_64.tsp
+0 hours 0 minutes 0 seconds 468 milliseconds 966 microseconds
+Yes
+SNm_1004.tsp
+0 hours 0 minutes 5 seconds 89 milliseconds 597 microseconds
+Yes
+SNm_124.tsp
+0 hours 0 minutes 0 seconds 419 milliseconds 426 microseconds
+Yes
+SNm_252.tsp
+0 hours 0 minutes 0 seconds 921 milliseconds 916 microseconds
+Yes
+SNm_500.tsp
+0 hours 0 minutes 2 seconds 26 milliseconds 413 microseconds
+Yes
+SSP_1011.tsp
+0 hours 0 minutes 4 seconds 184 milliseconds 448 microseconds
+Yes
+SSP_2007.tsp
+0 hours 0 minutes 8 seconds 603 milliseconds 755 microseconds
+Yes
+SSP_4050.tsp
+0 hours 0 minutes 20 seconds 487 milliseconds 153 microseconds
+Yes
+SSP_8040.tsp
+0 hours 1 minutes 30 seconds 803 milliseconds 121 microseconds
+Yes

@@ -3,10 +3,10 @@ import subprocess
 import time
 
 CONCORDE_PATH = "./../../concorde/TSP/concorde"
-TSP_DIR = "tsphcp"
+TSP_DIR = "tsphcp_noisy"
 HCP_DIR = "../data_processed/tsphcp_processed"
 OUTPUT_LOG = "concorde_results.txt"
-# TIME_LIMIT = 600  # 10 minutes in seconds
+# TIME_LIMIT = 600  # second
 TIME_LIMIT = 10 # second
 
 def get_vertices_and_edges(hcp_file):
@@ -28,47 +28,38 @@ def format_time(duration):
     return f"{h} hours {m} minutes {s} seconds {ms} milliseconds {us} microseconds"
 
 def run_all_concorde():
-    # Step 1: Load already processed files
     processed = set()
     if os.path.exists(OUTPUT_LOG):
         with open(OUTPUT_LOG, 'r') as f:
             for line in f:
-                line = line.strip()
-                if line.endswith(".hcp"):
-                    processed.add(line[:-4])  # store base name without .hcp
+                if line.strip().endswith(".tsp"):
+                    processed.add(line.strip())
 
-    # Step 2: Get all .tsp files to process
     tsp_files = sorted([
         os.path.join(root, file)
         for root, _, files in os.walk(TSP_DIR)
         for file in files if file.endswith(".tsp")
     ])
 
-    # Step 3: Append to results log, only process new ones
     with open(OUTPUT_LOG, 'a') as out:
         for tsp_path in tsp_files:
-            base = os.path.splitext(os.path.basename(tsp_path))[0]
+            base = os.path.basename(tsp_path)
             if base in processed:
-                continue  # skip already processed files
+                continue
 
-            hcp_path = os.path.join(HCP_DIR, base + ".hcp")
-            out.write(f"{base}.hcp\n")
-
-            v, e = get_vertices_and_edges(hcp_path)
-            if v is not None and e is not None:
-                out.write(f"Number of Vertices: {v}, number of edges: {e}\n")
-            else:
-                out.write("Number of Vertices: ?, number of edges: ?\n")
+            out.write(f"{base}\n")
 
             try:
                 start = time.time()
                 subprocess.run([CONCORDE_PATH, tsp_path], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=TIME_LIMIT)
                 duration = time.time() - start
                 out.write(f"{format_time(duration)}\nYes\n")
-                os.system("rm -f *.mas *.pul *.sav *.sol *.res *.[0-9][0-9][0-9]")
             except subprocess.TimeoutExpired:
                 out.write("Time Limit Exceeded\nNo\n")
-                os.system("rm -f *.mas *.pul *.sav *.sol *.res *.[0-9][0-9][0-9]")
+
+            os.system("rm -f *.mas *.pul *.sav *.sol *.res *.[0-9][0-9][0-9]")
+            out.flush()
+
 
 
 def run_fhcpcs_specific():
