@@ -112,14 +112,11 @@ else:
             sub_df = df[df["source"] == name]
             color = colors[idx % len(colors)]
 
-            # Split by result
             ok_df = sub_df[sub_df["result"] == "yes"]
             tle_df = sub_df[sub_df["result"] == "no"]
 
-            # Plot successful runs
             plt.scatter(ok_df["vertices"], ok_df["time"], color=color, s=5)
 
-            # Plot TLEs at fixed high y
             if not tle_df.empty:
                 plt.scatter(
                     tle_df["vertices"],
@@ -131,7 +128,6 @@ else:
                 )
                 tle_plotted = True
 
-            # Fit curve to successful runs only
             df_avg = ok_df.groupby("vertices").agg({"time": "mean"}).reset_index().sort_values(by="vertices")
             df_avg["time"] = df_avg["time"].replace(0, 1e-6)
             log_x = np.log(df_avg["vertices"])

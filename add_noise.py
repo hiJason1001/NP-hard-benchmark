@@ -82,12 +82,12 @@ def process_directory(input_dir, output_dir, epsilon=None, k_fixed=None, seed=42
 
 
 
-# ==== SET PARAMETERS HERE ====
+# ==== PARAMETERS ====
 
 INPUT_DIR = "data_processed/tsphcp_processed"
 OUTPUT_DIR = "data_noisy/tsphcp"
 EPSILON = 0.05      # Add % of possible edges
-K_FIXED = None      # Alternatively: set this to an int like 50 to override EPSILON
+K_FIXED = None      
 SEED = 99
 
 # ==== RUN ====

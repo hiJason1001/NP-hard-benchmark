@@ -97,7 +97,7 @@ void rotatePath(vector<int>& path, const vector<vector<int>>& graph) {
     if (valid_rotation_points.empty()) return;
 
     // paper does not say which node to use as pivot
-    // so I'm picking a random one
+    // so random is picked
     int rand_idx = get_random_idx(valid_rotation_points.size());
     int pivot = 0;
     for (int i = 0; i < int(path.size()); i++) {
@@ -163,8 +163,6 @@ vector<int> extendToHamiltonianPath(vector<int> path, const vector<vector<int>>&
             path_size = path.size();
             same_path_size_count = 0;
         }
-        // for (auto it:path)cout<<it<<" ";
-        // cout<<endl;
     }
     return path;
 }
@@ -234,7 +232,6 @@ int main(int argc, char* argv[]) {
     // for (auto it : best) cout<<it<<" ";
     // cout<<endl;
 
-    // ------------ Phase 2: Convert initial path into Hamiltonian path ------------
     vector<int> HamPath = extendToHamiltonianPath(best, sortedAdj, graph, degree);
     if (int(HamPath.size()) != n) {
         auto end = chrono::steady_clock::now();

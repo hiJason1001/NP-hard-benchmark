@@ -11,14 +11,14 @@ from scipy.special import gammaln
 # CONFIGURATION
 # ========================
 # NAMES = ["concorde_tsphcp", "concorde_FHCPCS", "concorde_ALL_hcp"]
-NAMES = ["LKH_tsphcp_noisy_50"]
-FOLDER = "result/LKH"
+NAMES = ["HPA_examples"]
+FOLDER = "result/HPA"
 TIME_UNIT = "seconds"
-TITLE = f"LKH Runtime vs Number of Vertices"
+TITLE = f"HPA Runtime vs Number of Vertices"
 GRAPH_TYPE = "loglog"  # "loglog" or "powerfit"
 DRAW_SEPARATE_LINES = True 
 FONT = 24
-OUTPUT_FILE = f"result/LKH/combined_plot.png"
+OUTPUT_FILE = f"result/HPA/combined_plot.png"
 # ========================
 
 all_records = []
@@ -103,7 +103,7 @@ else:
     df_sorted = df.sort_values(by=["vertices", "edges"])
     plt.figure(figsize=(10, 6))
 
-    tle_plotted = False 
+    tle_plotted = False
     global_max_time = df[df["result"] == "yes"]["time"].max()
     tle_y = global_max_time * 1.5 if global_max_time > 0 else 1000
 
@@ -136,8 +136,8 @@ else:
 
             x_vals = np.linspace(df_avg["vertices"].min(), df_avg["vertices"].max(), 500)
             y_vals = np.exp(b) * x_vals**k
-            # label = f"{name} Fit ($n^{{{k:.2f}}}$)"
-            label = f"$n^{{{k:.2f}}}$"
+            label = f"{name} Fit ($n^{{{k:.2f}}}$)"
+            # label = f"$n^{{{k:.2f}}}$"
             plt.plot(x_vals, y_vals, color="black", label=label)
     else:
         ok_df = df[df["result"] == "yes"]

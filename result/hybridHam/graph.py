@@ -12,7 +12,7 @@ FOLDER = "hybridHam"
 TIME_UNIT = "seconds"
 TITLE = f"HybridHam Runtime vs Number of Vertices"
 GRAPH_TYPE = "loglog"  # "loglog" or "powerfit"
-DRAW_SEPARATE_LINES = True  # Draw a fit line per file or one combined
+DRAW_SEPARATE_LINES = True 
 FONT = 24
 OUTPUT_FILE = f"result/{FOLDER}/combined_plot.png"
 # ========================
@@ -99,10 +99,8 @@ else:
             sub_df = df[df["source"] == name]
             color = colors[idx % len(colors)]
 
-            # Plot raw data
             plt.scatter(sub_df["vertices"], sub_df["time"], color=color, s=5)
 
-            # Fit to average curve
             df_avg = sub_df.groupby("vertices").agg({"time": "mean"}).reset_index().sort_values(by="vertices")
             log_x = np.log(df_avg["vertices"])
             log_y = np.log(df_avg["time"])
@@ -117,11 +115,10 @@ else:
             label = f"{name} Fit ($n^{{{k:.2f}}}$)"
             if GRAPH_TYPE == "loglog":
                 plt.plot(x_vals, y_vals, color=color, label=label)
-            else:  # powerfit
+            else:
                 plt.plot(x_vals, y_vals, color=color, label=label)
 
     else:
-        # Combine and fit once
         df_avg = df.groupby("vertices").agg({"time": "mean"}).reset_index()
         df_avg_sorted = df_avg.sort_values(by="vertices")
         log_x = np.log(df_avg_sorted["vertices"])

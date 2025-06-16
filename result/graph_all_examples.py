@@ -10,22 +10,39 @@ from scipy.special import gammaln
 # ========================
 # CONFIGURATION
 # ========================
-# NAMES = ["concorde_tsphcp", "concorde_FHCPCS", "concorde_ALL_hcp"]
-NAMES = ["LKH_tsphcp_noisy_50"]
-FOLDER = "result/LKH"
+
+n1 = "concorde"
+n2 = "heldKarp"
+n3 = "HPA"
+n4 = "hybridHam"
+n5 = "LKH"
+n6 = "NN"
+
+FILENAME = "examples"
+
+FILES = [
+    (f"result/{n1}/{n1}_{FILENAME}.txt", f"{n1}_{FILENAME}", "power"),
+    (f"result/{n2}/{n2}_{FILENAME}.txt", f"{n2}_{FILENAME}", "exponential"), # heldKarp
+    (f"result/{n3}/{n3}_{FILENAME}.txt", f"{n3}_{FILENAME}", "power"),
+    (f"result/{n4}/{n4}_{FILENAME}.txt", f"{n4}_{FILENAME}", "power"),
+    (f"result/{n5}/{n5}_{FILENAME}.txt", f"{n5}_{FILENAME}", "power"),
+    (f"result/{n6}/{n6}_{FILENAME}.txt", f"{n6}_{FILENAME}", "power"),
+]
+
+
 TIME_UNIT = "seconds"
-TITLE = f"LKH Runtime vs Number of Vertices"
-GRAPH_TYPE = "loglog"  # "loglog" or "powerfit"
+TITLE = "All Algorithm Runtime vs Number of Vertices on Examples Dataset"
+GRAPH_TYPE = "loglog"  # "loglog" or "linear"
 DRAW_SEPARATE_LINES = True 
-FONT = 24
-OUTPUT_FILE = f"result/LKH/combined_plot.png"
+FIT_TYPE = "power"  # "power" or "exponential"
+FONT = 16
+OUTPUT_FILE = "combined_plot_power.png"
 # ========================
 
 all_records = []
 colors = plt.cm.tab10.colors
 
-for idx, NAME in enumerate(NAMES):
-    INPUT_FILE = f"{FOLDER}/{NAME}.txt"
+for idx, (INPUT_FILE, NAME, FIT_TYPE) in enumerate(FILES):
     if not os.path.exists(INPUT_FILE):
         print(f"File {INPUT_FILE} not found. Skipping.")
         continue
@@ -103,12 +120,12 @@ else:
     df_sorted = df.sort_values(by=["vertices", "edges"])
     plt.figure(figsize=(10, 6))
 
-    tle_plotted = False 
+    tle_plotted = False
     global_max_time = df[df["result"] == "yes"]["time"].max()
     tle_y = global_max_time * 1.5 if global_max_time > 0 else 1000
 
     if DRAW_SEPARATE_LINES:
-        for idx, name in enumerate(NAMES):
+        for idx, (_, name, fit_type) in enumerate(FILES):
             sub_df = df[df["source"] == name]
             color = colors[idx % len(colors)]
 
@@ -130,15 +147,33 @@ else:
 
             df_avg = ok_df.groupby("vertices").agg({"time": "mean"}).reset_index().sort_values(by="vertices")
             df_avg["time"] = df_avg["time"].replace(0, 1e-6)
-            log_x = np.log(df_avg["vertices"])
-            log_y = np.log(df_avg["time"])
-            k, b = np.polyfit(log_x, log_y, 1)
-
             x_vals = np.linspace(df_avg["vertices"].min(), df_avg["vertices"].max(), 500)
-            y_vals = np.exp(b) * x_vals**k
-            # label = f"{name} Fit ($n^{{{k:.2f}}}$)"
-            label = f"$n^{{{k:.2f}}}$"
-            plt.plot(x_vals, y_vals, color="black", label=label)
+
+            clean_name = name.replace("_examples", "")
+            if fit_type  == "power":
+                log_x = np.log(df_avg["vertices"])
+                log_y = np.log(df_avg["time"])
+                k, b = np.polyfit(log_x, log_y, 1)
+                y_vals = np.exp(b) * x_vals ** k
+
+                label = f"{clean_name} ($n^{{{k:.2f}}}$)"
+
+            elif fit_type == "exponential":
+                x = df_avg["vertices"].values
+                y = df_avg["time"].values
+                log_y = np.log(y)
+                m, c = np.polyfit(x, log_y, 1)
+                a = np.exp(c)
+                b = np.exp(m)
+
+                y_vals = a * (b ** x_vals)
+                base = np.log2(b)
+                label = f"{clean_name} ($2^{{{base:.2f}n}}$)"
+
+            else:
+                raise ValueError("FIT_TYPE must be 'power' or 'exponential'")
+
+            plt.plot(x_vals, y_vals, color=color, label=label)
     else:
         ok_df = df[df["result"] == "yes"]
         tle_df = df[df["result"] == "no"]
@@ -182,9 +217,9 @@ else:
 
     plt.title(TITLE, fontsize=FONT)
     plt.grid(True, which="both", ls="--")
-    plt.xticks(fontsize=14)
-    plt.yticks(fontsize=14)
-    plt.legend(fontsize=FONT)
+    plt.xticks(fontsize=10)
+    plt.yticks(fontsize=10)
+    plt.legend(fontsize=12, ncol=2)
     plt.tight_layout()
     plt.savefig(OUTPUT_FILE)
     print(f"Graph saved as {OUTPUT_FILE}")

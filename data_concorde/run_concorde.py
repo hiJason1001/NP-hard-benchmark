@@ -70,7 +70,7 @@ def run_fhcpcs_specific():
             for line in f:
                 line = line.strip()
                 if line.endswith(".hcp"):
-                    base = line[:-4]  # remove ".hcp"
+                    base = line[:-4]
                     processed_bases.add(base)
 
     with open(OUTPUT_LOG, 'a') as out:

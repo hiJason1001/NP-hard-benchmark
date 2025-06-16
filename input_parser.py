@@ -20,12 +20,10 @@ def parse_input_file(input_path: str, output_path: str):
                 continue
 
             if not reading_edges:
-                # DIMENSION: number of vertices
                 match = re.search(r"DIMENSION\s*:\s*(\d+)", stripped)
                 if match:
                     n = int(match.group(1))
 
-                # If the line is two integers, assume edge section has started
                 elif re.match(r"\d+\s+\d+", stripped):
                     reading_edges = True
 
@@ -35,7 +33,7 @@ def parse_input_file(input_path: str, output_path: str):
                 parts = stripped.split()
                 if len(parts) == 2:
                     u, v = map(int, parts)
-                    edges.append((u - 1, v - 1))  # Convert to 0-indexed
+                    edges.append((u - 1, v - 1))
 
     if n is None:
         vertex_set = set()

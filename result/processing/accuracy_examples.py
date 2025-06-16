@@ -1,15 +1,11 @@
 import re
 
-# ========================
-# CONFIGURATION
-# ========================
-NAME = "LKH_examples"
+NAME = "HPA_examples"
 
 ACTUAL_FILE = "result/exmaples_actual_results.txt"
 
-INPUT_FILE = f"result/LKH/{NAME}.txt"
+INPUT_FILE = f"result/HPA/{NAME}.txt"
 OUTPUT_FILE = f"{NAME}_accuracy.txt"
-# ========================
 
 with open(INPUT_FILE, 'r') as file:
     experimental_data = file.read()

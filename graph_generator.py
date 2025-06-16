@@ -15,11 +15,9 @@ def generate_random_graphs(x: int, output_dir: str = "data_processed/examples"):
         if max_edges == 0:
             edges = []
         else:
-            # Start with a connected base graph (random spanning tree)
             G = nx.generators.random_tree(n)
             edges = set((min(u, v), max(u, v)) for u, v in G.edges())
 
-            # Add more edges randomly up to max_edges
             possible_edges = list(set((i, j) for i in range(n) for j in range(i + 1, n)) - edges)
             remaining_edges = max_edges - len(edges)
             extra_edges = random.randint(0, remaining_edges)

@@ -1,12 +1,8 @@
-# ========================
-# CONFIGURATION
-# ========================
 
-NAME = "LKH_ALL_hcp"
+NAME = "NN_tsphcp"
 
-EXPERIMENTAL_FILE = f"result/LKH/{NAME}.txt"
+EXPERIMENTAL_FILE = f"result/NN/{NAME}.txt"
 OUTPUT_FILE = f"{NAME}_accuracy.txt"
-# ========================
 
 with open(EXPERIMENTAL_FILE, 'r') as file:
     experimental_data = file.read()

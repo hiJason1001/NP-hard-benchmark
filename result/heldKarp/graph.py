@@ -34,9 +34,8 @@ while i < len(lines):
         filename = line
         vertices_edges_line = lines[i + 1].strip()
         time_line = lines[i + 2].strip()
-        result_line = lines[i + 3].strip().lower()  # e.g., "YES", "NO", etc.
+        result_line = lines[i + 3].strip().lower()
 
-        # Parse vertices and edges
         vertices_match = re.search(r'Number of Vertices:\s*(\d+),\s*number of edges:\s*(\d+)', vertices_edges_line)
         if not vertices_match:
             print(f"Warning: could not parse vertices/edges at line {i+1}: {vertices_edges_line}")
@@ -46,7 +45,6 @@ while i < len(lines):
         vertices = int(vertices_match.group(1))
         edges = int(vertices_match.group(2))
 
-        # Parse time
         time_match = re.search(r'(\d+) hours (\d+) minutes (\d+) seconds (\d+) milliseconds (\d+) microseconds', time_line)
         if not time_match:
             print(f"Warning: could not parse time at line {i+2}: {time_line}")
@@ -70,7 +68,6 @@ while i < len(lines):
         else:
             raise ValueError(f"Unsupported TIME_UNIT: {TIME_UNIT}")
 
-        # Determine if result was NO
         is_no = 'no' in result_line
 
         records.append({
@@ -93,24 +90,19 @@ if not records:
 else:
     df = pd.DataFrame(records)
 
-    # Split into "yes" and "no" results
     df_yes = df[df["result"] == "yes"]
     df_no = df[df["result"] == "no"]
 
     plt.figure(figsize=(10, 6))
 
-    # Plot yes answers in blue
     plt.scatter(df_yes["vertices"], df_yes["time"], color='blue', label='YES instances')
 
-    # Plot no answers in red
     plt.scatter(df_no["vertices"], df_no["time"], color='red', label='NO instances')
 
-    # Optional: exponential fit to all data (log scale fit)
     if len(df) >= 2:
         x = df["vertices"]
         y = df["time"]
 
-        # Fit using unique x (sorted)
         x_fit = np.linspace(df["vertices"].min(), df["vertices"].max(), 200)
         coeffs = np.polyfit(x, np.log(y), 1)
         exp_fit = np.exp(coeffs[1]) * np.exp(coeffs[0] * x_fit)

@@ -3,17 +3,12 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
-# ========================
-# CONFIGURATION
-# ========================
 # Options: "seconds", "milliseconds", "microseconds"
 NAME = "hybridHam_tsphcp"
 TIME_UNIT = "seconds"
 
 INPUT_FILE = f"result/hybridHam/{NAME}.txt"
 OUTPUT_FILE = f"{NAME}.png"
-
-# ========================
 
 
 
@@ -92,7 +87,6 @@ else:
     plt.scatter(df_sorted["vertices"], df_sorted["time"], color='blue', s=10, label='Original Data Points')
 
 
-    # Line of best fit
     fit = np.polyfit(df_sorted["vertices"], df_sorted["time"], deg=1)
     fit_fn = np.poly1d(fit)
     x_vals = np.linspace(df_sorted["vertices"].min(), df_sorted["vertices"].max(), 500)

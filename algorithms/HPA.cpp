@@ -59,17 +59,14 @@ static bool extend_envelope_newpath(vector<vector<int>>& F,
                                     const vector<vector<int>>& graph,
                                     const vector<bool>& inEnv)
 {
-    // collect all endpoints of current envelope
     std::vector<int> endpoints;
     for (auto &path : F) {
         endpoints.push_back(path.front());
         endpoints.push_back(path.back());
     }
 
-    // try all distinct pairs (u,w) in graph[v] that lie in endpoints
     for (int u : graph[v]) if (inEnv[u]) {
         for (int w : graph[v]) if (w != u && inEnv[w]) {
-            // insert a new path [u, v, w]
             F.push_back({u, v, w});
             return true;
         }
@@ -101,7 +98,6 @@ bool envelope_contains(const vector<vector<int>>& F, int v, int start, int finis
     for (auto &path : F) {
         if (v == start && path.front() == start) return true;
         if (v == finish && path.back() == finish) return true;
-        // internal vertex check
         for (size_t i = 1; i+1 < path.size(); ++i) {
             if (path[i] == v) return true;
         }
@@ -114,47 +110,36 @@ bool find_envelope(const unordered_set<int>& X,
                    const vector<vector<int>>& graph,
                    int start, int finish,
                    vector<vector<int>>& F) {
-    // Convert X to vector for permutation
     vector<int> Xv(X.begin(), X.end());
     int m = Xv.size();
     if (m == 0) return true;
     if (m > 8) return false;
-    // If both start and finish are in X, ensure distinct paths
     bool startIn = X.count(start), finishIn = X.count(finish);
     sort(Xv.begin(), Xv.end());
     do {
-        // Enforce start/finish positions
         if (startIn && Xv[0] != start) continue;
         if (finishIn && Xv.back() != finish) continue;
-        // Build envelope paths by splitting on non-edges
         vector<vector<int>> cand;
         cand.push_back({Xv[0]});
         for (int i = 1; i < m; ++i) {
             int u = Xv[i-1], v = Xv[i];
             if (find(graph[u].begin(), graph[u].end(), v) != graph[u].end()) {
-                // same path
                 cand.back().push_back(v);
             } else {
-                // new path
                 cand.push_back({v});
             }
         }
-        // Verify envelope properties a–d
-        // (a) covers all X by construction
-        // (b) internal vertices are from X: holds
-        // (c) start/finish endpoints
         if (startIn) {
             bool ok=false;
-            for (auto &P:cand) if (P.front()==start) ok=true;
+            for (auto &P:cand) if (P.front() == start) ok=true;
             if (!ok) continue;
         }
         if (finishIn) {
             bool ok=false;
-            for (auto &P:cand) if (P.back()==finish) ok=true;
+            for (auto &P:cand) if (P.back() == finish) ok=true;
             if (!ok) continue;
         }
-        if (startIn && finishIn && cand.size()>1) {
-            // ensure start and finish on different paths
+        if (startIn && finishIn && cand.size() >1 ) {
             int pi=-1, pj=-1;
             for (int i = 0; i < int(cand.size()); ++i) {
                 if (cand[i].front()==start) pi=i;
@@ -162,8 +147,6 @@ bool find_envelope(const unordered_set<int>& X,
             }
             if (pi==-1||pj==-1||pi==pj) continue;
         }
-        // (d) for each edge in paths, at least one end in X (holds)
-        // Accept this envelope
         F = cand;
         return true;
     } while (next_permutation(Xv.begin(), Xv.end()));
@@ -243,10 +226,8 @@ static bool extend_chain_backtrack(
         for (int i = idx; i < (int)nbrs.size(); ++i) {
             int y = nbrs[i];
             if (used[y]) continue;
-            // choose y
             used[y] = true;
             trail.push_back(y);
-            // if full length, commit:
             if (depth+1 == rn) {
                 if (back) {
                     for (int z : trail) P.push_back(z);
@@ -256,21 +237,18 @@ static bool extend_chain_backtrack(
                 }
                 return true;
             }
-            // push resume and descend
             stk.push_back({ v, depth, i+1 });
             stk.push_back({ y, depth+1, 0 });
             advanced = true;
             break;
         }
         if (!advanced) {
-            // backtrack one choice
             if (!trail.empty()) {
                 used[trail.back()] = false;
                 trail.pop_back();
             }
         }
     }
-    // clear any leftover trail marks
     for (int y : trail) used[y] = false;
     return false;
 }
@@ -292,11 +270,9 @@ bool stage3_extend_orange(int n,
             used[v] = true;
 
     for (int i = 0; i+1 < k; ++i) {
-        // extend back of F[i]
         if (!extend_chain_backtrack(F[i], orange, used, rn, true))
             return false;
 
-        // post-back extension check
         int szb = F[i].size();
         for (int d = 1; d <= rn; ++d) {
             int y = F[i][szb-d];
@@ -305,11 +281,9 @@ bool stage3_extend_orange(int n,
                    != orange[F[i][szb-d-1]].end());
         }
 
-        // extend front of F[i+1]
         if (!extend_chain_backtrack(F[i+1], orange, used, rn, false))
             return false;
 
-        // post-front extension check
         for (int d = 0; d < rn; ++d) {
             int y = F[i+1][d];
             assert(std::find(orange[F[i+1][d+1]].begin(),
@@ -317,7 +291,6 @@ bool stage3_extend_orange(int n,
                    != orange[F[i+1][d+1]].end());
         }
 
-        // global no-duplicate check
         {
           std::unordered_set<int> seen;
           for (auto &P : F)
@@ -331,7 +304,6 @@ bool stage3_extend_orange(int n,
 }
 
 
-// Stage 4: Sew F-paths into one path Q0 using yellow edges
 bool stage4_sew_yellow(
     vector<vector<int>>& F,
     vector<int>& Q0,
@@ -339,8 +311,6 @@ bool stage4_sew_yellow(
 {
     int k = F.size();
     Q0.clear();
-    // for each i from 0..k-2, find xi in last 10% of F[i], yi in first 10% of F[i+1]
-    // such that yellow[xi][yi], then splice
     for (int i = 0; i < k-1; ++i) {
         auto &A = F[i];
         auto &B = F[i+1];
@@ -350,9 +320,7 @@ bool stage4_sew_yellow(
         for (int ia = a_start; ia < (int)A.size(); ++ia) {
             for (int ib = 0; ib < b_end; ++ib) {
                 int x = A[ia], y = B[ib];
-                // check yellow edge
                 for (int nbr : yellow[x]) if (nbr==y) {
-                    // splice: trim A after ia and B before ib, then join
                     Q0.insert(Q0.end(), A.begin(), A.begin()+ia+1);
                     Q0.insert(Q0.end(), B.begin()+ib, B.end());
                     linked = true;
@@ -361,12 +329,10 @@ bool stage4_sew_yellow(
             }
             if (linked) break;
         }
-        if (!linked) return false;  // fail ⇒ HPA3
-        // prepare for next iteration:
-        A = Q0;  // merge into single growing path
+        if (!linked) return false;
+        A = Q0;
         Q0.clear();
     }
-    // the last merged result lives in A = F[k-1]:
     Q0 = F.back();
     return true;
 }
@@ -376,27 +342,22 @@ bool stage5_partition(int n,
     std::vector<std::vector<int>>& Qs,
     const std::vector<std::vector<int>>& yellow)
 {
-    // 1) Mark Q0
     std::vector<bool> inQ0(n,false);
     for (int v : Q0) inQ0[v] = true;
 
-    // 2) used[v]=true if v in Q0 or already in some Qi
     std::vector<bool> used = inQ0;
 
-    // threshold = |Q0|/12
     int thresh = Q0.size() / 12;
 
     Qs.clear();
-    std::deque<int> X;  // use deque for O(1) front inserts
+    std::deque<int> X;
 
     for (int start = 0; start < n; ++start) {
         if (used[start]) continue;
-        // begin new path
         X.clear();
         X.push_back(start);
         used[start] = true;
 
-        // Forward extension
         while (true) {
             int x = X.back();
             bool ext = false;
@@ -411,10 +372,8 @@ bool stage5_partition(int n,
             if (!ext) break;
         }
 
-        // Snapshot used for rollback
         auto used_snapshot = used;
 
-        // Backward extension
         while (true) {
             int x = X.front();
             bool ext = false;
@@ -429,7 +388,6 @@ bool stage5_partition(int n,
             if (!ext) break;
         }
 
-        // Check anchors into Q0
         auto count_conn = [&](int u) {
             int c = 0;
             for (int w : yellow[u])
@@ -443,19 +401,14 @@ bool stage5_partition(int n,
             // accept
         }
         else {
-            // rollback backward marks if needed
-            // we require a circuit: find w in X.back()’s neighbors back to X.front()
             used = used_snapshot;
 
             int u = X.front();
-            // build set of X for O(1) test
             std::unordered_set<int> Xset(X.begin(), X.end());
 
             int best_idx = -1;
-            // scan neighbors of u once
             for (int w : yellow[u]) {
                 if (Xset.count(w)) {
-                    // position of w in X:
                     auto it = std::find(X.begin(), X.end(), w);
                     best_idx = std::distance(X.begin(), it);
                     break;
@@ -463,29 +416,25 @@ bool stage5_partition(int n,
             }
             if (best_idx < 0) return false;
 
-            // truncate and close circuit by re-appending u
             X.resize(best_idx+1);
             X.push_back(u);
         }
 
-        // Ensure no duplicate within X
         {
           std::unordered_set<int> seen;
           for (int v : X)
             assert(seen.insert(v).second);
         }
 
-        // Move X into Qs
         Qs.emplace_back(X.begin(), X.end());
     }
     return true;
 }
 
 
-// Stage 6: Merge Q0, Q1..Qm into one Hamiltonian path using green and yellow edges
 bool stage6_merge(int n,
     const unordered_set<int>& T,
-    vector<int>& R,                     // accumulates the merged path (initially Q0)
+    vector<int>& R,                  
     vector<vector<int>>& Qs,
     const vector<vector<int>>& green,
     const vector<vector<int>>& yellow) 
@@ -497,28 +446,22 @@ bool stage6_merge(int n,
         return find(yellow[u].begin(), yellow[u].end(), v) != yellow[u].end();
     };
 
-    // We will merge each Qi into R in turn
     for (auto &Q : Qs) {
         bool merged = false;
 
-        // --- Case 3: Q is a circuit (first == last) ---
         if (!Q.empty() && Q.front() == Q.back()) {
-            int L = (int)Q.size() - 1;  // drop duplicate last
-            // Try every break point in circuit Q
+            int L = (int)Q.size() - 1;  
             for (int j = 0; j < L && !merged; ++j) {
-            // Build Qpath = Q[j..L-1] + Q[0..j]
                 vector<int> Qpath;
                 for (int x = j; x < L; ++x) Qpath.push_back(Q[x]);
                 for (int x = 0; x < j; ++x) Qpath.push_back(Q[x]);
 
-                // Now try to splice this Qpath into R
                 int Rsz = R.size();
                 for (int i = 0; i + 1 < Rsz && !merged; ++i) {
                     int u = R[i], up = R[i+1];
                     if (T.count(u) || T.count(up)) continue;
                     int v = Qpath.front(), vp = Qpath[1];
                     if (is_green(u, v) && is_green(up, vp)) {
-                        // splice: [Start..u] + Qpath + [up..Finish]
                         vector<int> newR;
                         newR.insert(newR.end(), R.begin(), R.begin()+i+1);
                         newR.insert(newR.end(), Qpath.begin(), Qpath.end());
@@ -531,10 +474,6 @@ bool stage6_merge(int n,
             if (!merged) return false;
             continue;
         }
-
-        // --- Case 4: Q is an open path ---
-        // Build A = {w in R\T | successor w' in R is in T, and yellow edge (w, Q.front())}
-        //       B = {w in R\T | predecessor w' in R is in T, and yellow edge (Q.back(), w)}
         vector<int> A, B;
         int Rsz = R.size();
         for (int i = 0; i + 1 < Rsz; ++i) {
@@ -549,7 +488,6 @@ bool stage6_merge(int n,
         }
         if (A.empty() || B.empty()) return false;
 
-        // Find I: the shortest prefix of R that contains >= |A|/2 of A or >= |B|/2 of B
         int halfA = (A.size()+1)/2, halfB = (B.size()+1)/2;
         vector<bool> inA(Rsz,false), inB(Rsz,false);
         for (int i = 0; i < Rsz; ++i) {
@@ -563,16 +501,13 @@ bool stage6_merge(int n,
             if (cntA >= halfA || cntB >= halfB) break;
         }
         if (cntA < halfA) {
-            // reverse Q and swap A/B sets
             reverse(Q.begin(), Q.end());
             swap(A,B);
-            // recompute half sizes and index sets
             halfA = (A.size()+1)/2;
             inA.assign(Rsz,false);
             for (int i=0;i<Rsz;++i)
                 if (find(A.begin(),A.end(),R[i])!=A.end()) 
                     inA[i]=true;
-            // recompute Iend
             cntA=0;
             for (Iend=0;Iend<Rsz;++Iend) {
                 if (inA[Iend]) cntA++;
@@ -580,7 +515,6 @@ bool stage6_merge(int n,
             }
         }
 
-        // Now choose u = first in A ∩ [0..Iend], v = first in B ∩ (Iend..end)
         int u=-1, v=-1;
         for (int i = 0; i <= Iend; ++i) {
             if (inA[i]) { u = R[i]; break; }
@@ -590,7 +524,6 @@ bool stage6_merge(int n,
         }
         if (u<0 || v<0) return false;
 
-        // Let u' be successor of u in R; let v' be predecessor of v in R
         int idxu = find(R.begin(), R.end(), u) - R.begin();
         int idxv = find(R.begin(), R.end(), v) - R.begin();
         int up = R[idxu+1];
@@ -598,11 +531,9 @@ bool stage6_merge(int n,
 
         if (!is_green(up, vp)) return false;
 
-        // splice: [Start..u] + Q + reverse [up..v] + [vp..Finish]
         vector<int> newR;
         newR.insert(newR.end(), R.begin(), R.begin()+idxu+1);
         newR.insert(newR.end(), Q.begin(), Q.end());
-        // reverse segment from up to v
         vector<int> revseg;
         for (int i = idxu+1; i <= idxv; ++i)
             revseg.push_back(R[i]);
@@ -619,8 +550,6 @@ bool stage6_merge(int n,
 
 
 bool HPA2(const vector<vector<int>>& graph, int n, int start, int finish) {
-    // generate all the other colouring graphs
-    // k, q_green, q_yellow, q_orange are adjustable
     int k = ceil(10 * log2(n));
     double q_green = 0.9;
     double q_yellow = 0.6;

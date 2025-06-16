@@ -3,9 +3,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
-# ========================
-# CONFIGURATION
-# ========================
 # Options: "seconds", "milliseconds", "microseconds"
 NAME = "LKH_examples"
 FOLDER = "LKH"
@@ -13,9 +10,6 @@ TIME_UNIT = "seconds"
 
 INPUT_FILE = f"result/{FOLDER}/{NAME}.txt"
 OUTPUT_FILE = f"result/{FOLDER}/{NAME}.png"
-
-# ========================
-
 
 
 with open(INPUT_FILE, 'r') as file:
